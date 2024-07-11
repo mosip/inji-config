@@ -413,13 +413,13 @@
       "credential_issuer": "StayProtected",
       "display": [
         {
-          "name": "StayProtected Insurance (Certify)",
+          "name": "StayProtected Insurance",
           "logo": {
             "url": "https://raw.githubusercontent.com/tw-mosip/file-server/master/StayProtectedInsurance.png",
             "alt_text": "a square logo of a Sunbird"
           },
           "language": "en",
-          "title": "Download StayProtected Insurance(Certify) Credentials",
+          "title": "Download StayProtected Insurance Credentials",
           "description": "Download insurance credential"
         }
       ],
@@ -451,12 +451,12 @@
       "credential_issuer": "VeridoniaCertify",
       "display": [
         {
-          "name": "Veridonia National ID Department (Certify)",
+          "name": "Veridonia National ID Department",
           "logo": {
             "url": "https://${mosip.api.public.host}/inji/veridonia-logo.png",
             "alt_text": "veridonia-logo"
           },
-          "title": "Veridonia National ID Department (Certify)",
+          "title": "Veridonia National ID Department",
           "description": "Download National ID credential",
           "language": "en"
         },
