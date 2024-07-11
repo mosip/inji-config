@@ -444,6 +444,7 @@
         "InsuranceCredential"
       ],
       "credential_audience": "https://${mosip.injicertify.insurance.host}",
+      "ovp_qr_enabled": "false",
       "enabled": "true"
     },
     {
@@ -531,6 +532,7 @@
         "MOSIPVerifiableCredential"
       ],
       "credential_audience": "https://${mosip.injicertify.mosipid.host}",
+      "ovp_qr_enabled": "false",
       "enabled": "true"
     },
     {
