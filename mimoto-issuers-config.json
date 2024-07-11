@@ -512,7 +512,7 @@
       ],
       "protocol": "OpenId4VCI",
       "client_id": "${mimoto.oidc.mosipid.partner.clientid}",
-      "client_alias": "mpartner-default-mimotooidc",
+      "client_alias": "mpartner-default-test-mosipid",
       "scopes_supported": [
         "mosip_identity_vc_ldp"
       ],
