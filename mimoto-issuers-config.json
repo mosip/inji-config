@@ -448,6 +448,44 @@
       "enabled": "true"
     },
     {
+      "credential_issuer": "StayProtectedvd11",
+      "display": [
+        {
+          "name": "StayProtected Insurance",
+          "logo": {
+            "url": "https://raw.githubusercontent.com/tw-mosip/file-server/master/StayProtectedInsurance.png",
+            "alt_text": "a square logo of a Sunbird"
+          },
+          "language": "en",
+          "title": "Download StayProtected Insurance Credentials",
+          "description": "Download insurance credential"
+        }
+      ],
+      "protocol": "OpenId4VCI",
+      "client_id": "${mimoto.oidc.sunbird.partner.clientid}",
+      "client_alias": "esignet-sunbird-partner",
+      "scopes_supported": [
+        "sunbird_rc_insurance_vc_ldp"
+      ],
+      "additional_headers": {
+        "Accept": "application/json"
+      },
+      ".well-known": "https://${mosip.injicertify.insurance.host}/v1/certify/issuance/.well-known/openid-credential-issuer?version=vd11",
+      "redirect_uri": "io.mosip.residentapp.inji://oauthredirect",
+      "authorization_endpoint": "https://${mosip.esignet.insurance.host}/authorize",
+      "authorization_audience": "https://${mosip.esignet.insurance.host}/v1/esignet/oauth/v2/token",
+      "token_endpoint": "https://${mosip.api.public.host}/v1/mimoto/get-token/StayProtected",
+      "proxy_token_endpoint": "https://${mosip.esignet.insurance.host}/v1/esignet/oauth/v2/token",
+      "credential_endpoint": "https://${mosip.injicertify.insurance.host}/v1/certify/issuance/vd11/credential",
+      "credential_type": [
+        "VerifiableCredential",
+        "InsuranceCredential"
+      ],
+      "credential_audience": "https://${mosip.injicertify.insurance.host}",
+      "ovp_qr_enabled": "false",
+      "enabled": "true"
+    },
+    {
       "credential_issuer": "VeridoniaCertify",
       "display": [
         {
@@ -573,6 +611,43 @@
       "enabled": "true"
     },
     {
+      "credential_issuer": "MockCertifyvd11",
+      "display": [
+        {
+          "name": "Mock Identity (Certify) vd11",
+          "logo": {
+            "url": "https://${mosip.api.public.host}/inji/mosip-logo.png",
+            "alt_text": "mosip-logo"
+          },
+          "title": "Mock Identity (Certify)",
+          "description": "Download Mock Identity Credential",
+          "language": "en"
+        }
+      ],
+      "protocol": "OpenId4VCI",
+      "client_id": "${mimoto.oidc.mock.partner.clientid}",
+      "client_alias": "mpartner-mock-testing",
+      "scopes_supported": [
+        "mock_identity_vc_ldp"
+      ],
+      "additional_headers": {
+        "Accept": "application/json"
+      },
+      ".well-known": "https://${mosip.injicertify.mock.host}/v1/certify/issuance/.well-known/openid-credential-issuer?version=vd11",
+      "redirect_uri": "io.mosip.residentapp.inji://oauthredirect",
+      "authorization_endpoint": "https://${mosip.esignet.mock.host}/authorize",
+      "authorization_audience": "https://${mosip.esignet.mock.host}/v1/esignet/oauth/v2/token",
+      "token_endpoint": "https://${mosip.api.public.host}/v1/mimoto/get-token/MockCertify",
+      "proxy_token_endpoint": "https://${mosip.esignet.mock.host}/v1/esignet/oauth/v2/token",
+      "credential_endpoint": "https://${mosip.injicertify.mock.host}/v1/certify/issuance/vd11/credential",
+      "credential_type": [
+        "VerifiableCredential",
+        "MOCKVerifiableCredential_ldp"
+      ],
+      "credential_audience": "https://${mosip.injicertify.mock.host}",
+      "enabled": "true"
+    },
+    {
       "credential_issuer": "MosipCertify",
       "display": [
         {
@@ -652,6 +727,93 @@
       "token_endpoint": "https://${mosip.api.public.host}/residentmobileapp/get-token/MosipCertify",
       "proxy_token_endpoint": "https://${mosip.esignet.mosipid.host}/v1/esignet/oauth/v2/token",
       "credential_endpoint": "https://${mosip.injicertify.mosipid.host}/v1/certify/issuance/credential",
+      "credential_type": [
+        "VerifiableCredential",
+        "MOSIPVerifiableCredential"
+      ],
+      "credential_audience": "https://${mosip.injicertify.mosipid.host}",
+      "enabled": "true"
+    },
+    {
+      "credential_issuer": "MosipCertifyvd11",
+      "display": [
+        {
+          "name": "National Identity Department (Certify)",
+          "logo": {
+            "url": "https://${mosip.api.public.host}/inji/mosip-logo.png",
+            "alt_text": "mosip-logo"
+          },
+          "title": "National Identity Department (Certify)",
+          "description": "Download MOSIP National / Foundational Identity Credential",
+          "language": "en"
+        },
+        {
+          "name": "دائرة الهوية الوطنية",
+          "logo": {
+            "url": "https://${mosip.api.public.host}/inji/mosip-logo.png",
+            "alt_text": "شعار موسيب"
+          },
+          "title": "دائرة الهوية الوطنية",
+          "description": "قم بتنزيل بيانات اعتماد الهوية الوطنية / التأسيسية MOSIP",
+          "language": "ar"
+        },
+        {
+          "name": "राष्ट्रीय पहचान विभाग",
+          "logo": {
+            "url": "https://${mosip.api.public.host}/inji/mosip-logo.png",
+            "alt_text": "मोसिप लोगो"
+          },
+          "title": "राष्ट्रीय पहचान विभाग",
+          "description": "MOSIP नेशनल/फाउंडेशनल आइडेंटिटी क्रेडेंशियल डाउनलोड करेंं",
+          "language": "hi"
+        },
+        {
+          "name": "ರಾಷ್ಟ್ರೀಯ ಗುರುತಿನ ಇಲಾಖೆ",
+          "logo": {
+            "url": "https://${mosip.api.public.host}/inji/mosip-logo.png",
+            "alt_text": "mosip ಲೋಗೋ"
+          },
+          "title": "ರಾಷ್ಟ್ರೀಯ ಗುರುತಿನ ಇಲಾಖೆ",
+          "description": "MOSIP ರಾಷ್ಟ್ರೀಯ / ಫೌಂಡೇಶನಲ್ ಐಡೆಂಟಿಟಿ ರುಜುವಾತು ಡೌನ್\u200Cಲೋಡ್ ಮಾಡಿ",
+          "language": "kn"
+        },
+        {
+          "name": "தேசிய அடையாளத் துறை",
+          "logo": {
+            "url": "https://${mosip.api.public.host}/inji/mosip-logo.png",
+            "alt_text": "mosip லோகோ"
+          },
+          "title": "தேசிய அடையாளத் துறை",
+          "description": "MOSIP தேசிய / அடிப்படை அடையாளச் சான்றிதழைப் பதிவிறக்கவும்",
+          "language": "ta"
+        },
+        {
+          "name": "National Identity Department",
+          "logo": {
+            "url": "https://${mosip.api.public.host}/inji/mosip-logo.png",
+            "alt_text": "logo ng mosip"
+          },
+          "title": "National Identity Department",
+          "description": "I-download ang MOSIP National / Foundational Identity Credential",
+          "language": "fil"
+        }
+      ],
+      "protocol": "OpenId4VCI",
+      "client_id": "${mimoto.oidc.mosipid.partner.clientid}",
+      "client_alias": "mpartner-default-test-mosipid",
+      "scopes_supported": [
+        "mosip_identity_vc_ldp"
+      ],
+      "additional_headers": {
+        "Accept": "application/json"
+      },
+      ".well-known": "https://${mosip.injicertify.mosipid.host}/v1/certify/issuance/.well-known/openid-credential-issuer?version=vd11",
+      "redirect_uri": "io.mosip.residentapp.inji://oauthredirect",
+      "authorization_endpoint": "https://${mosip.esignet.mosipid.host}/authorize",
+      "authorization_audience": "https://${mosip.esignet.mosipid.host}/v1/esignet/oauth/v2/token",
+      "token_endpoint": "https://${mosip.api.public.host}/residentmobileapp/get-token/MosipCertify",
+      "proxy_token_endpoint": "https://${mosip.esignet.mosipid.host}/v1/esignet/oauth/v2/token",
+      "credential_endpoint": "https://${mosip.injicertify.mosipid.host}/v1/certify/issuance/vd11/credential",
       "credential_type": [
         "VerifiableCredential",
         "MOSIPVerifiableCredential"
