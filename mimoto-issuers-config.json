@@ -894,7 +894,7 @@
       "additional_headers": {
         "Accept": "application/json"
       },
-      ".well-known": "${config.server.file.storage.uri}/mimoto-sunbird-insurance-wellknown.json",
+      ".well-known": "${spring_config_url_env}/*/${active_profile_env}/${spring_config_label_env}/mimoto-sunbird-insurance-wellknown.json",
       "redirect_uri": "io.mosip.residentapp.inji://oauthredirect",
       "authorization_endpoint": "https://${mosip.esignet.insurance.host}/authorize",
       "authorization_audience": "https://${mosip.esignet.insurance.host}/v1/esignet/oauth/v2/token",
