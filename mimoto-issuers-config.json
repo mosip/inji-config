@@ -423,54 +423,6 @@
       "token_endpoint": "https://${mosip.api.public.host}/v1/mimoto/get-token/StayProtected-Fallback",
       "proxy_token_endpoint": "https://${mosip.esignet.insurance.host}/v1/esignet/oauth/v2/token",
       "enabled": "true"
-    },
-    {
-      "credential_issuer": "StayProtected1",
-      "display": [
-        {
-          "name": "StayProtected Insurance testing 1",
-          "logo": {
-            "url": "https://raw.githubusercontent.com/tw-mosip/file-server/master/StayProtectedInsurance.png",
-            "alt_text": "a square logo of a Sunbird"
-          },
-          "language": "en",
-          "title": "Download StayProtected Insurance Credentials",
-          "description": "Download insurance credential"
-        }
-      ],
-      "protocol": "OpenId4VCI",
-      "client_id": "${mimoto.oidc.sunbird.partner.clientid}",
-      "client_alias": "esignet-sunbird-partner",
-      ".well-known": "https://${mosip.injicertify.insurance.host}/v1/certify/issuance/.well-known/openid-credential-issuer",
-      "redirect_uri": "io.mosip.residentapp.inji://oauthredirect",
-      "authorization_audience": "https://${mosip.esignet.insurance.host}/v1/esignet/oauth/v2/token",
-      "token_endpoint": "https://${mosip.api.public.host}/v1/mimoto/get-token/StayProtected1",
-      "proxy_token_endpoint": "https://${mosip.esignet.insurance.host}/v1/esignet/oauth/v2/token",
-      "enabled": "true"
-    },
-    {
-      "credential_issuer": "StayProtected3",
-      "display": [
-        {
-          "name": "StayProtected Insurancetesting2",
-          "logo": {
-            "url": "https://raw.githubusercontent.com/tw-mosip/file-server/master/StayProtectedInsurance.png",
-            "alt_text": "a square logo of a Sunbird"
-          },
-          "language": "en",
-          "title": "Download StayProtected Insurance Credentials",
-          "description": "Download insurance credential"
-        }
-      ],
-      "protocol": "OpenId4VCI",
-      "client_id": "${mimoto.oidc.sunbird.partner.clientid}",
-      "client_alias": "esignet-sunbird-partner",
-      ".well-known": "https://${mosip.injicertify.insurance.host}/v1/certify/issuance/.well-known/openid-credential-issuer",
-      "redirect_uri": "io.mosip.residentapp.inji://oauthredirect",
-      "authorization_audience": "https://${mosip.esignet.insurance.host}/v1/esignet/oauth/v2/token",
-      "token_endpoint": "https://${mosip.api.public.host}/v1/mimoto/get-token/StayProtected3",
-      "proxy_token_endpoint": "https://${mosip.esignet.insurance.host}/v1/esignet/oauth/v2/token",
-      "enabled": "true"
-    }
+   }
   ]
 }
