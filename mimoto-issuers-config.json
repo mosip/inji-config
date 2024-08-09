@@ -65,7 +65,7 @@
         }
       ],
       "protocol": "OTP",
-      "enabled": "false"
+      "enabled": "${mosip.otp.download.enable}"
     },
     {
       "credential_issuer": "Mosip",
