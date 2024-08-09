@@ -424,79 +424,53 @@
       "proxy_token_endpoint": "https://${mosip.esignet.insurance.host}/v1/esignet/oauth/v2/token",
       "enabled": "true"
     },
-        {
-      "credential_issuer": "Testing1",
+    {
+      "credential_issuer": "StayProtected1",
       "display": [
         {
-          "name": "Mock Identity (Certify)",
+          "name": "StayProtected Insurance testing 1",
           "logo": {
-            "url": "https://${mosip.api.public.host}/inji/mosip-logo.png",
-            "alt_text": "mosip-logo"
+            "url": "https://raw.githubusercontent.com/tw-mosip/file-server/master/StayProtectedInsurance.png",
+            "alt_text": "a square logo of a Sunbird"
           },
-          "title": "Mock Identity (Certify)",
-          "description": "Download Mock Identity Credential",
-          "language": "en"
+          "language": "en",
+          "title": "Download StayProtected Insurance Credentials",
+          "description": "Download insurance credential"
         }
       ],
       "protocol": "OpenId4VCI",
-      "client_id": "${mimoto.oidc.mock.partner.clientid}",
-      "client_alias": "mpartner-mock-testing",
-      "scopes_supported": [
-        "mock_identity_vc_ldp"
-      ],
-      "additional_headers": {
-        "Accept": "application/json"
-      },
-      ".well-known": "https://${mosip.injicertify.mock.host}/v1/certify/issuance/.well-known/openid-credential-issuer",
+      "client_id": "${mimoto.oidc.sunbird.partner.clientid}",
+      "client_alias": "esignet-sunbird-partner",
+      ".well-known": "https://${mosip.injicertify.insurance.host}/v1/certify/issuance/.well-known/openid-credential-issuer",
       "redirect_uri": "io.mosip.residentapp.inji://oauthredirect",
-      "authorization_endpoint": "https://${mosip.esignet.mock.host}/authorize",
-      "authorization_audience": "https://${mosip.esignet.mock.host}/v1/esignet/oauth/v2/token",
-      "token_endpoint": "https://${mosip.api.public.host}/residentmobileapp/get-token/MockCertify",
-      "proxy_token_endpoint": "https://${mosip.esignet.mock.host}/v1/esignet/oauth/v2/token",
-      "credential_endpoint": "https://${mosip.injicertify.mock.host}/v1/certify/issuance/credential",
-      "credential_type": [
-        "VerifiableCredential",
-        "MOCKVerifiableCredential_ldp"
-      ],
-      "credential_audience": "https://${mosip.injicertify.mock.host}",
+      "authorization_audience": "https://${mosip.esignet.insurance.host}/v1/esignet/oauth/v2/token",
+      "token_endpoint": "https://${mosip.api.public.host}/v1/mimoto/get-token/StayProtected",
+      "proxy_token_endpoint": "https://${mosip.esignet.insurance.host}/v1/esignet/oauth/v2/token",
       "enabled": "true"
     },
-        {
-      "credential_issuer": "testing 2",
+    {
+      "credential_issuer": "StayProtected3",
       "display": [
         {
-          "name": "Mock Identity (Certify)",
+          "name": "StayProtected Insurancetesting2",
           "logo": {
-            "url": "https://${mosip.api.public.host}/inji/mosip-logo.png",
-            "alt_text": "mosip-logo"
+            "url": "https://raw.githubusercontent.com/tw-mosip/file-server/master/StayProtectedInsurance.png",
+            "alt_text": "a square logo of a Sunbird"
           },
-          "title": "Mock Identity (Certify)",
-          "description": "Download Mock Identity Credential",
-          "language": "en"
+          "language": "en",
+          "title": "Download StayProtected Insurance Credentials",
+          "description": "Download insurance credential"
         }
       ],
       "protocol": "OpenId4VCI",
-      "client_id": "${mimoto.oidc.mock.partner.clientid}",
-      "client_alias": "mpartner-mock-testing",
-      "scopes_supported": [
-        "mock_identity_vc_ldp"
-      ],
-      "additional_headers": {
-        "Accept": "application/json"
-      },
-      ".well-known": "https://${mosip.injicertify.mock.host}/v1/certify/issuance/.well-known/openid-credential-issuer",
+      "client_id": "${mimoto.oidc.sunbird.partner.clientid}",
+      "client_alias": "esignet-sunbird-partner",
+      ".well-known": "https://${mosip.injicertify.insurance.host}/v1/certify/issuance/.well-known/openid-credential-issuer",
       "redirect_uri": "io.mosip.residentapp.inji://oauthredirect",
-      "authorization_endpoint": "https://${mosip.esignet.mock.host}/authorize",
-      "authorization_audience": "https://${mosip.esignet.mock.host}/v1/esignet/oauth/v2/token",
-      "token_endpoint": "https://${mosip.api.public.host}/residentmobileapp/get-token/MockCertify",
-      "proxy_token_endpoint": "https://${mosip.esignet.mock.host}/v1/esignet/oauth/v2/token",
-      "credential_endpoint": "https://${mosip.injicertify.mock.host}/v1/certify/issuance/credential",
-      "credential_type": [
-        "VerifiableCredential",
-        "MOCKVerifiableCredential_ldp"
-      ],
-      "credential_audience": "https://${mosip.injicertify.mock.host}",
+      "authorization_audience": "https://${mosip.esignet.insurance.host}/v1/esignet/oauth/v2/token",
+      "token_endpoint": "https://${mosip.api.public.host}/v1/mimoto/get-token/StayProtected",
+      "proxy_token_endpoint": "https://${mosip.esignet.insurance.host}/v1/esignet/oauth/v2/token",
       "enabled": "true"
-    },
+    }
   ]
 }
