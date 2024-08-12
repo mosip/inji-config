@@ -229,10 +229,10 @@
       "enabled": "true"
     },
     {
-      "credential_issuer": "Mosip",
+      "credential_issuer": "testing1",
       "display": [
         {
-          "name": "testing1",
+          "name": "National Identity Department",
           "logo": {
             "url": "https://${mosip.api.public.host}/inji/mosip-logo.png",
             "alt_text": "mosip-logo"
