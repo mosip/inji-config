@@ -259,7 +259,7 @@
       "protocol": "OpenId4VCI",
       "client_id": "${mimoto.oidc.sunbird.partner.clientid}",
       "client_alias": "esignet-sunbird-partner",
-      ".well-known": "http://config-server1.config-server1/config/mimoto/default/develop/mimoto-sunbird-insurance-wellknown.json",
+      ".well-known": "${spring.cloud.config.uri}/${spring.application.name}/${spring.profiles.active}/${spring.cloud.config.label}/mimoto-sunbird-insurance-wellknown.json",
       "redirect_uri": "io.mosip.residentapp.inji://oauthredirect",
       "authorization_audience": "https://${mosip.esignet.insurance.host}/v1/esignet/oauth/v2/token",
       "token_endpoint": "https://${mosip.api.public.host}/v1/mimoto/get-token/StayProtected-Fallback",
