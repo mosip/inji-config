@@ -295,7 +295,7 @@
       "protocol": "OpenId4VCI",
       "client_id": "${mimoto.oidc.mosipid.partner.clientid}",
       "client_alias": "mpartner-default-test-mosipid",
-      ".well-known": "http://inji-config-server.config-server/config/print/default/develop/mimoto-mosipid-identity-wellknown.json",
+      ".well-known": "http://inji-config-server.config-server/config/mimoto/default/qa/mimoto-mosipid-identity-wellknown.json",
       "redirect_uri": "io.mosip.residentapp.inji://oauthredirect",
       "authorization_audience": "https://${mosip.esignet.mosipid.host}/v1/esignet/oauth/v2/token",
       "token_endpoint": "https://${mosip.api.public.host}/v1/mimoto/get-token/testing1",
