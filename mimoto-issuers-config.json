@@ -294,6 +294,7 @@
       ],
       "protocol": "OpenId4VCI",
       "client_id": "${mimoto.oidc.mosipid.partner.clientid}",
+      "client_alias": "mpartner-default-test-mosipid",
       ".well-known": "https://${mosip.injicertify.mosipid.host}/v1/certify/issuance/.well-known/openid-credential-issuer",
       "redirect_uri": "io.mosip.residentapp.inji://oauthredirect",
       "authorization_audience": "https://${mosip.esignet.mosipid.host}/v1/esignet/oauth/v2/token",
@@ -340,6 +341,7 @@
         }
       ],
       "protocol": "OpenId4VCI",
+      "client_id": "${mimoto.oidc.mock.partner.clientid}",
       "client_alias": "mpartner-mock-testing",
       ".well-known": "https://${mosip.injicertify.mock.host}/v1/certify/issuance/.well-known/openid-credential-issuer",
       "redirect_uri": "io.mosip.residentapp.inji://oauthredirect",
