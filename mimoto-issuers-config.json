@@ -424,127 +424,79 @@
       "proxy_token_endpoint": "https://${mosip.esignet.insurance.host}/v1/esignet/oauth/v2/token",
       "enabled": "true"
    },
-{
-      "credential_issuer": "Mock1",
+   {
+      "credential_issuer": "Mosip",
       "display": [
         {
-          "name": "Mock Identity1",
+          "name": "National Identity Department",
           "logo": {
             "url": "https://${mosip.api.public.host}/inji/mosip-logo.png",
             "alt_text": "mosip-logo"
           },
-          "title": "Mock Identity",
-          "description": "Download Mock Identity Credential",
+          "title": "National Identity Department",
+          "description": "Download MOSIP National / Foundational Identity Credential",
           "language": "en"
+        },
+        {
+          "name": "دائرة الهوية الوطنية",
+          "logo": {
+            "url": "https://${mosip.api.public.host}/inji/mosip-logo.png",
+            "alt_text": "شعار موسيب"
+          },
+          "title": "دائرة الهوية الوطنية",
+          "description": "قم بتنزيل بيانات اعتماد الهوية الوطنية / التأسيسية MOSIP",
+          "language": "ar"
+        },
+        {
+          "name": "राष्ट्रीय पहचान विभाग",
+          "logo": {
+            "url": "https://${mosip.api.public.host}/inji/mosip-logo.png",
+            "alt_text": "मोसिप लोगो"
+          },
+          "title": "राष्ट्रीय पहचान विभाग",
+          "description": "MOSIP नेशनल/फाउंडेशनल आइडेंटिटी क्रेडेंशियल डाउनलोड करेंं",
+          "language": "hi"
+        },
+        {
+          "name": "ರಾಷ್ಟ್ರೀಯ ಗುರುತಿನ ಇಲಾಖೆ",
+          "logo": {
+            "url": "https://${mosip.api.public.host}/inji/mosip-logo.png",
+            "alt_text": "mosip ಲೋಗೋ"
+          },
+          "title": "ರಾಷ್ಟ್ರೀಯ ಗುರುತಿನ ಇಲಾಖೆ",
+          "description": "MOSIP ರಾಷ್ಟ್ರೀಯ / ಫೌಂಡೇಶನಲ್ ಐಡೆಂಟಿಟಿ ರುಜುವಾತು ಡೌನ್\u200Cಲೋಡ್ ಮಾಡಿ",
+          "language": "kn"
+        },
+        {
+          "name": "தேசிய அடையாளத் துறை",
+          "logo": {
+            "url": "https://${mosip.api.public.host}/inji/mosip-logo.png",
+            "alt_text": "mosip லோகோ"
+          },
+          "title": "தேசிய அடையாளத் துறை",
+          "description": "MOSIP தேசிய / அடிப்படை அடையாளச் சான்றிதழைப் பதிவிறக்கவும்",
+          "language": "ta"
+        },
+        {
+          "name": "National Identity Department",
+          "logo": {
+            "url": "https://${mosip.api.public.host}/inji/mosip-logo.png",
+            "alt_text": "logo ng mosip"
+          },
+          "title": "National Identity Department",
+          "title1": "National Identity Department",
+          "description": "I-download ang MOSIP National / Foundational Identity Credential",
+          "language": "fil"
         }
       ],
       "protocol": "OpenId4VCI",
-      "client_id": "${mimoto.oidc.mock.partner.clientid}",
-      "client_alias": "mpartner-mock-testing",
-      "Aswin": "123",
-      ".well-known": "https://${mosip.injicertify.mock.host}/v1/certify/issuance/.well-known/openid-credential-issuer",
+      "client_id": "${mimoto.oidc.mosipid.partner.clientid}",
+      "client_alias": "mpartner-default-test-mosipid",
+      ".well-known": "https://${mosip.injicertify.mosipid.host}/v1/certify/issuance/.well-known/openid-credential-issuer",
       "redirect_uri": "io.mosip.residentapp.inji://oauthredirect",
-      "authorization_audience": "https://${mosip.esignet.mock.host}/v1/esignet/oauth/v2/token",
-      "token_endpoint": "https://${mosip.api.public.host}/v1/mimoto/get-token/Mock1",
-      "proxy_token_endpoint": "https://${mosip.esignet.mock.host}/v1/esignet/oauth/v2/token",
-      "enabled": "true"
-    },
-{
-      "credential_issuer": "Mock2",
-      "display": [
-        {
-          "name": "Mock Identity2",
-          "logo": {
-            "url": "https://${mosip.api.public.host}/inji/mosip-logo.png",
-            "alt_text": "mosip-logo"
-          },
-          "title": "Mock Identity",
-          "description": "Download Mock Identity Credential",
-          "language": "en"
-        }
-      ],
-      "protocol": "OpenId4VCI",
-      "client_id": "123",
-      "client_alias": "mpartner-mock-testing",
-      ".well-known": "https://${mosip.injicertify.mock.host}/v1/certify/issuance/.well-known/openid-credential-issuer",
-      "redirect_uri": "io.mosip.residentapp.inji://oauthredirect",
-      "authorization_audience": "https://${mosip.esignet.mock.host}/v1/esignet/oauth/v2/token",
-      "token_endpoint": "https://${mosip.api.public.host}/v1/mimoto/get-token/Mock2",
-      "proxy_token_endpoint": "https://${mosip.esignet.mock.host}/v1/esignet/oauth/v2/token",
-      "enabled": "true"
-    },
-{
-      "credential_issuer": "Mock3",
-      "display": [
-        {
-          "name": "Mock Identity3",
-          "logo": {
-            "url": "https://${mosip.api.public.host}/inji/mosip-logo.png",
-            "alt_text": "mosip-logo"
-          },
-          "title": "Mock Identity",
-          "description": "Download Mock Identity Credential",
-          "language": "en"
-        }
-      ],
-      "protocol": "OpenId4VCI",
-      "client_id": "${mimoto.oidc.mock.partner.clientid}",
-      "client_alias": "mpartner-mock-testing",
-      ".well-known": "null",
-      "redirect_uri": "io.mosip.residentapp.inji://oauthredirect",
-      "authorization_audience": "https://${mosip.esignet.mock.host}/v1/esignet/oauth/v2/token",
-      "token_endpoint": "https://${mosip.api.public.host}/v1/mimoto/get-token/Mock3",
-      "proxy_token_endpoint": "https://${mosip.esignet.mock.host}/v1/esignet/oauth/v2/token",
-      "enabled": "true"
-    },
-
-{
-      "credential_issuer": "Mock4",
-      "display": [
-        {
-          "name": "Mock Identity4",
-          "logo": {
-            "url": "https://${mosip.api.public.host}/inji/mosip-logo.png",
-            "alt_text": "mosip-logo"
-          },
-          "title": "Mock Identity",
-          "description": "Download Mock Identity Credential",
-          "language": "en"
-        }
-      ],
-      "protocol": "OpenId4VCI",
-      "client_id": "${mimoto.oidc.mock.partner.clientid}",
-      "client_alias": "mpartner-mock-testing",
-      ".well-known": "https://${mosip.injicertify.mock.host}/v1/certify/issuance/.well-known/openid-credential-issuer",
-      "redirect_uri": " ",
-      "authorization_audience": "https://${mosip.esignet.mock.host}/v1/esignet/oauth/v2/token",
-      "token_endpoint": "https://${mosip.api.public.host}/v1/mimoto/get-token/Mock4",
-      "proxy_token_endpoint": "https://${mosip.esignet.mock.host}/v1/esignet/oauth/v2/token",
-      "enabled": "true"
-    },
-{
-      "credential_issuer": "Mock5",
-      "display": [
-        {
-          "name": "Mock Identity5",
-          "logo": {
-            "url": "https://${mosip.api.public.host}/inji/mosip-logo.png",
-            "alt_text": "mosip-logo"
-          },
-          "title": "Mock Identity",
-          "title1": "abcd",
-          "description": "Download Mock Identity Credential",
-          "language": "en"
-        }
-      ],
-      "protocol": "OpenId4VCI",
-      "client_id": "${mimoto.oidc.mock.partner.clientid}",
-      "client_alias": "mpartner-mock-testing",
-      ".well-known": "https://${mosip.injicertify.mock.host}/v1/certify/issuance/.well-known/openid-credential-issuer",
-      "redirect_uri": "io.mosip.residentapp.inji://oauthredirect",
-      "authorization_audience": "https://${mosip.esignet.mock.host}/v1/esignet/oauth/v2/token",
-      "token_endpoint": "https://${mosip.api.public.host}/v1/mimoto/get-token/Mock5",
-      "proxy_token_endpoint": "https://${mosip.esignet.mock.host}/v1/esignet/oauth/v2/token",
+      "authorization_audience": "https://${mosip.esignet.mosipid.host}/v1/esignet/oauth/v2/token",
+      "token_endpoint": "https://${mosip.api.public.host}/v1/mimoto/get-token/Mosip",
+      "proxy_token_endpoint": "https://${mosip.esignet.mosipid.host}/v1/esignet/oauth/v2/token",
       "enabled": "true"
     }
   ]
