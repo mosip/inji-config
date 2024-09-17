@@ -202,7 +202,7 @@
         "FarmerCredential"
       ],
       "credential_audience": "https://${mosip.injicertify.insurance.host}",
-      "qr_code_type": "OVPRequest",
+      "qr_code_type": "EmbeddedVC",
       "enabled": "true"
     }
   ]
