@@ -171,13 +171,13 @@
       "credential_issuer": "Farmer",
       "display": [
         {
-          "name": "Farmer Profile",
+          "name": "AgroVeritas Agricultural Department",
           "logo": {
             "url": "https://raw.githubusercontent.com/aranaravi/kendo-ui-core/master/Agro%20Vertias%20Logo.svg",
             "alt_text": "a square logo of a Farmer Profile"
           },
           "language": "en",
-          "title": "Download Farmer Profile Credentials",
+          "title": "Download Farmer Credentials",
           "description": "Download credentials with your Farmer Id"
         }
       ],
