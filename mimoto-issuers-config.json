@@ -190,7 +190,7 @@
       "additional_headers": {
         "Accept": "application/json"
       },
-      ".well-known": "https://${mosip.injicertify.demo.host}/v1/certify/issuance/.well-known/openid-credential-issuer",
+      ".well-known": "https://${mosip.injicertify.insurance.host}/v1/certify/issuance/.well-known/openid-credential-issuer",
       "redirect_uri": "io.mosip.residentapp.inji://oauthredirect",
       "authorization_endpoint": "https://${mosip.esignet.farmer.host}/authorize",
       "authorization_audience": "https://${mosip.esignet.farmer.host}/v1/esignet/oauth/v2/token",
@@ -199,9 +199,9 @@
       "credential_endpoint": "",
       "credential_type": [
         "VerifiableCredential",
-        "FarmerProfileCredential"
+        "FarmerCredential"
       ],
-      "credential_audience": "https://${mosip.injicertify.demo.host}",
+      "credential_audience": "https://${mosip.injicertify.insurance.host}",
       "qr_code_type": "OVPRequest",
       "enabled": "true"
     }
