@@ -1,27 +1,9 @@
 {
   "verifiers": [
     {
-      "client_id": "https://injiverify.dev1.mosip.net",
-      "redirect_uri": [
-        "https://injiverify.qa-inji.mosip.net/redirect",
-        "https://injiverify.dev2.mosip.net/redirect",
-        "https://localhost",
-        "https://injiverify.dev1.mosip.net/redirect"
-      ],
-      "response_uri": [
-        "https://072f-2405-201-c058-b814-5c41-8d8a-1826-8fcc.ngrok-free.app/verifier/vp-response",
-        "https://injiverify.dev2.mosip.net/redirect"
-      ]
-    },
-    {
-      "client_id": "esignet-sunbird-partner",
-      "redirect_uri": [
-        "https://injiverify.qa-inji.mosip.net/redirect",
-        "https://injiverify.dev1.mosip.net/redirect"
-      ],
-      "response_uri": [
-        "https://injiverify.qa-inji.mosip.net/redirect",
-        "https://injiverify.dev1.mosip.net/redirect"
+      "client_id": "https://${mosip.injiverify.host}",
+      "redirect_uris": [
+        "https://${mosip.injiverify.host}/redirect"
       ]
     }
   ]
