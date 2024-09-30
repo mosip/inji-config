@@ -90,7 +90,7 @@
       "additional_headers": {
         "Accept": "application/json"
       },
-      ".well-known": "https://${mosip.injicertify.insurance.host}/v1/certify/issuance/.well-known/openid-credential-issuer",
+      "wellknown_endpoint": "https://${mosip.injicertify.insurance.host}/v1/certify/issuance/.well-known/openid-credential-issuer",
       "redirect_uri": "io.mosip.residentapp.inji://oauthredirect",
       "authorization_endpoint": "https://${mosip.esignet.insurance.host}/authorize",
       "authorization_audience": "https://${mosip.esignet.insurance.host}/v1/esignet/oauth/v2/token",
@@ -102,7 +102,7 @@
         "InsuranceCredential"
       ],
       "credential_audience": "https://${mosip.injicertify.insurance.host}",
-      "qr_code_type": "OVPRequest",
+      "qr_code_type": "OnlineSharing",
       "enabled": "true"
     },
     {
@@ -178,7 +178,7 @@
       "additional_headers": {
         "Accept": "application/json"
       },
-      ".well-known": "https://${mosip.injicertify.mosipid.host}/v1/certify/issuance/.well-known/openid-credential-issuer",
+      "wellknown_endpoint": "https://${mosip.injicertify.mosipid.host}/v1/certify/issuance/.well-known/openid-credential-issuer",
       "redirect_uri": "io.mosip.residentapp.inji://oauthredirect",
       "authorization_endpoint": "https://${mosip.esignet.mosipid.host}/authorize",
       "authorization_audience": "https://${mosip.esignet.mosipid.host}/v1/esignet/oauth/v2/token",
@@ -190,7 +190,7 @@
         "MOSIPVerifiableCredential"
       ],
       "credential_audience": "https://${mosip.injicertify.mosipid.host}",
-      "qr_code_type": "OVPRequest",
+      "qr_code_type": "OnlineSharing",
       "enabled": "true"
     },
     {
@@ -216,7 +216,7 @@
       "additional_headers": {
         "Accept": "application/json"
       },
-      ".well-known": "https://${mosip.injicertify.mock.host}/v1/certify/issuance/.well-known/openid-credential-issuer",
+      "wellknown_endpoint": "https://${mosip.injicertify.mock.host}/v1/certify/issuance/.well-known/openid-credential-issuer",
       "redirect_uri": "io.mosip.residentapp.inji://oauthredirect",
       "authorization_endpoint": "https://${mosip.esignet.mock.host}/authorize",
       "authorization_audience": "https://${mosip.esignet.mock.host}/v1/esignet/oauth/v2/token",
@@ -228,7 +228,7 @@
         "MOCKVerifiableCredential_ldp"
       ],
       "credential_audience": "https://${mosip.injicertify.mock.host}",
-      "qr_code_type": "OVPRequest",
+      "qr_code_type": "OnlineSharing",
       "enabled": "true"
     },
     {
@@ -298,12 +298,12 @@
       "protocol": "OpenId4VCI",
       "client_id": "${mimoto.oidc.mosipid.partner.clientid}",
       "client_alias": "mpartner-default-test-mosipid",
-      ".well-known": "https://${mosip.injicertify.mosipid.host}/v1/certify/issuance/.well-known/openid-credential-issuer",
+      "wellknown_endpoint": "https://${mosip.injicertify.mosipid.host}/v1/certify/issuance/.well-known/openid-credential-issuer",
       "redirect_uri": "io.mosip.residentapp.inji://oauthredirect",
       "authorization_audience": "https://${mosip.esignet.mosipid.host}/v1/esignet/oauth/v2/token",
       "token_endpoint": "https://${mosip.api.public.host}/v1/mimoto/get-token/Mosip",
       "proxy_token_endpoint": "https://${mosip.esignet.mosipid.host}/v1/esignet/oauth/v2/token",
-      "qr_code_type": "OVPRequest",
+      "qr_code_type": "OnlineSharing",
       "enabled": "true"
     },
     {
@@ -323,12 +323,12 @@
       "protocol": "OpenId4VCI",
       "client_id": "${mimoto.oidc.sunbird.partner.clientid}",
       "client_alias": "esignet-sunbird-partner",
-      ".well-known": "https://${mosip.injicertify.insurance.host}/v1/certify/issuance/.well-known/openid-credential-issuer",
+      "wellknown_endpoint": "https://${mosip.injicertify.insurance.host}/v1/certify/issuance/.well-known/openid-credential-issuer",
       "redirect_uri": "io.mosip.residentapp.inji://oauthredirect",
       "authorization_audience": "https://${mosip.esignet.insurance.host}/v1/esignet/oauth/v2/token",
       "token_endpoint": "https://${mosip.api.public.host}/v1/mimoto/get-token/StayProtected",
       "proxy_token_endpoint": "https://${mosip.esignet.insurance.host}/v1/esignet/oauth/v2/token",
-      "qr_code_type": "OVPRequest",
+      "qr_code_type": "OnlineSharing",
       "enabled": "true"
     },
     {
@@ -348,12 +348,12 @@
       "protocol": "OpenId4VCI",
       "client_id": "${mimoto.oidc.mock.partner.clientid}",
       "client_alias": "mpartner-mock-testing",
-      ".well-known": "https://${mosip.injicertify.mock.host}/v1/certify/issuance/.well-known/openid-credential-issuer",
+      "wellknown_endpoint": "https://${mosip.injicertify.mock.host}/v1/certify/issuance/.well-known/openid-credential-issuer",
       "redirect_uri": "io.mosip.residentapp.inji://oauthredirect",
       "authorization_audience": "https://${mosip.esignet.mock.host}/v1/esignet/oauth/v2/token",
       "token_endpoint": "https://${mosip.api.public.host}/v1/mimoto/get-token/Mock",
       "proxy_token_endpoint": "https://${mosip.esignet.mock.host}/v1/esignet/oauth/v2/token",
-      "qr_code_type": "OVPRequest",
+      "qr_code_type": "OnlineSharing",
       "enabled": "true"
     },
     {
@@ -423,12 +423,12 @@
       "protocol": "OpenId4VCI",
       "client_id": "${mimoto.oidc.sunbird.partner.clientid}",
       "client_alias": "esignet-sunbird-partner",
-      ".well-known": "http://config-server.config-server/config/mimoto/default/qa1/mimoto-sunbird-insurance-wellknown.json",
+      "wellknown_endpoint": "http://config-server.config-server/config/mimoto/default/qa1/mimoto-sunbird-insurance-wellknown.json",
       "redirect_uri": "io.mosip.residentapp.inji://oauthredirect",
       "authorization_audience": "https://${mosip.esignet.insurance.host}/v1/esignet/oauth/v2/token",
       "token_endpoint": "https://${mosip.api.public.host}/v1/mimoto/get-token/StayProtected-Fallback",
       "proxy_token_endpoint": "https://${mosip.esignet.insurance.host}/v1/esignet/oauth/v2/token",
-      "qr_code_type": "OVPRequest",
+      "qr_code_type": "OnlineSharing",
       "enabled": "true"
    },
     {
@@ -448,12 +448,12 @@
       "protocol": "OpenId4VCI",
       "client_id": "${mimoto.oidc.mock.partner.clientid}",
       "client_alias": "mpartner-mock-testing",
-      ".well-known": "http://config-server.config-server/config/mimoto/default/qa1/mimoto-mock-identity-wellknown.json",
+      "wellknown_endpoint": "http://config-server.config-server/config/mimoto/default/qa1/mimoto-mock-identity-wellknown.json",
       "redirect_uri": "io.mosip.residentapp.inji://oauthredirect",
       "authorization_audience": "https://${mosip.esignet.mock.host}/v1/esignet/oauth/v2/token",
       "token_endpoint": "https://${mosip.api.public.host}/v1/mimoto/get-token/Mock-Fallback",
       "proxy_token_endpoint": "https://${mosip.esignet.mock.host}/v1/esignet/oauth/v2/token",
-      "qr_code_type": "OVPRequest",
+      "qr_code_type": "OnlineSharing",
       "enabled": "true"
     },
     {
@@ -523,12 +523,12 @@
       "protocol": "OpenId4VCI",
       "client_id": "${mimoto.oidc.mosipid.partner.clientid}",
       "client_alias": "mpartner-default-test-mosipid",
-      ".well-known": "http://config-server.config-server/config/mimoto/default/qa1/mimoto-mosipid-identity-wellknown.json",
+      "wellknown_endpoint": "http://config-server.config-server/config/mimoto/default/qa1/mimoto-mosipid-identity-wellknown.json",
       "redirect_uri": "io.mosip.residentapp.inji://oauthredirect",
       "authorization_audience": "https://${mosip.esignet.mosipid.host}/v1/esignet/oauth/v2/token",
       "token_endpoint": "https://${mosip.api.public.host}/v1/mimoto/get-token/Mosip-Fallback",
       "proxy_token_endpoint": "https://${mosip.esignet.mosipid.host}/v1/esignet/oauth/v2/token",
-      "qr_code_type": "OVPRequest",
+      "qr_code_type": "OnlineSharing",
       "enabled": "true"
     }
   ]

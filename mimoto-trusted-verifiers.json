@@ -1,22 +1,9 @@
 {
   "verifiers": [
     {
-      "client_id": "https://injiverify.dev1.mosip.net",
-      "redirect_uri": [
-        "https://injiverify.dev1.mosip.net/redirect",
-        "https://injiverify.qa-inji.mosip.net/redirect"
-      ]
-    },    
-    {
-      "client_id": "https://injiverify.qa-inji.mosip.net",
-      "redirect_uri": [
-        "https://injiverify.qa-inji.mosip.net/redirect"
-      ]
-    },
-    {
-      "client_id": "https://injiverify.collab.mosip.net",
-      "redirect_uri": [
-        "https://injiverify.collab.mosip.net/redirect"
+      "client_id": "https://${mosip.injiverify.host}",
+      "redirect_uris": [
+        "https://${mosip.injiverify.host}/redirect"
       ]
     }
   ]
