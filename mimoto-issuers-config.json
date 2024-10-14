@@ -282,7 +282,6 @@
             }
           ],
           "protocol": "OpenId4VCI",
-          "client_id": "${mimoto.oidc.mock.partner.clientid}",
           "client_alias": "mpartner-mock-testing",
           "wellknown_endpoint": "${spring_config_url_env}/mimoto/${active_profile_env}/${pring_config_label_env}/mimoto-mock-identity-wellknown.json",
           "redirect_uri": "io.mosip.residentapp.inji://oauthredirect",
