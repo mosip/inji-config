@@ -134,7 +134,7 @@
       "protocol": "OpenId4VCI",
       "client_id": "${mimoto.oidc.mosipid.partner.clientid}",
       "client_alias": "mpartner-default-test-mosipid",
-      ".well-known": "https://${mosip.injicertify.mosipid.host}/v1/certify/issuance/.well-known/openid-credential-issuer",
+      "wellknown_endpoint": "https://${mosip.injicertify.mosipid.host}/v1/certify/issuance/wellknown_endpoint/openid-credential-issuer",
       "redirect_uri": "io.mosip.residentapp.inji://oauthredirect",
       "authorization_audience": "https://${mosip.esignet.mosipid.host}/v1/esignet/oauth/v2/token",
       "token_endpoint": "https://${mosip.api.public.host}/v1/mimoto/get-token/Mosip",
@@ -159,7 +159,7 @@
       "protocol": "OpenId4VCI",
       "client_id": "${mimoto.oidc.sunbird.partner.clientid}",
       "client_alias": "esignet-sunbird-partner",
-      ".well-known": "https://${mosip.injicertify.insurance.host}/v1/certify/issuance/.well-known/openid-credential-issuer",
+      "wellknown_endpoint": "https://${mosip.injicertify.insurance.host}/v1/certify/issuance/wellknown_endpoint/openid-credential-issuer",
       "redirect_uri": "io.mosip.residentapp.inji://oauthredirect",
       "authorization_audience": "https://${mosip.esignet.insurance.host}/v1/esignet/oauth/v2/token",
       "token_endpoint": "https://${mosip.api.public.host}/v1/mimoto/get-token/StayProtected",
@@ -190,7 +190,7 @@
       "additional_headers": {
         "Accept": "application/json"
       },
-      ".well-known": "https://${mosip.injicertify.farmer.host}/v1/certify/issuance/.well-known/openid-credential-issuer",
+      "wellknown_endpoint": "https://${mosip.injicertify.farmer.host}/v1/certify/issuance/wellknown_endpoint/openid-credential-issuer",
       "redirect_uri": "io.mosip.residentapp.inji://oauthredirect",
       "authorization_endpoint": "https://${mosip.esignet.farmer.host}/authorize",
       "authorization_audience": "https://${mosip.esignet.farmer.host}/v1/esignet/oauth/v2/token",
