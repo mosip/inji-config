@@ -132,7 +132,7 @@
         }
       ],
       "protocol": "OpenId4VCI",
-      "client_id": "${mimoto.mosipid.oidc.clientid}",
+      "client_id": "${mimoto.oidc.mosipid.partner.clientid}",
       "client_alias": "mpartner-default-mimotooidc",
       "scopes_supported": ["mosip_identity_vc_ldp"],
       "additional_headers": { "Accept": "application/json" },
@@ -212,7 +212,7 @@
         }
       ],
       "protocol": "OpenId4VCI",
-      "client_id": "${mimoto.insurance.oidc.clientid}",
+      "client_id": "${mimoto.oidc.insurance.partner.clientid}",
       "client_alias": "esignet-sunbird-partner",
       "scopes_supported": ["sunbird_rc_insurance_vc_ldp"],
       "additional_headers": { "Accept": "application/json" },
@@ -242,7 +242,7 @@
         }
       ],
       "protocol": "OpenId4VCI",
-      "client_id": "${mimoto.mock.oidc.clientid}",
+      "client_id": "${mimoto.oidc.mock.partner.clientid}",
       "client_alias": "mpartner-mock-testing",
       "scopes_supported": ["mosip_identity_vc_ldp"],
       "additional_headers": { "Accept": "application/json" },
