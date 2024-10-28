@@ -65,7 +65,7 @@
         }
       ],
       "protocol": "OTP",
-      "enabled": "false"
+      "enabled": "${mosip.otp.download.enable}"
     },
     {
       "credential_issuer": "Mosip",
@@ -87,7 +87,7 @@
             "alt_text": "شعار موسيب"
           },
           "title": "دائرة الهوية الوطنية",
-          "description": "قم بتنزيل بيانات اعتماد الهوية الوطنية / التأسيسية MOSIP" ,
+          "description": "قم بتنزيل بيانات اعتماد الهوية الوطنية / التأسيسية MOSIP",
           "language": "ar"
         },
         {
@@ -97,7 +97,7 @@
             "alt_text": "मोसिप लोगो"
           },
           "title": "राष्ट्रीय पहचान विभाग",
-          "description":"MOSIP नेशनल/फाउंडेशनल आइडेंटिटी क्रेडेंशियल डाउनलोड करेंं",
+          "description": "MOSIP नेशनल/फाउंडेशनल आइडेंटिटी क्रेडेंशियल डाउनलोड करेंं",
           "language": "hi"
         },
         {
@@ -117,7 +117,7 @@
             "alt_text": "mosip லோகோ"
           },
           "title": "தேசிய அடையாளத் துறை",
-          "description":"MOSIP தேசிய / அடிப்படை அடையாளச் சான்றிதழைப் பதிவிறக்கவும்",
+          "description": "MOSIP தேசிய / அடிப்படை அடையாளச் சான்றிதழைப் பதிவிறக்கவும்",
           "language": "ta"
         },
         {
@@ -127,28 +127,23 @@
             "alt_text": "logo ng mosip"
           },
           "title": "National Identity Department",
-          "description":"I-download ang MOSIP National / Foundational Identity Credential",
+          "description": "I-download ang MOSIP National / Foundational Identity Credential",
           "language": "fil"
         }
       ],
       "protocol": "OpenId4VCI",
       "client_id": "${mimoto.oidc.mosipid.partner.clientid}",
       "client_alias": "mpartner-default-mimoto-mosipid-oidc",
-      "scopes_supported": ["mosip_identity_vc_ldp"],
-      "additional_headers": { "Accept": "application/json" },
-      ".well-known": "https://${mosipid.identity.esignet.host}/.well-known/openid-credential-issuer?version=v11",
+      "wellknown_endpoint": "https://${mosip.injicertify.mosipid.host}/v1/certify/issuance/.well-known/openid-credential-issuer",
       "redirect_uri": "io.mosip.residentapp.inji://oauthredirect",
-      "authorization_endpoint": "https://${mosipid.identity.esignet.host}/authorize",
       "authorization_audience": "https://${mosipid.identity.esignet.host}/v1/esignet/oauth/v2/token",
-      "token_endpoint": "https://${mosip.api.public.host}/residentmobileapp/get-token/Mosip",
+      "token_endpoint": "https://${mosip.api.public.host}/v1/mimoto/get-token/Mosip",
       "proxy_token_endpoint": "https://${mosipid.identity.esignet.host}/v1/esignet/oauth/v2/token",
-      "credential_endpoint": "https://${mosipid.identity.esignet.host}/v1/esignet/vci/credential",
-      "credential_type": ["VerifiableCredential", "MOSIPVerifiableCredential"],
-      "credential_audience": "https://${mosipid.identity.esignet.host}",
+      "qr_code_type": "OnlineSharing",
       "enabled": "true"
     },
     {
-      "credential_issuer": "Sunbird",
+      "credential_issuer": "StayProtected",
       "display": [
         {
           "name": "Veridonia Insurance Company",
@@ -157,74 +152,19 @@
             "alt_text": "a Veridonia logo"
           },
           "language": "en",
-          "title": "Veridonia Insurance Company",
-          "description": "Download Insurance Credentials using policy details"
-        },
-        {
-          "name": "شركة فيريدونيا للتأمين",
-          "logo": {
-            "url": "https://${mosip.api.public.host}/inji/veridonia-logo.png",
-            "alt_text": "شعار فيريدونيا"
-          },
-          "language": "ar",
-          "title": "شركة فيريدونيا للتأمين",
-          "description": "قم بتنزيل بيانات اعتماد التأمين باستخدام تفاصيل السياسة"
-        },
-        {
-          "name": "वेरिडोनिया बीमा कंपनींं",
-          "logo": {
-            "url": "https://${mosip.api.public.host}/inji/veridonia-logo.png",
-            "alt_text": "एक वेरिडोनिया लोगो"
-          },
-          "language": "hi",
-          "title": "वेरिडोनिया बीमा कंपनींं",
-          "description": "पॉलिसी विवरण का उपयोग करके बीमा क्रेडेंशियल डाउनलोड करें"
-        },
-        {
-          "name": "ವೆರಿಡೋನಿಯಾ ವಿಮಾ ಕಂಪನಿ",
-          "logo": {
-            "url": "https://${mosip.api.public.host}/inji/veridonia-logo.png",
-            "alt_text": "ವೆರಿಡೋನಿಯಾ ಲೋಗೋ"
-          },
-          "language": "kn",
-          "title": "ವೆರಿಡೋನಿಯಾ ವಿಮಾ ಕಂಪನಿ",
-          "description": "ಪಾಲಿಸಿ ವಿವರಗಳನ್ನು ಬಳಸಿಕೊಂಡು ವಿಮಾ ರುಜುವಾತುಗಳನ್ನು ಡೌನ್\u200Cಲೋಡ್ ಮಾಡಿ"
-        },
-        {
-          "name": "வெரிடோனியா இன்சூரன்ஸ் நிறுவனம்",
-          "logo": {
-            "url": "https://${mosip.api.public.host}/inji/veridonia-logo.png",
-            "alt_text": "ஒரு வெரிடோனியா லோகோ"
-          },
-          "language": "ta",
-          "title": "வெரிடோனியா இன்சூரன்ஸ் நிறுவனம்",
-          "description": "பாலிசி விவரங்களைப் பயன்படுத்தி காப்பீட்டுச் சான்றுகளைப் பதிவிறக்கவும்"
-        },
-        {
-          "name": "Veridonia Insurance Company",
-          "logo": {
-            "url": "https://${mosip.api.public.host}/inji/veridonia-logo.png",
-            "alt_text": "isang logo ng Veridonia"
-          },
-          "language": "fil",
-          "title": "Veridonia Insurance Company",
-          "description": "I-download ang Mga Kredensyal ng Seguro gamit ang mga detalye ng patakaran"
+          "title": "Download StayProtected Insurance Credentials",
+          "description": "Download insurance credential"
         }
       ],
       "protocol": "OpenId4VCI",
       "client_id": "${mimoto.oidc.insurance.partner.clientid}",
       "client_alias": "mpartner-default-mimoto-insurance-oidc",
-      "scopes_supported": ["sunbird_rc_insurance_vc_ldp"],
-      "additional_headers": { "Accept": "application/json" },
-      ".well-known": "https://${sunbirdrc.insurance.esignet.host}/.well-known/openid-credential-issuer?version=v11",
+      "wellknown_endpoint": "https://${mosip.injicertify.insurance.host}/v1/certify/issuance/.well-known/openid-credential-issuer",
       "redirect_uri": "io.mosip.residentapp.inji://oauthredirect",
-      "authorization_endpoint": "https://${sunbirdrc.insurance.esignet.host}/authorize",
       "authorization_audience": "https://${sunbirdrc.insurance.esignet.host}/v1/esignet/oauth/v2/token",
-      "token_endpoint": "https://${mosip.api.public.host}/residentmobileapp/get-token/Sunbird",
+      "token_endpoint": "https://${mosip.api.public.host}/v1/mimoto/get-token/StayProtected",
       "proxy_token_endpoint": "https://${sunbirdrc.insurance.esignet.host}/v1/esignet/oauth/v2/token",
-      "credential_endpoint": "https://${sunbirdrc.insurance.esignet.host}/v1/esignet/vci/credential",
-      "credential_type": ["VerifiableCredential", "InsuranceCredential"],
-      "credential_audience": "https://${sunbirdrc.insurance.esignet.host}",
+      "qr_code_type": "OnlineSharing",
       "enabled": "true"
     },
     {
@@ -244,17 +184,12 @@
       "protocol": "OpenId4VCI",
       "client_id": "${mimoto.oidc.mock.partner.clientid}",
       "client_alias": "mpartner-default-mimoto-mock-oidc",
-      "scopes_supported": ["mosip_identity_vc_ldp"],
-      "additional_headers": { "Accept": "application/json" },
-      ".well-known": "https://${mock.identity.esignet.host}/.well-known/openid-credential-issuer?version=v11",
+      "wellknown_endpoint": "https://${mosip.injicertify.mock.host}/v1/certify/issuance/.well-known/openid-credential-issuer",
       "redirect_uri": "io.mosip.residentapp.inji://oauthredirect",
       "authorization_audience": "https://${mock.identity.esignet.host}/v1/esignet/oauth/v2/token",
-      "authorization_endpoint": "https://${mock.identity.esignet.host}/authorize",
-      "credential_endpoint": "https://${mock.identity.esignet.host}/v1/esignet/vci/credential",
-      "credential_type": ["VerifiableCredential", "MOSIPVerifiableCredential"],
-      "credential_audience": "https://${mock.identity.esignet.host}",
       "token_endpoint": "https://${mosip.api.public.host}/v1/mimoto/get-token/Mock",
       "proxy_token_endpoint": "https://${mock.identity.esignet.host}/v1/esignet/oauth/v2/token",
+      "qr_code_type": "OnlineSharing",
       "enabled": "true"
     }
   ]
