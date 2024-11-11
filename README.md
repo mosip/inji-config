@@ -11,6 +11,7 @@ This Repository contains configurations for Inji Stack, These are the split up o
 - [mimoto-default.properties](mimoto-default.properties) - Default Configuration for Mimoto App is mentioned here
 - [mimoto-issuers-config.json](mimoto-issuers-config.json) - Configuration of All Supported Credential Issuers is mentioned here
 - [mimoto-trusted-verifiers.json](mimoto-trusted-verifiers.json) - Configuration of All Trusted Credential Verifiers is mentioned here
+  - The **response_uri** is used to receive vp_token for cross device flow support.
 
 When credential issuers are not hosting their wellknown, mimoto will host the fallback wellknown from config server  
 
