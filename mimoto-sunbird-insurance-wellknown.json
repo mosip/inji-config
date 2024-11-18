@@ -1,7 +1,7 @@
 {
   "credential_issuer": "https://${mosip.injicertify.insurance.host}",
   "authorization_servers": [
-    "https://${mosip.esignet.insurance.host}"
+    "https://${sunbirdrc.insurance.esignet.host}"
   ],
   "credential_endpoint": "https://${mosip.injicertify.insurance.host}/v1/certify/issuance/credential",
   "credential_configurations_supported": {
@@ -224,13 +224,13 @@
           "name": "Life Insurance",
           "locale": "en",
           "logo": {
-            "url": "https://${mosip.api.public.host}/inji/veridonia-logo.png",
+            "url": "https://raw.githubusercontent.com/mosip/inji-config/qa1/veridonia-logo.png",
             "alt_text": "a square logo of a Veridonia"
           },
           "background_image": {
-            "uri": "https://${mosip.api.public.host}/inji/veridonia-logo.png"
+            "uri": "https://raw.githubusercontent.com/mosip/inji-config/qa1/veridonia-logo.png"
           },
-          "background_color": "#FDFAF9",
+          "background_color": "#FFA500",
           "text_color": "#7C4616"
         }
       ]

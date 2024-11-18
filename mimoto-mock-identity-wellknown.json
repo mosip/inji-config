@@ -1,5 +1,8 @@
 {
   "credential_issuer": "https://${mosip.injicertify.mock.host}",
+  "authorization_servers": [
+    "https://${mock.identity.esignet.host}"
+  ],
   "credential_endpoint": "https://${mosip.injicertify.mock.host}/v1/certify/issuance/credential",
   "credential_configurations_supported": {
     "MockVerifiableCredential": {
@@ -107,12 +110,12 @@
           "name": "Mock Verifiable Credential",
           "locale": "en",
           "logo": {
-            "url": "https://${mosip.api.public.host}/inji/mosip-logo.png",
+            "url": "https://raw.githubusercontent.com/mosip/inji-config/qa1/mosipid-logo.png",
             "alt_text": "a square logo of a MOSIP"
           },
-          "background_color": "#12107c",
+          "background_color": "#CE008F",
           "background_image": {
-            "uri": "https://${mosip.api.public.host}/inji/mosip-logo.png"
+            "uri": "https://raw.githubusercontent.com/mosip/inji-config/qa1/mosipid-logo.png"
           },
           "text_color": "#FFFFFF"
         }
