@@ -193,6 +193,41 @@
       "enabled": "true"
     },
     {
+      "credential_issuer": "CAR",
+      "display": [
+        {
+          "name": "Land Authority",
+          "logo": {
+            "url": "https://vharsh.github.io/demo/CAR.png",
+            "alt_text": "car-logo"
+          },
+          "title": "Land Authority",
+          "description": "Download Land Authority Issued Credential",
+          "language": "en"
+        },
+        {
+          "name": "Autoridade de Terras",
+          "logo": {
+            "url": "https://vharsh.github.io/demo/CAR.png",
+            "alt_text": "car-logo"
+          },
+          "title": "Autoridade de Terras",
+          "description": "Download Land Authority Issued Credential",
+          "language": "pt"
+        }
+      ],
+      "protocol": "OpenId4VCI",
+      "client_id": "${mimoto.oidc.cp1.partner.clientid}",
+      "client_alias": "mpartner-cp1-testing",
+      "wellknown_endpoint": "https://${mosip.injicertify.cp1.host}/v1/certify/issuance/.well-known/openid-credential-issuer",
+      "redirect_uri": "io.mosip.residentapp.inji://oauthredirect",
+      "authorization_audience": "https://${mosip.esignet.cp1.host}/v1/esignet/oauth/v2/token",
+      "token_endpoint": "https://${mosip.api.public.host}/v1/mimoto/get-token/CAR",
+      "proxy_token_endpoint": "https://${mosip.esignet.cp1.host}/v1/esignet/oauth/v2/token",
+      "qr_code_type": "OnlineSharing",
+      "enabled": "true"
+    },
+    {
       "credential_issuer": "StayProtected-Fallback",
       "display": [
         {
