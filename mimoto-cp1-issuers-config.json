@@ -4,22 +4,22 @@
       "credential_issuer": "CAR",
       "display": [
         {
-          "name": "Land Authority",
+          "name": "Cadastro Ambiental Rural",
           "logo": {
             "url": "https://vharsh.github.io/demo/CAR.png",
             "alt_text": "car-logo"
           },
-          "title": "Land Authority",
-          "description": "Download Land Authority Issued Credential",
+          "title": "Cadastro Ambiental Rural",
+          "description": "Download CAR Credential",
           "language": "en"
         },
         {
-          "name": "Autoridade de Terras",
+          "name": "Cadastro Ambiental Rural",
           "logo": {
             "url": "https://vharsh.github.io/demo/CAR.png",
             "alt_text": "car-logo"
           },
-          "title": "Autoridade de Terras",
+          "title": "Cadastro Ambiental Rural",
           "description": "Download Land Authority Issued Credential",
           "language": "pt"
         }
