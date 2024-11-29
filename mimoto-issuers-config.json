@@ -140,7 +140,8 @@
       "token_endpoint": "https://${mosip.api.public.host}/v1/mimoto/get-token/Mosip",
       "proxy_token_endpoint": "https://${mosip.esignet.mosipid.host}/v1/esignet/oauth/v2/token",
       "qr_code_type": "OnlineSharing",
-      "enabled": "true"
+      "enabled": "true",
+      "credential_issuer_id": "https://${mosip.injicertify.mosipid.host}"
     },
     {
       "credential_issuer": "StayProtected",
@@ -165,7 +166,8 @@
       "token_endpoint": "https://${mosip.api.public.host}/v1/mimoto/get-token/StayProtected",
       "proxy_token_endpoint": "https://${mosip.esignet.insurance.host}/v1/esignet/oauth/v2/token",
       "qr_code_type": "OnlineSharing",
-      "enabled": "true"
+      "enabled": "true",
+      "credential_issuer_id": "https://${mosip.injicertify.insurance.host}"
     },
     {
       "credential_issuer": "Mock",
@@ -190,7 +192,8 @@
       "token_endpoint": "https://${mosip.api.public.host}/v1/mimoto/get-token/Mock",
       "proxy_token_endpoint": "https://${mosip.esignet.mock.host}/v1/esignet/oauth/v2/token",
       "qr_code_type": "OnlineSharing",
-      "enabled": "true"
+      "enabled": "true",
+      "credential_issuer_id": "https://${mosip.injicertify.mock.host}"
     },
     {
       "credential_issuer": "CAR",
@@ -225,7 +228,8 @@
       "token_endpoint": "https://${mosip.injiweb.cp1.host}/v1/mimoto/get-token/CAR",
       "proxy_token_endpoint": "https://${mosip.esignet.mock.host}/v1/esignet/oauth/v2/token",
       "qr_code_type": "OnlineSharing",
-      "enabled": "true"
+      "enabled": "true",
+      "credential_issuer_id": "https://${mosip.injicertify.cp1.host}"
     },
     {
       "credential_issuer": "StayProtected-Fallback",
@@ -300,7 +304,8 @@
       "token_endpoint": "https://${mosip.api.public.host}/v1/mimoto/get-token/StayProtected-Fallback",
       "proxy_token_endpoint": "https://${mosip.esignet.insurance.host}/v1/esignet/oauth/v2/token",
       "qr_code_type": "OnlineSharing",
-      "enabled": "true"
+      "enabled": "true",
+      "credential_issuer_id": "https://${mosip.injicertify.insurance.host}"
     },
     {
           "credential_issuer": "Mock-Fallback",
@@ -325,7 +330,8 @@
           "token_endpoint": "https://${mosip.api.public.host}/v1/mimoto/get-token/Mock-Fallback",
           "proxy_token_endpoint": "https://${mosip.esignet.mock.host}/v1/esignet/oauth/v2/token",
           "qr_code_type": "OnlineSharing",
-          "enabled": "true"
+          "enabled": "true",
+          "credential_issuer_id": "https://${mosip.injicertify.mock.host}"
         }
   ]
 }
