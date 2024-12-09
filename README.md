@@ -34,6 +34,7 @@ And each plugin is associated with an example usecase.
 1. [certify-mock-identity.properties](certify-mock-identity.properties) - Uses mock plugin and showcases identity usecase
 2. [certify-mosipid-identity.properties](certify-mosipid-identity.properties) - Uses mosip identity plugin and showcases identity usecase
 3. [certify-sunbird-insurance.properties](certify-sunbird-insurance.properties) - Uses sunbird RC plugin and showcases insurance usecase
+4. [certify-postgres-landregistry.properties](certify-postgres-landregistry.properties) - Uses posgtres dataprovider plugin and showcases land registry and land statement usecases
 
 
 Each plugin-usecase property file will contain the below 3 sections
