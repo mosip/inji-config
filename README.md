@@ -31,7 +31,7 @@ When credential issuers are not hosting their wellknown, mimoto will host the fa
 Right now we will be maintaining the below 3 plugin-usecase property files, one for each plugin that is readily available for certify integration. 
 And each plugin is associated with an example usecase.
 
-1. [certify-mock-identity.properties](certify-mock-identity.properties) - Uses mock plugin and mock csv data provider plugin and showcases identity/farmer usecase
+1. [certify-mock-identity.properties](certify-mock-identity.properties) - Uses mock plugin and showcases identity usecase
 2. [certify-mosipid-identity.properties](certify-mosipid-identity.properties) - Uses mosip identity plugin and showcases identity usecase
 3. [certify-sunbird-insurance.properties](certify-sunbird-insurance.properties) - Uses sunbird RC plugin and showcases insurance usecase
 4. [certify-postgres-landregistry.properties](certify-postgres-landregistry.properties) - Uses posgtres dataprovider plugin and showcases land registry and land statement usecases
