@@ -140,6 +140,7 @@
       "token_endpoint": "https://${mosip.api.public.host}/v1/mimoto/get-token/Mosip",
       "proxy_token_endpoint": "https://${mosipid.identity.esignet.host}/v1/esignet/oauth/v2/token",
       "qr_code_type": "OnlineSharing",
+      "credential_issuer_host": "https://${mosip.injicertify.mosipid.host}",
       "enabled": "true"
     },
     {
@@ -165,6 +166,7 @@
       "token_endpoint": "https://${mosip.api.public.host}/v1/mimoto/get-token/StayProtected",
       "proxy_token_endpoint": "https://${sunbirdrc.insurance.esignet.host}/v1/esignet/oauth/v2/token",
       "qr_code_type": "OnlineSharing",
+      "credential_issuer_host": "https://${mosip.injicertify.insurance.host}",
       "enabled": "true"
     },
     {
@@ -190,6 +192,7 @@
       "token_endpoint": "https://${mosip.api.public.host}/v1/mimoto/get-token/Mock",
       "proxy_token_endpoint": "https://${mock.identity.esignet.host}/v1/esignet/oauth/v2/token",
       "qr_code_type": "OnlineSharing",
+      "credential_issuer_host": "https://${mosip.injicertify.mock.host}",
       "enabled": "true"
     },
     {
@@ -225,6 +228,7 @@
       "token_endpoint": "https://${mosip.api.public.host}/v1/mimoto/get-token/MockMdl",
       "proxy_token_endpoint": "https://${mock.identity.esignet.host}/v1/esignet/oauth/v2/token",
       "qr_code_type": "OnlineSharing",
+      "credential_issuer_host": "https://${mosip.injicertify.mock.host}",
       "enabled": "true"
     },
     {
@@ -300,6 +304,7 @@
       "token_endpoint": "https://${mosip.api.public.host}/v1/mimoto/get-token/StayProtected-Fallback",
       "proxy_token_endpoint": "https://${sunbirdrc.insurance.esignet.host}/v1/esignet/oauth/v2/token",
       "qr_code_type": "OnlineSharing",
+      "credential_issuer_host": "https://${mosip.injicertify.insurance.host}",
       "enabled": "true"
    },
     {
@@ -325,6 +330,7 @@
       "token_endpoint": "https://${mosip.api.public.host}/v1/mimoto/get-token/Mock-Fallback",
       "proxy_token_endpoint": "https://${mock.identity.esignet.host}/v1/esignet/oauth/v2/token",
       "qr_code_type": "OnlineSharing",
+      "credential_issuer_host": "https://${mosip.injicertify.mock.host}",
       "enabled": "true"
     },
     {
@@ -400,6 +406,7 @@
       "token_endpoint": "https://${mosip.api.public.host}/v1/mimoto/get-token/Mosip-Fallback",
       "proxy_token_endpoint": "https://${mosipid.identity.esignet.host}/v1/esignet/oauth/v2/token",
       "qr_code_type": "OnlineSharing",
+      "credential_issuer_host": "https://${mosip.injicertify.mosipid.host}",
       "enabled": "true"
     },
     {
@@ -425,6 +432,7 @@
       "token_endpoint": "https://${mosip.api.public.host}/v1/mimoto/get-token/Land",
       "proxy_token_endpoint": "https://${mock.identity.esignet.host}/v1/esignet/oauth/v2/token",
       "qr_code_type": "OnlineSharing",
+      "credential_issuer_host": "https://${mosip.injicertify.mock.host}",
       "enabled": "true"
     }
   ]
