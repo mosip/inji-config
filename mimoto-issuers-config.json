@@ -442,7 +442,7 @@
         }
       ],
       "protocol": "OpenId4VCI",
-      "client_id": "${mimoto.oidc.insurance.partner.clientid}",
+      "client_id": "esignet-sunbird-partner",
       "client_alias": "esignet-sunbird-partner",
       "wellknown_endpoint": "https://injicertify-insurance.collab.mosip.net/v1/certify/issuance/.well-known/openid-credential-issuer",
       "redirect_uri": "io.mosip.residentapp.inji://oauthredirect",
