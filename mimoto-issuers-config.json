@@ -6,17 +6,17 @@
         {
           "name": "MOSIP National ID",
           "logo": {
-            "url": "https://${mosip.api.public.host}/inji/mosip-logo.png",
+            "url": "https://mosip.github.io/inji-config/logos/mosipid-logo.png",
             "alt_text": "a square logo of MOSIP"
           },
           "title": "Download MOSIP Credentials via OTP",
-          "description":"Download credentials by providing UIN, VID or AID",
+          "description": "Download credentials by providing UIN, VID or AID",
           "language": "en"
         },
         {
           "name": "الهوية الوطنية MOSIP",
           "logo": {
-            "url": "https://${mosip.api.public.host}/inji/mosip-logo.png",
+            "url": "https://mosip.github.io/inji-config/logos/mosipid-logo.png",
             "alt_text": "شعار مربع لـ MOSIP"
           },
           "title": "قم بتنزيل بيانات اعتماد MOSIP عبر OTP",
@@ -26,17 +26,17 @@
         {
           "name": "एमओसिप राष्ट्रीय आईडी",
           "logo": {
-            "url": "https://${mosip.api.public.host}/inji/mosip-logo.png",
+            "url": "https://mosip.github.io/inji-config/logos/mosipid-logo.png",
             "alt_text": "MOSIP का एक वर्गाकार लोगो"
           },
           "title": "OTP के माध्यम से MOSIP क्रेडेंशियल डाउनलोड करें",
-          "description":"यूआईएन, वीआईडी या एआईडी प्रदान करके क्रेडेंशियल डाउनलोड करें",
+          "description": "यूआईएन, वीआईडी या एआईडी प्रदान करके क्रेडेंशियल डाउनलोड करें",
           "language": "hi"
         },
         {
           "name": "MOSIP ರಾಷ್ಟ್ರೀಯ ID",
           "logo": {
-            "url": "https://${mosip.api.public.host}/inji/mosip-logo.png",
+            "url": "https://mosip.github.io/inji-config/logos/mosipid-logo.png",
             "alt_text": "MOSIP ನ ಚದರ ಲೋಗೋ"
           },
           "title": "OTP ಮೂಲಕ MOSIP ರುಜುವಾತುಗಳನ್ನು ಡೌನ್ಲೋಡ್ ಮಾಡಿ",
@@ -46,21 +46,21 @@
         {
           "name": "MOSIP தேசிய ஐடி",
           "logo": {
-            "url": "https://${mosip.api.public.host}/inji/mosip-logo.png",
+            "url": "https://mosip.github.io/inji-config/logos/mosipid-logo.png",
             "alt_text": "MOSIP இன் சதுர லோகோ"
           },
           "title": "OTP வழியாக MOSIP சான்றுகளைப் பதிவிறக்கவும்",
-          "description":"UIN, VID அல்லது AID ஐ வழங்குவதன் மூலம் நற்சான்றிதழ்களைப் பதிவிறக்கவும்",
+          "description": "UIN, VID அல்லது AID ஐ வழங்குவதன் மூலம் நற்சான்றிதழ்களைப் பதிவிறக்கவும்",
           "language": "ta"
         },
         {
           "name": "MOSIP National ID",
           "logo": {
-            "url": "https://${mosip.api.public.host}/inji/mosip-logo.png",
+            "url": "https://mosip.github.io/inji-config/logos/mosipid-logo.png",
             "alt_text": "isang parisukat na logo ng MOSIP"
           },
           "title": "I-download ang Mga Kredensyal ng MOSIP sa pamamagitan ng OTP",
-          "description":"Mag-download ng mga kredensyal sa pamamagitan ng pagbibigay ng UIN, VID o AID",
+          "description": "Mag-download ng mga kredensyal sa pamamagitan ng pagbibigay ng UIN, VID o AID",
           "language": "fil"
         }
       ],
@@ -73,7 +73,7 @@
         {
           "name": "National Identity Department",
           "logo": {
-            "url": "https://${mosip.api.public.host}/inji/mosip-logo.png",
+            "url": "https://mosip.github.io/inji-config/logos/mosipid-logo.png",
             "alt_text": "mosip-logo"
           },
           "title": "National Identity Department",
@@ -83,7 +83,7 @@
         {
           "name": "دائرة الهوية الوطنية",
           "logo": {
-            "url": "https://${mosip.api.public.host}/inji/mosip-logo.png",
+            "url": "https://mosip.github.io/inji-config/logos/mosipid-logo.png",
             "alt_text": "شعار موسيب"
           },
           "title": "دائرة الهوية الوطنية",
@@ -93,7 +93,7 @@
         {
           "name": "राष्ट्रीय पहचान विभाग",
           "logo": {
-            "url": "https://${mosip.api.public.host}/inji/mosip-logo.png",
+            "url": "https://mosip.github.io/inji-config/logos/mosipid-logo.png",
             "alt_text": "मोसिप लोगो"
           },
           "title": "राष्ट्रीय पहचान विभाग",
@@ -103,7 +103,7 @@
         {
           "name": "ರಾಷ್ಟ್ರೀಯ ಗುರುತಿನ ಇಲಾಖೆ",
           "logo": {
-            "url": "https://${mosip.api.public.host}/inji/mosip-logo.png",
+            "url": "https://mosip.github.io/inji-config/logos/mosipid-logo.png",
             "alt_text": "mosip ಲೋಗೋ"
           },
           "title": "ರಾಷ್ಟ್ರೀಯ ಗುರುತಿನ ಇಲಾಖೆ",
@@ -113,7 +113,7 @@
         {
           "name": "தேசிய அடையாளத் துறை",
           "logo": {
-            "url": "https://${mosip.api.public.host}/inji/mosip-logo.png",
+            "url": "https://mosip.github.io/inji-config/logos/mosipid-logo.png",
             "alt_text": "mosip லோகோ"
           },
           "title": "தேசிய அடையாளத் துறை",
@@ -123,7 +123,7 @@
         {
           "name": "National Identity Department",
           "logo": {
-            "url": "https://${mosip.api.public.host}/inji/mosip-logo.png",
+            "url": "https://mosip.github.io/inji-config/logos/mosipid-logo.png",
             "alt_text": "logo ng mosip"
           },
           "title": "National Identity Department",
@@ -133,12 +133,12 @@
       ],
       "protocol": "OpenId4VCI",
       "client_id": "${mimoto.oidc.mosipid.partner.clientid}",
-      "client_alias": "mpartner-default-test-mosipid",
+      "client_alias": "mpartner-default-mimoto-mosipid-oidc",
       "wellknown_endpoint": "https://${mosip.injicertify.mosipid.host}/v1/certify/issuance/.well-known/openid-credential-issuer",
       "redirect_uri": "io.mosip.residentapp.inji://oauthredirect",
-      "authorization_audience": "https://${mosip.esignet.mosipid.host}/v1/esignet/oauth/v2/token",
+      "authorization_audience": "https://${mosipid.identity.esignet.host}/v1/esignet/oauth/v2/token",
       "token_endpoint": "https://${mosip.api.public.host}/v1/mimoto/get-token/Mosip",
-      "proxy_token_endpoint": "https://${mosip.esignet.mosipid.host}/v1/esignet/oauth/v2/token",
+      "proxy_token_endpoint": "https://${mosipid.identity.esignet.host}/v1/esignet/oauth/v2/token",
       "qr_code_type": "OnlineSharing",
       "enabled": "true"
     },
@@ -148,7 +148,7 @@
         {
           "name": "StayProtected Insurance",
           "logo": {
-            "url": "https://raw.githubusercontent.com/tw-mosip/file-server/master/StayProtectedInsurance.png",
+            "url": "https://mosip.github.io/inji-config/logos/StayProtectedInsurance.png",
             "alt_text": "a square logo of a Sunbird"
           },
           "language": "en",
@@ -157,38 +157,13 @@
         }
       ],
       "protocol": "OpenId4VCI",
-      "client_id": "${mimoto.oidc.sunbird.partner.clientid}",
-      "client_alias": "esignet-sunbird-partner",
+      "client_id": "${mimoto.oidc.insurance.partner.clientid}",
+      "client_alias": "mpartner-default-mimoto-insurance-oidc",
       "wellknown_endpoint": "https://${mosip.injicertify.insurance.host}/v1/certify/issuance/.well-known/openid-credential-issuer",
       "redirect_uri": "io.mosip.residentapp.inji://oauthredirect",
-      "authorization_audience": "https://${mosip.esignet.insurance.host}/v1/esignet/oauth/v2/token",
+      "authorization_audience": "https://${sunbirdrc.insurance.esignet.host}/v1/esignet/oauth/v2/token",
       "token_endpoint": "https://${mosip.api.public.host}/v1/mimoto/get-token/StayProtected",
-      "proxy_token_endpoint": "https://${mosip.esignet.insurance.host}/v1/esignet/oauth/v2/token",
-      "qr_code_type": "OnlineSharing",
-      "enabled": "true"
-    },
-    {
-      "credential_issuer": "Mock",
-      "display": [
-        {
-          "name": "Mock Identity",
-          "logo": {
-            "url": "https://${mosip.api.public.host}/inji/mosip-logo.png",
-            "alt_text": "mosip-logo"
-          },
-          "title": "Mock Identity",
-          "description": "Download Mock Identity Credential",
-          "language": "en"
-        }
-      ],
-      "protocol": "OpenId4VCI",
-      "client_id": "${mimoto.oidc.mock.partner.clientid}",
-      "client_alias": "mpartner-mock-testing",
-      "wellknown_endpoint": "https://${mosip.injicertify.mock.host}/v1/certify/issuance/.well-known/openid-credential-issuer",
-      "redirect_uri": "io.mosip.residentapp.inji://oauthredirect",
-      "authorization_audience": "https://${mosip.esignet.mock.host}/v1/esignet/oauth/v2/token",
-      "token_endpoint": "https://${mosip.api.public.host}/v1/mimoto/get-token/Mock",
-      "proxy_token_endpoint": "https://${mosip.esignet.mock.host}/v1/esignet/oauth/v2/token",
+      "proxy_token_endpoint": "https://${sunbirdrc.insurance.esignet.host}/v1/esignet/oauth/v2/token",
       "qr_code_type": "OnlineSharing",
       "enabled": "true"
     }
