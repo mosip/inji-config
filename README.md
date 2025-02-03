@@ -12,12 +12,6 @@ This Repository contains configurations for Inji Stack, These are the split up o
 - [mimoto-issuers-config.json](mimoto-issuers-config.json) - Configuration of All Supported Credential Issuers is mentioned here
 - [mimoto-trusted-verifiers.json](mimoto-trusted-verifiers.json) - Configuration of All Trusted Credential Verifiers is mentioned here
 
-When credential issuers are not hosting their wellknown, mimoto will host the fallback wellknown from config server
-
-- [mimoto-mock-identity-wellknown.json](mimoto-mock-identity-wellknown.json) - Fallback wellknown Configuration for Mock Identity usecase
-- [mimoto-mosipid-identity-wellknown.json](mimoto-mosipid-identity-wellknown.json) - Fallback wellknown Configuration for Mosipid Identity usecase
-- [mimoto-sunbird-insurance-wellknown.json](mimoto-sunbird-insurance-wellknown.json) - Fallback wellknown Configuration for Sunbird Insurance usecase
-
 ### DataShare
 
 - [data-share-default.properties](data-share-default.properties) - Default Configuration for Datashare is mentioned here
