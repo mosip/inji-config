@@ -3,6 +3,7 @@
     {
       "issuer_id": "MosipOtp",
       "credential_issuer": "MosipOtp",
+      "credential_issuer_host": "",
       "display": [
         {
           "name": "MOSIP National ID",
