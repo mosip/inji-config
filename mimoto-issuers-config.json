@@ -6,7 +6,7 @@
         {
           "name": "UIN, VID, AID",
           "logo": {
-            "url": "https://${mosip.api.public.host}/inji/mosip-logo.png",
+            "url": "https://mosip.github.io/inji-config/logos/mosipid-logo.png",
             "alt_text": "mosip logo"
           },
           "title": "Download MOSIP Credentials via OTP",
@@ -16,7 +16,7 @@
         {
           "name": "UIN, VID, AID",
           "logo": {
-            "url": "https://${mosip.api.public.host}/inji/mosip-logo.png",
+            "url": "https://mosip.github.io/inji-config/logos/mosipid-logo.png",
             "alt_text": "شعار موسيب"
           },
           "title": "قم بتنزيل بيانات اعتماد MOSIP عبر OTP",
@@ -26,7 +26,7 @@
         {
           "name": "UIN, VID, AID",
           "logo": {
-            "url": "https://${mosip.api.public.host}/inji/mosip-logo.png",
+            "url": "https://mosip.github.io/inji-config/logos/mosipid-logo.png",
             "alt_text": "मोसिप लोगो"
           },
           "title": "OTP के माध्यम से MOSIP क्रेडेंशियल डाउनलोड करें",
@@ -36,7 +36,7 @@
         {
           "name": "UIN, VID, AID",
           "logo": {
-            "url": "https://${mosip.api.public.host}/inji/mosip-logo.png",
+            "url": "https://mosip.github.io/inji-config/logos/mosipid-logo.png",
             "alt_text": "mosip ಲೋಗೋ"
           },
           "title": "OTP ಮೂಲಕ MOSIP ರುಜುವಾತುಗಳನ್ನು ಡೌನ್ಲೋಡ್ ಮಾಡಿ",
@@ -46,7 +46,7 @@
         {
           "name": "UIN, VID, AID",
           "logo": {
-            "url": "https://${mosip.api.public.host}/inji/mosip-logo.png",
+            "url": "https://mosip.github.io/inji-config/logos/mosipid-logo.png",
             "alt_text": "mosip சின்னம்"
           },
           "title": "OTP வழியாக MOSIP சான்றுகளைப் பதிவிறக்கவும்",
@@ -56,7 +56,7 @@
         {
           "name": "UIN, VID, AID",
           "logo": {
-            "url": "https://${mosip.api.public.host}/inji/mosip-logo.png",
+            "url": "https://mosip.github.io/inji-config/logos/mosipid-logo.png",
             "alt_text": "logo ng mosip"
           },
           "title": "I-download ang Mga Kredensyal ng MOSIP sa pamamagitan ng OTP",
@@ -73,7 +73,7 @@
         {
           "name": "Veridonia National ID Department",
           "logo": {
-            "url": "https://${mosip.api.public.host}/inji/veridonia-logo.png",
+            "url": "https://mosip.github.io/inji-config/logos/mosipid-logo.png",
             "alt_text": "a square logo of veridonia"
           },
           "title": "Veridonia National ID Department",
@@ -83,7 +83,7 @@
         {
           "name": "إدارة الهوية الوطنية فيريدونيا",
           "logo": {
-            "url": "https://${mosip.api.public.host}/inji/veridonia-logo.png",
+            "url": "https://mosip.github.io/inji-config/logos/mosipid-logo.png",
             "alt_text": "شعار مربع من veridonia"
           },
           "title": "إدارة الهوية الوطنية فيريدونيا",
@@ -93,7 +93,7 @@
         {
           "name": "वेरिडोनिया राष्ट्रीय आईडी विभाग",
           "logo": {
-            "url": "https://${mosip.api.public.host}/inji/veridonia-logo.png",
+            "url": "https://mosip.github.io/inji-config/logos/mosipid-logo.png",
             "alt_text": "वेरिडोनिया का एक वर्गाकार लोगो"
           },
           "title": "वेरिडोनिया राष्ट्रीय आईडी विभाग",
@@ -103,7 +103,7 @@
         {
           "name": "ವೆರಿಡೋನಿಯಾ ರಾಷ್ಟ್ರೀಯ ID ಇಲಾಖೆ",
           "logo": {
-            "url": "https://${mosip.api.public.host}/inji/veridonia-logo.png",
+            "url": "https://mosip.github.io/inji-config/logos/mosipid-logo.png",
             "alt_text": "ವೆರಿಡೋನಿಯಾದ ಚೌಕಾಕಾರದ ಲೋಗೋ"
           },
           "title": "ವೆರಿಡೋನಿಯಾ ರಾಷ್ಟ್ರೀಯ ID ಇಲಾಖೆ",
@@ -113,7 +113,7 @@
         {
           "name": "வெரிடோனியா தேசிய அடையாளத் துறை",
           "logo": {
-            "url": "https://${mosip.api.public.host}/inji/veridonia-logo.png",
+            "url": "https://mosip.github.io/inji-config/logos/mosipid-logo.png",
             "alt_text": "வெரிடோனியாவின் சதுர லோகோ"
           },
           "title": "வெரிடோனியா தேசிய அடையாளத் துறை",
@@ -123,7 +123,7 @@
         {
           "name": "Département national d'identité de Veridonia",
           "logo": {
-            "url": "https://${mosip.api.public.host}/inji/veridonia-logo.png",
+            "url": "https://mosip.github.io/inji-config/logos/mosipid-logo.png",
             "alt_text": "un logo carré de veridonia"
           },
           "title": "Département national d'identité de Veridonia",
@@ -148,7 +148,7 @@
         {
           "name": "StayProtected Insurance",
           "logo": {
-            "url": "https://raw.githubusercontent.com/tw-mosip/file-server/master/StayProtectedInsurance.png",
+            "url": "https://mosip.github.io/inji-config/logos/StayProtectedInsurance.png",
             "alt_text": "a square logo of a StayProtected"
           },
           "language": "en",
@@ -158,7 +158,7 @@
         {
           "name": "تأمين البقاء المحمي",
           "logo": {
-            "url": "https://raw.githubusercontent.com/tw-mosip/file-server/master/StayProtectedInsurance.png",
+            "url": "https://mosip.github.io/inji-config/logos/StayProtectedInsurance.png",
             "alt_text": "شعار مربع لـ StayProtected"
           },
           "language": "ar",
@@ -168,7 +168,7 @@
         {
           "name": "सुरक्षित रहें बीमा",
           "logo": {
-            "url": "https://raw.githubusercontent.com/tw-mosip/file-server/master/StayProtectedInsurance.png",
+            "url": "https://mosip.github.io/inji-config/logos/StayProtectedInsurance.png",
             "alt_text": "StayProtected का एक वर्गाकार लोगो"
           },
           "language": "hi",
@@ -178,7 +178,7 @@
         {
           "name": "ಸ್ಟೇ ರಕ್ಷಿತ ವಿಮೆ",
           "logo": {
-            "url": "https://raw.githubusercontent.com/tw-mosip/file-server/master/StayProtectedInsurance.png",
+            "url": "https://mosip.github.io/inji-config/logos/StayProtectedInsurance.png",
             "alt_text": "StayProtected ನ ಚೌಕಾಕಾರದ ಲೋಗೋ"
           },
           "language": "kn",
@@ -188,7 +188,7 @@
         {
           "name": "பாதுகாக்கப்பட்ட காப்பீடு",
           "logo": {
-            "url": "https://raw.githubusercontent.com/tw-mosip/file-server/master/StayProtectedInsurance.png",
+            "url": "https://mosip.github.io/inji-config/logos/StayProtectedInsurance.png",
             "alt_text": "StayProtected இன் சதுர லோகோ"
           },
           "language": "ta",
@@ -198,7 +198,7 @@
         {
           "name": "Assurance Restez Protégé",
           "logo": {
-            "url": "https://raw.githubusercontent.com/tw-mosip/file-server/master/StayProtectedInsurance.png",
+            "url": "https://mosip.github.io/inji-config/logos/StayProtectedInsurance.png",
             "alt_text": "un logo carré d'un StayProtected"
           },
           "language": "fr",
