@@ -1,7 +1,7 @@
 {
   "issuers": [
     {
-      "credential_issuer": "MosipOtp",
+      "issuer_id": "MosipOtp",
       "display": [
         {
           "name": "MOSIP National ID",
@@ -10,7 +10,7 @@
             "alt_text": "a square logo of MOSIP"
           },
           "title": "Download MOSIP Credentials via OTP",
-          "description":"Download credentials by providing UIN, VID or AID",
+          "description": "Download credentials by providing UIN, VID or AID",
           "language": "en"
         },
         {
@@ -30,7 +30,7 @@
             "alt_text": "MOSIP का एक वर्गाकार लोगो"
           },
           "title": "OTP के माध्यम से MOSIP क्रेडेंशियल डाउनलोड करें",
-          "description":"यूआईएन, वीआईडी या एआईडी प्रदान करके क्रेडेंशियल डाउनलोड करें",
+          "description": "यूआईएन, वीआईडी या एआईडी प्रदान करके क्रेडेंशियल डाउनलोड करें",
           "language": "hi"
         },
         {
@@ -50,7 +50,7 @@
             "alt_text": "MOSIP இன் சதுர லோகோ"
           },
           "title": "OTP வழியாக MOSIP சான்றுகளைப் பதிவிறக்கவும்",
-          "description":"UIN, VID அல்லது AID ஐ வழங்குவதன் மூலம் நற்சான்றிதழ்களைப் பதிவிறக்கவும்",
+          "description": "UIN, VID அல்லது AID ஐ வழங்குவதன் மூலம் நற்சான்றிதழ்களைப் பதிவிறக்கவும்",
           "language": "ta"
         },
         {
@@ -60,15 +60,16 @@
             "alt_text": "isang parisukat na logo ng MOSIP"
           },
           "title": "I-download ang Mga Kredensyal ng MOSIP sa pamamagitan ng OTP",
-          "description":"Mag-download ng mga kredensyal sa pamamagitan ng pagbibigay ng UIN, VID o AID",
+          "description": "Mag-download ng mga kredensyal sa pamamagitan ng pagbibigay ng UIN, VID o AID",
           "language": "fil"
         }
       ],
       "protocol": "OTP",
+      "credential_issuer_host": "MosipOtp",
       "enabled": "${mosip.otp.download.enable}"
     },
     {
-      "credential_issuer": "Mosip",
+      "issuer_id": "Mosip",
       "display": [
         {
           "name": "National Identity Department",
@@ -140,10 +141,12 @@
       "token_endpoint": "https://${mosip.api.public.host}/v1/mimoto/get-token/Mosip",
       "proxy_token_endpoint": "https://${mosip.esignet.mosipid.host}/v1/esignet/oauth/v2/token",
       "qr_code_type": "OnlineSharing",
+      "credential_issuer": "Mosip",
+      "credential_issuer_host": "https://${mosip.injicertify.mosipid.host}",
       "enabled": "true"
     },
     {
-      "credential_issuer": "StayProtected",
+      "issuer_id": "StayProtected",
       "display": [
         {
           "name": "StayProtected Insurance",
@@ -159,16 +162,15 @@
       "protocol": "OpenId4VCI",
       "client_id": "${mimoto.oidc.sunbird.partner.clientid}",
       "client_alias": "esignet-sunbird-partner",
-      "wellknown_endpoint": "https://${mosip.injicertify.insurance.host}/v1/certify/issuance/.well-known/openid-credential-issuer",
       "redirect_uri": "io.mosip.residentapp.inji://oauthredirect",
-      "authorization_audience": "https://${mosip.esignet.insurance.host}/v1/esignet/oauth/v2/token",
       "token_endpoint": "https://${mosip.api.public.host}/v1/mimoto/get-token/StayProtected",
-      "proxy_token_endpoint": "https://${mosip.esignet.insurance.host}/v1/esignet/oauth/v2/token",
       "qr_code_type": "OnlineSharing",
+      "credential_issuer": "StayProtected",
+      "credential_issuer_host": "https://${mosip.injicertify.insurance.host}",
       "enabled": "true"
     },
     {
-      "credential_issuer": "Mock",
+      "issuer_id": "Mock",
       "display": [
         {
           "name": "Mock Identity",
@@ -190,6 +192,99 @@
       "token_endpoint": "https://${mosip.api.public.host}/v1/mimoto/get-token/Mock",
       "proxy_token_endpoint": "https://${mosip.esignet.mock.host}/v1/esignet/oauth/v2/token",
       "qr_code_type": "OnlineSharing",
+      "credential_issuer": "Mock",
+      "credential_issuer_host": "https://${mosip.injicertify.mock.host}",
+      "enabled": "true"
+    },
+    {
+      "issuer_id": "CAR",
+      "display": [
+        {
+          "name": "Land Authority",
+          "logo": {
+            "url": "https://vharsh.github.io/demo/CAR.png",
+            "alt_text": "car-logo"
+          },
+          "title": "Land Authority",
+          "description": "Download Land Authority Issued Credential",
+          "language": "en"
+        },
+        {
+          "name": "Autoridade de Terras",
+          "logo": {
+            "url": "https://vharsh.github.io/demo/CAR.png",
+            "alt_text": "car-logo"
+          },
+          "title": "Autoridade de Terras",
+          "description": "Download Land Authority Issued Credential",
+          "language": "pt"
+        }
+      ],
+      "protocol": "OpenId4VCI",
+      "client_id": "${mimoto.oidc.cp1.partner.clientid}",
+      "client_alias": "mpartner-cp01-mimoto-mock-oidc",
+      "wellknown_endpoint": "https://${mosip.injicertify.cp1.host}/v1/certify/issuance/.well-known/openid-credential-issuer",
+      "redirect_uri": "io.mosip.residentapp.inji://oauthredirect",
+      "authorization_audience": "https://${mosip.esignet.mock.host}/v1/esignet/oauth/v2/token",
+      "token_endpoint": "https://${mosip.injiweb.cp1.host}/v1/mimoto/get-token/CAR",
+      "proxy_token_endpoint": "https://${mosip.esignet.mock.host}/v1/esignet/oauth/v2/token",
+      "qr_code_type": "OnlineSharing",
+      "credential_issuer": "CAR",
+      "credential_issuer_host": "https://${mosip.injicertify.cp1.host}",
+      "enabled": "true"
+    },
+    {
+      "issuer_id": "mockFarmer",
+      "display": [
+        {
+          "name": "Farmers Credentials Local",
+          "logo": {
+            "url": "https://${mosip.api.public.host}/inji/mosip-logo.png",
+            "alt_text": "mosip-logo"
+          },
+          "title": "Farmers Credentials Local",
+          "description": "Download Farmers Credentials",
+          "language": "en"
+        }
+      ],
+      "protocol": "OpenId4VCI",
+      "client_id": "${mimoto.oidc.mock.partner.clientid}",
+      "client_alias": "mpartner-mock-testing",
+      "wellknown_endpoint": "https://${mosip.injicertify.mock.host}/v1/certify/issuance/.well-known/openid-credential-issuer",
+      "redirect_uri": "io.mosip.residentapp.inji://oauthredirect",
+      "authorization_audience": "https://${mosip.esignet.mock.host}/v1/esignet/oauth/v2/token",
+      "token_endpoint": "https://${mosip.api.public.host}/v1/mimoto/get-token/mockFarmer",
+      "proxy_token_endpoint": "https://${mosip.esignet.mock.host}/v1/esignet/oauth/v2/token",
+      "qr_code_type": "EmbeddedVC",
+      "credential_issuer": "mockFarmer",
+      "credential_issuer_host": "https://${mosip.injicertify.mock.host}",
+      "enabled": "true"
+    },
+    {
+      "issuer_id": "mockFarmer1",
+      "display": [
+        {
+          "name": "Farmers Credentials",
+          "logo": {
+            "url": "https://${mosip.api.public.host}/inji/mosip-logo.png",
+            "alt_text": "mosip-logo"
+          },
+          "title": "Farmers Credentials",
+          "description": "Download Farmers Credentials",
+          "language": "en"
+        }
+      ],
+      "protocol": "OpenId4VCI",
+      "client_id": "${mimoto.oidc.mock.partner.clientid}",
+      "client_alias": "mpartner-mock-testing",
+      "wellknown_endpoint": "https://${mosip.injicertify.cp1.host}/v1/certify/issuance/.well-known/openid-credential-issuer",
+      "redirect_uri": "io.mosip.residentapp.inji://oauthredirect",
+      "authorization_audience": "https://${mosip.esignet.mock.host}/v1/esignet/oauth/v2/token",
+      "token_endpoint": "https://${mosip.api.public.host}/v1/mimoto/get-token/mockFarmer1",
+      "proxy_token_endpoint": "https://${mosip.esignet.mock.host}/v1/esignet/oauth/v2/token",
+      "qr_code_type": "OnlineSharing",
+      "credential_issuer": "mockFarmer1",
+      "credential_issuer_host": "https://${mosip.injicertify.cp1.host}",
       "enabled": "true"
     }
   ]
