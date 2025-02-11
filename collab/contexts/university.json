@@ -1,0 +1,22 @@
+{
+    "@context": {
+        "@version": 1.1,
+        "@protected": true,
+        "type": "@type",
+        "schema": "https://schema.org/",
+        "UniversityCredential": {
+            "@id": "https://mosip.github.io/inji-config/collab/contexts/university.json#UniversityCredential"
+        },
+        "rollNumber": "schema:Number",
+        "studentName": "schema:name",
+        "courseName": "schema:Text",
+        "courseDivisionName": "schema:Text",
+        "courseDuration": "schema:Text",
+        "result": "schema:Text",
+        "gender": "schema:gender",
+        "dateOfBirth": "schema:birthDate",
+        "startDate": "schema:date",
+        "completionDate": "schema:date",
+        "face": "schema:Text"
+    }
+}
