@@ -6,7 +6,7 @@
         "https://${mosip.injiverify.host}/redirect"
       ],
       "response_uris": [
-        "https://b847-2401-4900-8838-b8e1-117f-35b6-f3e4-5787.ngrok-free.app/verifier/vp-response"
+        "https://10ee-2409-40f2-1039-abaf-9d5a-99d-d9ae-3d4a.ngrok-free.app/verifier/vp-response"
       ]
     }
   ]
