@@ -1,0 +1,26 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@protected": true,
+    "type": "@type",
+    "schema": "https://schema.org/ ",
+    "TravelPassCredential": {
+      "@id": "https://mosip.github.io/inji-config/contexts/travel-pass-context.json#TravelPassCredential"
+    },
+    "Travel Pass ID": "schema:Number",
+    "UIN": "schema:Text",
+    "FullName": "schema:Text",
+    "PhoneNumber": "schema:Integer",
+    "Gender": "schema:Text",
+    "InvoiceNumber": "schema:Text",
+    "InvoiceDate": "schema:Date",
+    "ExporterName": "schema:Text",
+    "ImporterName": "schema:Text",
+    "TruckLicensePlateNumber": "schema:Text",
+    "CrossBorderEntryExitPost": "schema:Text",
+    "DateOfDeparture": "schema:Date",
+    "DateOfReturn": "schema:Date",
+    "CountryOfOrigin": "schema:Text",
+    "CountryOfDestination": "schema:Text"
+  }
+}
