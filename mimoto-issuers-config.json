@@ -564,6 +564,83 @@
       "proxy_token_endpoint": "https://${mock.identity.esignet.collab.host}/v1/esignet/oauth/v2/token",
       "qr_code_type": "OnlineSharing",
       "enabled": "true"
+    },
+    {
+      "issuer_id": "MosipTAN",
+      "credential_issuer": "MosipTAN",
+      "credential_issuer_host": "https://injicertify-tan.dev2.mosip.net",
+      "display": [
+        {
+          "name": "Veridonia Income Tax Department",
+          "logo": {
+            "url": "https://mosip.github.io/inji-config/logos/mosipid-logo.png",
+            "alt_text": "a square logo of veridonia"
+          },
+          "title": "Veridonia Income Tax Department",
+          "description": "Download Tax ID credential",
+          "language": "en"
+        },
+        {
+          "name": "إدارة ضريبة الدخل في فيريدونيا",
+          "logo": {
+            "url": "https://mosip.github.io/inji-config/logos/mosipid-logo.png",
+            "alt_text": "a square logo of veridonia"
+          },
+          "title": "إدارة ضريبة الدخل في فيريدونيا",
+          "description": "تنزيل بيانات اعتماد المعرف الضريبي",
+          "language": "ar"
+        },
+        {
+          "name": "वेरिडोनिया आयकर विभाग",
+          "logo": {
+            "url": "https://mosip.github.io/inji-config/logos/mosipid-logo.png",
+            "alt_text": "a square logo of veridonia"
+          },
+          "title": "वेरिडोनिया आयकर विभाग",
+          "description": "टैक्स आईडी क्रेडेंशियल डाउनलोड करें",
+          "language": "hi"
+        },
+        {
+          "name": "ವೆರಿಡೋನಿಯಾ ಆದಾಯ ತೆರಿಗೆ ಇಲಾಖೆ",
+          "logo": {
+            "url": "https://mosip.github.io/inji-config/logos/mosipid-logo.png",
+            "alt_text": "a square logo of veridonia"
+          },
+          "title": "ವೆರಿಡೋನಿಯಾ ಆದಾಯ ತೆರಿಗೆ ಇಲಾಖೆ",
+          "description": "ತೆರಿಗೆ ID ರುಜುವಾತುಗಳನ್ನು ಡೌನ್ ಲೋಡ್ ಮಾಡಿ",
+          "language": "kn"
+        },
+        {
+          "name": "Département de l'impôt sur le revenu de Veridonia",
+          "logo": {
+            "url": "https://mosip.github.io/inji-config/logos/mosipid-logo.png",
+            "alt_text": "a square logo of veridonia"
+          },
+          "title": "Département de l'impôt sur le revenu de Veridonia",
+          "description": "Télécharger l'identifiant fiscal",
+          "language": "fr"
+        },
+        {
+          "name": "Veridonia Tax Department",
+          "logo": {
+            "url": "https://mosip.github.io/inji-config/logos/mosipid-logo.png",
+            "alt_text": "a square logo of veridonia"
+          },
+          "title": "Veridonia Tax Department",
+          "description": "Download Kredensyal sa Tax ID",
+          "language": "fil"
+        }
+      ],
+      "protocol": "OpenId4VCI",
+      "client_id": "${mimoto.oidc.mosipid.partner.collab.clientid}",
+      "client_alias": "mpartner-default-mimoto-mosipid-oidc-client",
+      "wellknown_endpoint": "https://injicertify-tan.dev2.mosip.net/v1/certify/issuance/.well-known/openid-credential-issuer",
+      "redirect_uri": "io.mosip.residentapp.inji://oauthredirect",
+      "token_endpoint": "https://${mosip.api.public.host}/v1/mimoto/get-token/MosipTAN",
+      "authorization_audience": "https://${mosipid.identity.esignet.collab.host}/v1/esignet/oauth/v2/token",
+      "proxy_token_endpoint": "https://${mosipid.identity.esignet.collab.host}/v1/esignet/oauth/v2/token",
+      "qr_code_type": "OnlineSharing",
+      "enabled": "true"
     }
   ]
 }
