@@ -568,7 +568,7 @@
     {
       "issuer_id": "MosipTAN",
       "credential_issuer": "MosipTAN",
-      "credential_issuer_host": "https://injicertify-tan.dev2.mosip.net",
+      "credential_issuer_host": "https://injicertify-tan.dev2.mosip.net/v1/certify/issuance",
       "display": [
         {
           "name": "Veridonia Income Tax Department",
