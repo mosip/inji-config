@@ -4,7 +4,7 @@
         "@protected": true,
         "type": "@type",
         "schema": "https://schema.org/",
-        "UniversityCredential": {
+        "IncomeTaxAccountCredential": {
             "@id": "https://mosip.github.io/inji-config/dev2/contexts/tan.json#IncomeTaxAccountCredential"
         },
         "fullName": "schema:name",
