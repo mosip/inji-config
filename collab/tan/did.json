@@ -6,7 +6,7 @@
   "id": "did:web:mosip.github.io:inji-config:collab:tan",
   "verificationMethod": [
     {
-      "publicKeyMultibase": "z6MkmAbvKQotnbRhWE1GqmmtqELxDAJ5Gn499BgKiWCvdNJx",
+      "publicKeyMultibase": "z6MkpDKAA5Cu8fR6myHVfTbcbtPzmjCN894H5mvEmfQRqEtW",
       "controller": "did:web:mosip.github.io:inji-config:collab:tan",
       "id": "did:web:mosip.github.io:inji-config:collab:tan#key-0",
       "type": "Ed25519VerificationKey2020",
