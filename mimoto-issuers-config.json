@@ -232,8 +232,8 @@
             "url": "https://mosip.github.io/inji-config/logos/travel.png",
             "alt_text": "Travel logo"
           },
-          "title": "TravelPass",
-          "description": "Download Travel License",
+          "title": "TravelPass Credential",
+          "description": "Download TravelPass",
           "language": "en"
         }
       ],
