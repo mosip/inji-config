@@ -4,10 +4,10 @@
     "@protected": true,
     "type": "@type",
     "schema": "https://schema.org/ ",
-    "TravelPassCredential": {
-      "@id": "https://mosip.github.io/inji-config/contexts/travel-pass-context.json#TravelPassCredential"
+    "TruckPassCredential": {
+      "@id": "https://mosip.github.io/inji-config/contexts/truck-pass-context.json#TruckPassCredential"
     },
-    "Travel Pass ID": "schema:Number",
+    "Truck Pass ID": "schema:Text",
     "UIN": "schema:Text",
     "FullName": "schema:Text",
     "PhoneNumber": "schema:Integer",
@@ -21,6 +21,7 @@
     "DateOfDeparture": "schema:Date",
     "DateOfReturn": "schema:Date",
     "CountryOfOrigin": "schema:Text",
-    "CountryOfDestination": "schema:Text"
+    "CountryOfDestination": "schema:Text",
+    "AxleSize": "schema:Text"
   }
 }
