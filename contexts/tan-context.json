@@ -7,12 +7,12 @@
         "IncomeTaxAccountCredential": {
             "@id": "https://mosip.github.io/inji-config/contexts/tan-context.json#IncomeTaxAccountCredential"
         },
-        "fullName": "schema:name",
-        "dateOfBirth": "schema:birthDate",
+        "fullName": "schema:Text",
+        "dateOfBirth": "schema:Text",
         "email": "schema:Text",
         "phoneNumber": "schema:Text",
         "tan": "schema:Text",
-        "gender": "schema:gender",
+        "gender": "schema:Text",
         "address": "schema:Text",
         "issuedOn": "schema:date",
         "expiresOn": "schema:date"
