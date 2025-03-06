@@ -71,64 +71,74 @@
       "credential_issuer": "Mosip",
       "display": [
         {
-          "name": "Veridonia National ID Department",
+          "name": "Republic of Veridonia National ID Department",
           "logo": {
             "url": "https://mosip.github.io/inji-config/logos/mosipid-logo.png",
             "alt_text": "a square logo of veridonia"
           },
-          "title": "Veridonia National ID Department",
+          "title": "Republic of Veridonia National ID Department",
           "description": "Download National ID credential",
           "language": "en"
         },
         {
-          "name": "إدارة الهوية الوطنية فيريدونيا",
+          "name": "إدارة الهوية الوطنية لجمهورية فيريدونيا",
           "logo": {
             "url": "https://mosip.github.io/inji-config/logos/mosipid-logo.png",
             "alt_text": "شعار مربع من veridonia"
           },
-          "title": "إدارة الهوية الوطنية فيريدونيا",
+          "title": "إدارة الهوية الوطنية لجمهورية فيريدونيا",
           "description": "تحميل بطاقة الهوية الوطنية",
           "language": "ar"
         },
         {
-          "name": "वेरिडोनिया राष्ट्रीय आईडी विभाग",
+          "name": "वेरिडोनिया गणराज्य राष्ट्रीय आईडी विभाग",
           "logo": {
             "url": "https://mosip.github.io/inji-config/logos/mosipid-logo.png",
             "alt_text": "वेरिडोनिया का एक वर्गाकार लोगो"
           },
-          "title": "वेरिडोनिया राष्ट्रीय आईडी विभाग",
+          "title": "वेरिडोनिया गणराज्य राष्ट्रीय आईडी विभाग",
           "description": "राष्ट्रीय आईडी क्रेडेंशियल डाउनलोड करें",
           "language": "hi"
         },
         {
-          "name": "ವೆರಿಡೋನಿಯಾ ರಾಷ್ಟ್ರೀಯ ID ಇಲಾಖೆ",
+          "name": "ರಿಪಬ್ಲಿಕ್ ಆಫ್ ವೆರಿಡೋನಿಯಾ ರಾಷ್ಟ್ರೀಯ ID ಇಲಾಖೆ",
           "logo": {
             "url": "https://mosip.github.io/inji-config/logos/mosipid-logo.png",
             "alt_text": "ವೆರಿಡೋನಿಯಾದ ಚೌಕಾಕಾರದ ಲೋಗೋ"
           },
-          "title": "ವೆರಿಡೋನಿಯಾ ರಾಷ್ಟ್ರೀಯ ID ಇಲಾಖೆ",
+          "title": "ರಿಪಬ್ಲಿಕ್ ಆಫ್ ವೆರಿಡೋನಿಯಾ ರಾಷ್ಟ್ರೀಯ ID ಇಲಾಖೆ",
           "description": "ರಾಷ್ಟ್ರೀಯ ID ರುಜುವಾತುಗಳನ್ನು ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ",
           "language": "kn"
         },
         {
-          "name": "வெரிடோனியா தேசிய அடையாளத் துறை",
+          "name": "வெரிடோனியா குடியரசின் தேசிய அடையாள அட்டைத் துறை",
           "logo": {
             "url": "https://mosip.github.io/inji-config/logos/mosipid-logo.png",
             "alt_text": "வெரிடோனியாவின் சதுர லோகோ"
           },
-          "title": "வெரிடோனியா தேசிய அடையாளத் துறை",
+          "title": "வெரிடோனியா குடியரசின் தேசிய அடையாள அட்டைத் துறை",
           "description": "தேசிய அடையாளச் சான்றிதழைப் பதிவிறக்கவும்",
           "language": "ta"
         },
         {
-          "name": "Département national d'identité de Veridonia",
+          "name": "Département national d'identification de la République de Veridonia",
           "logo": {
             "url": "https://mosip.github.io/inji-config/logos/mosipid-logo.png",
             "alt_text": "un logo carré de veridonia"
           },
-          "title": "Département national d'identité de Veridonia",
+          "title": "Département national d'identification de la République de Veridonia",
           "description": "Télécharger le titre d'identité nationale",
           "language": "fr"
+        },
+        {
+          "name": "Departamento de Identificación Nacional de la República de Veridonia",
+          "logo": {
+            "url": "https://mosip.github.io/inji-config/logos/mosipid-logo.png",
+            "alt_text": "un logo carré de veridonia"
+          },
+          "title": "Departamento de Identificación Nacional de la República de Veridonia",
+          "description": "Télécharger le titre d'identité nationale",
+          "language": "es"
         }
       ],
       "protocol": "OpenId4VCI",
@@ -291,6 +301,93 @@
       "proxy_token_endpoint": "https://${mosip.esignet.host}/v1/esignet/oauth/v2/token",
       "qr_code_type": "OnlineSharing",
       "enabled": "false"
+    },
+    {
+      "issuer_id": "MosipTAN",
+      "credential_issuer": "MosipTAN",
+      "credential_issuer_host": "https://injicertify-tan.collab.mosip.net/v1/certify/issuance",
+      "display": [
+        {
+          "name": "Republic of Veridonia Tax Department",
+          "logo": {
+            "url": "https://mosip.github.io/inji-config/logos/tan-logo.png",
+            "alt_text": "Tax Account Credential logo"
+          },
+          "title": "Republic of Veridonia Tax Department",
+          "description": "Download Tax ID credential",
+          "language": "en"
+        },
+        {
+          "name": "إدارة الضرائب في جمهورية فيريدونيا",
+          "logo": {
+            "url": "https://mosip.github.io/inji-config/logos/tan-logo.png",
+            "alt_text": "Tax Account Credential logo"
+          },
+          "title": "إدارة الضرائب في جمهورية فيريدونيا",
+          "description": "تنزيل بيانات اعتماد المعرف الضريبي",
+          "language": "ar"
+        },
+        {
+          "name": "वेरिडोनिया कर विभाग गणराज्य",
+          "logo": {
+            "url": "https://mosip.github.io/inji-config/logos/tan-logo.png",
+            "alt_text": "Tax Account Credential logo"
+          },
+          "title": "वेरिडोनिया कर विभाग गणराज्य",
+          "description": "टैक्स आईडी क्रेडेंशियल डाउनलोड करें",
+          "language": "hi"
+        },
+        {
+          "name": "ರಿಪಬ್ಲಿಕ್ ಆಫ್ ವೆರಿಡೋನಿಯಾ ತೆರಿಗೆ ಇಲಾಖೆ",
+          "logo": {
+            "url": "https://mosip.github.io/inji-config/logos/tan-logo.png",
+            "alt_text": "Tax Account Credential logo"
+          },
+          "title": "ರಿಪಬ್ಲಿಕ್ ಆಫ್ ವೆರಿಡೋನಿಯಾ ತೆರಿಗೆ ಇಲಾಖೆ",
+          "description": "ತೆರಿಗೆ ID ರುಜುವಾತುಗಳನ್ನು ಡೌನ್ ಲೋಡ್ ಮಾಡಿ",
+          "language": "kn"
+        },
+        {
+          "name": "Département des impôts de la République de Veridonia",
+          "logo": {
+            "url": "https://mosip.github.io/inji-config/logos/tan-logo.png",
+            "alt_text": "Tax Account Credential logo"
+          },
+          "title": "Département des impôts de la République de Veridonia",
+          "description": "Télécharger l'identifiant fiscal",
+          "language": "fr"
+        },
+        {
+          "name": "Kagawaran ng Buwis sa Republika ng Veridonia",
+          "logo": {
+            "url": "https://mosip.github.io/inji-config/logos/tan-logo.png",
+            "alt_text": "Tax Account Credential logo"
+          },
+          "title": "Kagawaran ng Buwis sa Republika ng Veridonia",
+          "description": "Download Kredensyal sa Tax ID",
+          "language": "fil"
+        },
+        {
+          "name": "Departamento de Impuestos de la República de Veridonia",
+          "logo": {
+            "url": "https://mosip.github.io/inji-config/logos/tan-logo.png",
+            "alt_text": "Tax Account Credential logo"
+          },
+          "title": "Departamento de Impuestos de la República de Veridonia",
+          "description": "Download Kredensyal sa Tax ID",
+          "language": "es"
+        }
+      ],
+      "protocol": "OpenId4VCI",
+      "client_id": "${mimoto.oidc.mosipid.partner.collab.clientid}",
+      "client_alias": "mpartner-default-mimoto-mosipid-oidc-client",
+      "wellknown_endpoint": "https://injicertify-tan.collab.mosip.net/v1/certify/issuance/.well-known/openid-credential-issuer",
+      "redirect_uri": "io.mosip.residentapp.inji://oauthredirect",
+      "token_endpoint": "https://${mosip.api.public.host}/v1/mimoto/get-token/MosipTAN",
+      "authorization_audience": "https://${mosipid.identity.esignet.collab.host}/v1/esignet/oauth/v2/token",
+      "proxy_token_endpoint": "https://${mosipid.identity.esignet.collab.host}/v1/esignet/oauth/v2/token",
+      "qr_code_type": "EmbeddedVC",
+      "enabled": "true"
     }
   ]
 }
