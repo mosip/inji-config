@@ -647,7 +647,7 @@
       "credential_issuer_host": "https://${mosip.injicertify.mosipid.host}",
       "display": [
         {
-          "name": "National Identity Department",
+          "name": "Veridonia National Identity Department",
           "logo": {
             "url": "https://mosip.github.io/inji-config/logos/veridonia-logo.png",
             "alt_text": "mosip-logo"
