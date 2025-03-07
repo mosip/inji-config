@@ -379,7 +379,7 @@
         }
       ],
       "protocol": "OpenId4VCI",
-      "client_id": "${mimoto.oidc.mosipid.partner.collab.clientid}",
+      "client_id": "${mimoto.oidc.mosipid.partner.clientid}",
       "client_alias": "mpartner-default-mimoto-mosipid-oidc-client",
       "wellknown_endpoint": "https://injicertify-tan.collab.mosip.net/v1/certify/issuance/.well-known/openid-credential-issuer",
       "redirect_uri": "io.mosip.residentapp.inji://oauthredirect",
