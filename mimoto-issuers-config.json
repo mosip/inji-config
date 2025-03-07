@@ -72,8 +72,8 @@
       "wellknown_endpoint": "https://${mosip.injicertify.mosipid.host}/v1/certify/issuance/.well-known/openid-credential-issuer",
       "redirect_uri": "io.mosip.residentapp.inji://oauthredirect",
       "token_endpoint": "https://${mosip.api.public.host}/v1/mimoto/get-token/Mosip",
-      "authorization_audience": "https://${mosipid.identity.esignet.host}/v1/esignet/oauth/v2/token",
-      "proxy_token_endpoint": "https://${mosipid.identity.esignet.host}/v1/esignet/oauth/v2/token",
+      "authorization_audience": "https://${mosipid.identity.esignet.devintinji.host}/v1/esignet/oauth/v2/token",
+      "proxy_token_endpoint": "https://${mosipid.identity.devintinji.esignet.host}/v1/esignet/oauth/v2/token",
       "qr_code_type": "OnlineSharing",
       "enabled": "true"
     },
