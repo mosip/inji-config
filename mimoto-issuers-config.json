@@ -396,6 +396,70 @@
       "proxy_token_endpoint": "https://${mosip.esignet.mosipid.host}/v1/esignet/oauth/v2/token",
       "qr_code_type": "EmbeddedVC",
       "enabled": "true"
+    },
+    {
+      "issuer_id":"Land",
+      "credential_issuer": "Land",
+      "credential_issuer_host":"https://${mosip.injicertify.landregistry.host}",
+      "display": [
+        {
+          "name": "AgroVeritas Property & Land Registry",
+          "logo": {
+            "url": "https://mosip.github.io/inji-config/logos/agro-vertias-logo.png",
+            "alt_text": "land-logo"
+          },
+          "title": "AgroVeritas Property & Land Registry",
+          "description": "Download Land Registry Credential",
+          "language": "en"
+        }
+      ],
+      "protocol": "OpenId4VCI",
+      "client_id": "${mimoto.oidc.land.partner.clientid}",
+      "client_alias": "mpartner-default-mimoto-land-oidc",
+      "wellknown_endpoint": "https://${mosip.injicertify.landregistry.host}/v1/certify/issuance/.well-known/openid-credential-issuer",
+      "redirect_uri": "io.mosip.residentapp.inji://oauthredirect",
+      "authorization_audience": "https://${mosip.esignet.mock.host}/v1/esignet/oauth/v2/token",
+      "token_endpoint": "https://${mosip.api.public.host}/v1/mimoto/get-token/Land",
+      "proxy_token_endpoint": "https://${mosip.esignet.mock.host}/v1/esignet/oauth/v2/token",
+      "qr_code_type": "OnlineSharing",
+      "enabled": "true"
+    },
+    {
+      "issuer_id": "MockMdl",
+      "credential_issuer": "MockMdl",
+      "credential_issuer_host": "https://${mosip.injicertify.mdl.host}",
+      "display": [
+        {
+          "name": "Veridonia Department of Motor Vehicles",
+          "logo": {
+            "url": "https://mosip.github.io/inji-config/logos/mosipid-logo.png",
+            "alt_text": "mosip-logo"
+          },
+          "title": "Veridonia Department of Motor Vehicles",
+          "description": "Download Mock Mobile Driving License",
+          "language": "en"
+        },
+        {
+          "name": "Pilka mobiiliajokortti",
+          "logo": {
+            "url": "https://mosip.github.io/inji-config/logos/mosipid-logo.png",
+            "alt_text": "mosip-logo"
+          },
+          "title": "Pilka mobiiliajokortti",
+          "description": "Lataa Mock Mobile -ajokortti",
+          "language": "fi"
+        }
+      ],
+      "protocol": "OpenId4VCI",
+      "client_id": "${mimoto.oidc.mdl.partner.clientid}",
+      "client_alias": "mpartner-default-mimoto-mdl-oidc",
+      "wellknown_endpoint": "https://${mosip.injicertify.mdl.host}/v1/certify/issuance/.well-known/openid-credential-issuer",
+      "redirect_uri": "io.mosip.residentapp.inji://oauthredirect",
+      "authorization_audience": "https://${mosip.esignet.mock.host}/v1/esignet/oauth/v2/token",
+      "token_endpoint": "https://${mosip.api.public.host}/v1/mimoto/get-token/MockMdl",
+      "proxy_token_endpoint": "https://${mosip.esignet.mock.host}/v1/esignet/oauth/v2/token",
+      "qr_code_type": "OnlineSharing",
+      "enabled": "true"
     }
   ]
 }
