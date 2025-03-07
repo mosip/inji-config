@@ -1,7 +1,9 @@
 {
   "issuers": [
     {
+      "issuer_id": "MosipOtp",
       "credential_issuer": "MosipOtp",
+      "credential_issuer_host": "https://${mosip.injicertify.mosipid.host}",
       "display": [
         {
           "name": "UIN, VID, AID",
@@ -68,7 +70,9 @@
       "enabled": "false"
     },
     {
+      "issuer_id": "Mosip",
       "credential_issuer": "Mosip",
+      "credential_issuer_host": "https://${mosip.injicertify.mosipid.host}",
       "display": [
         {
           "name": "Republic of Veridonia National ID Department",
@@ -153,7 +157,9 @@
       "enabled": "true"
     },
     {
+      "issuer_id": "StayProtected",
       "credential_issuer": "StayProtected",
+      "credential_issuer_host": "https://${mosip.injicertify.insurance.host}",
       "display": [
         {
           "name": "StayProtected Insurance",
@@ -228,7 +234,9 @@
       "enabled": "true"
     },
     {
+      "issuer_id": "OpenG2PSocialCashTransferProgram",
       "credential_issuer": "OpenG2PSocialCashTransferProgram",
+      "credential_issuer_host": "https://explore.openg2p.org/",
       "display": [
         {
           "name": "Social Welfare Department",
