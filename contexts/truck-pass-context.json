@@ -10,7 +10,7 @@
     "Truck Pass ID": "schema:Text",
     "UIN": "schema:Text",
     "FullName": "schema:Text",
-    "PhoneNumber": "schema:Integer",
+    "PhoneNumber": "schema:Text",
     "Gender": "schema:Text",
     "InvoiceNumber": "schema:Text",
     "InvoiceDate": "schema:Date",
