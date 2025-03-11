@@ -295,7 +295,7 @@
       "credential_issuer_host": "https://${mosip.injicertify.mdl.released.host}",
       "display": [
         {
-          "name": "Mock Mobile Driving License (Released",
+          "name": "Mock Mobile Driving License",
           "logo": {
             "url": "https://mosip.github.io/inji-config/logos/mosipid-logo.png",
             "alt_text": "mosip-logo"
