@@ -78,12 +78,12 @@
       "enabled": "true"
     },
     {
-      "issuer_id": "StayProtected",
-      "credential_issuer": "StayProtected",
+      "issuer_id": "StayProtected(QA)",
+      "credential_issuer": "StayProtected(QA)",
       "credential_issuer_host": "https://${mosip.injicertify.insurance.host}",
       "display": [
         {
-          "name": "StayProtected Insurance",
+          "name": "StayProtected Insurance(QA)",
           "logo": {
             "url": "https://mosip.github.io/inji-config/logos/StayProtectedInsurance.png",
             "alt_text": "a square logo of a Sunbird"
@@ -98,19 +98,19 @@
       "client_alias": "mpartner-default-mimoto-insurance-oidc",
       "wellknown_endpoint": "https://${mosip.injicertify.insurance.host}/v1/certify/issuance/.well-known/openid-credential-issuer",
       "redirect_uri": "io.mosip.residentapp.inji://oauthredirect",
-      "token_endpoint": "https://${mosip.api.public.host}/v1/mimoto/get-token/StayProtected",
+      "token_endpoint": "https://${mosip.api.public.host}/v1/mimoto/get-token/StayProtected(QA)",
       "authorization_audience": "https://${sunbirdrc.insurance.esignet.host}/v1/esignet/oauth/v2/token",
       "proxy_token_endpoint": "https://${sunbirdrc.insurance.esignet.host}/v1/esignet/oauth/v2/token",
       "qr_code_type": "OnlineSharing",
       "enabled": "true"
     },
     {
-      "issuer_id": "Mock",
-      "credential_issuer": "Mock",
+      "issuer_id": "Mock(QA)",
+      "credential_issuer": "Mock(QA)",
       "credential_issuer_host": "https://${mosip.injicertify.mock.host}",
       "display": [
         {
-          "name": "Mock Identity",
+          "name": "Mock Identity(QA)",
           "logo": {
             "url": "https://mosip.github.io/inji-config/logos/mosipid-logo.png",
             "alt_text": "mosip-logo"
@@ -126,7 +126,7 @@
       "wellknown_endpoint": "https://${mosip.injicertify.mock.host}/v1/certify/issuance/.well-known/openid-credential-issuer",
       "redirect_uri": "io.mosip.residentapp.inji://oauthredirect",
       "authorization_audience": "https://${mock.identity.esignet.host}/v1/esignet/oauth/v2/token",
-      "token_endpoint": "https://${mosip.api.public.host}/v1/mimoto/get-token/Mock",
+      "token_endpoint": "https://${mosip.api.public.host}/v1/mimoto/get-token/Mock(QA)",
       "proxy_token_endpoint": "https://${mock.identity.esignet.host}/v1/esignet/oauth/v2/token",
       "qr_code_type": "OnlineSharing",
       "enabled": "true"
@@ -236,12 +236,12 @@
       "enabled": "true"
     },
     {
-      "issuer_id": "StayProtected(Released)",
-      "credential_issuer": "StayProtected(Released)",
+      "issuer_id": "StayProtected",
+      "credential_issuer": "StayProtected",
       "credential_issuer_host": "https://${mosip.injicertify.insurance.released.host}",
       "display": [
         {
-          "name": "StayProtected Insurance (Released)",
+          "name": "StayProtected Insurance",
           "logo": {
             "url": "https://mosip.github.io/inji-config/logos/StayProtectedInsurance.png",
             "alt_text": "a square logo of a Sunbird"
@@ -256,19 +256,19 @@
       "client_alias": "mpartner-default-mimoto-insurance-oidc",
       "wellknown_endpoint": "https://${mosip.injicertify.insurance.released.host}/v1/certify/issuance/.well-known/openid-credential-issuer",
       "redirect_uri": "io.mosip.residentapp.inji://oauthredirect",
-      "token_endpoint": "https://${mosip.api.public.host}/v1/mimoto/get-token/StayProtected(Released)",
+      "token_endpoint": "https://${mosip.api.public.host}/v1/mimoto/get-token/StayProtected",
       "authorization_audience": "https://${sunbirdrc.insurance.esignet.host}/v1/esignet/oauth/v2/token",
       "proxy_token_endpoint": "https://${sunbirdrc.insurance.esignet.host}/v1/esignet/oauth/v2/token",
       "qr_code_type": "OnlineSharing",
       "enabled": "true"
     },
     {
-      "issuer_id": "Mock(Released)",
-      "credential_issuer": "Mock(Released)",
+      "issuer_id": "Mock",
+      "credential_issuer": "Mock",
       "credential_issuer_host": "https://${mosip.injicertify.mock.released.host}",
       "display": [
         {
-          "name": "Mock Identity (Released)",
+          "name": "Mock Identity",
           "logo": {
             "url": "https://mosip.github.io/inji-config/logos/mosipid-logo.png",
             "alt_text": "mosip-logo"
@@ -284,7 +284,7 @@
       "wellknown_endpoint": "https://${mosip.injicertify.mock.released.host}/v1/certify/issuance/.well-known/openid-credential-issuer",
       "redirect_uri": "io.mosip.residentapp.inji://oauthredirect",
       "authorization_audience": "https://${mock.identity.esignet.host}/v1/esignet/oauth/v2/token",
-      "token_endpoint": "https://${mosip.api.public.host}/v1/mimoto/get-token/Mock(Released)",
+      "token_endpoint": "https://${mosip.api.public.host}/v1/mimoto/get-token/Mock",
       "proxy_token_endpoint": "https://${mock.identity.esignet.host}/v1/esignet/oauth/v2/token",
       "qr_code_type": "OnlineSharing",
       "enabled": "true"
