@@ -236,8 +236,7 @@
     },
     {
       "issuer_id": "StayProtected",
-      "credential_issuer": "StayProtected",
-      "credential_issuer_host": "https://${mosip.injicertify.insurance.released.host}",
+      "credential_issuer": "StayProtected",  
       "display": [
         {
           "name": "StayProtected Insurance",
@@ -264,7 +263,6 @@
     {
       "issuer_id": "Mock",
       "credential_issuer": "Mock",
-      "credential_issuer_host": "https://${mosip.injicertify.mock.released.host}",
       "display": [
         {
           "name": "Mock Identity",
@@ -291,7 +289,6 @@
     {
       "issuer_id": "MockMdl",
       "credential_issuer": "MockMdl",
-      "credential_issuer_host": "https://${mosip.injicertify.mdl.released.host}",
       "display": [
         {
           "name": "Mock Mobile Driving License",
@@ -317,8 +314,7 @@
     },
     {
       "issuer_id":"Land(Released)",
-      "credential_issuer": "Land(Released)",
-      "credential_issuer_host":"https://${mosip.injicertify.landregistry.released.host}",
+      "credential_issuer": "Land(Released)", 
       "display": [
         {
           "name": "Land Registry (Released)",
