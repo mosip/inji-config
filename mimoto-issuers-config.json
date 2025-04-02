@@ -159,8 +159,8 @@
       "enabled": "true"
     },
     {
-      "issuer_id": "Mosip",
-      "credential_issuer": "Mosip",
+      "issuer_id": "Mosip Released ",
+      "credential_issuer": "Mosip Released",
       "credential_issuer_host": "https://${mosip.injicertify.mosipid.released.host}",
       "display": [
         {
@@ -344,8 +344,8 @@
       "enabled": "true"
     },
     {
-      "issuer_id": "Mosip(Collab)",
-      "credential_issuer": "Mosip(Collab)",
+      "issuer_id": "Mosip",
+      "credential_issuer": "Mosip",
       "credential_issuer_host": "https://${mosip.injicertify.mosipid.collab.host}",
       "display": [
         {
@@ -412,7 +412,7 @@
       "protocol": "OpenId4VCI",
       "client_id": "${mimoto.oidc.mosipid.partner.collab.clientid}",
       "client_alias": "mpartner-default-mimoto-mosipid-oidc-client",
-      "wellknown_endpoint": "https://${mosip.injicertify.mosipid.collab.host}/v1/certify/issuance/.well-known/openid-credential-issuer",
+      "wellknown_endpoint": "https://${mosip.injicertify.mosipid.collab.host}/v1/certify/issuance/.well-known/openid-credential-issuer\aswin",
       "redirect_uri": "io.mosip.residentapp.inji://oauthredirect",
       "token_endpoint": "https://${mosip.api.public.host}/v1/mimoto/get-token/Mosip(Collab)",
       "authorization_audience": "https://${mosipid.identity.esignet.collab.host}/v1/esignet/oauth/v2/token",
