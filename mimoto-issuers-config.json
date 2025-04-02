@@ -159,8 +159,8 @@
       "enabled": "true"
     },
     {
-      "issuer_id": "Mosip Released ",
-      "credential_issuer": "Mosip Released",
+      "issuer_id": "MosipReleased",
+      "credential_issuer": "MosipReleased",
       "credential_issuer_host": "https://${mosip.injicertify.mosipid.released.host}",
       "display": [
         {
@@ -229,7 +229,7 @@
       "client_alias": "mpartner-default-mimoto-mosipid-oidc",
       "wellknown_endpoint": "https://${mosip.injicertify.mosipid.released.host}/v1/certify/issuance/.well-known/openid-credential-issuer",
       "redirect_uri": "io.mosip.residentapp.inji://oauthredirect",
-      "token_endpoint": "https://${mosip.api.public.host}/v1/mimoto/get-token/Mosip",
+      "token_endpoint": "https://${mosip.api.public.host}/v1/mimoto/get-token/MosipReleased",
       "authorization_audience": "https://${mosipid.identity.esignet.host}/v1/esignet/oauth/v2/token",
       "proxy_token_endpoint": "https://${mosipid.identity.esignet.host}/v1/esignet/oauth/v2/token",
       "qr_code_type": "OnlineSharing",
@@ -414,7 +414,7 @@
       "client_alias": "mpartner-default-mimoto-mosipid-oidc-client",
       "wellknown_endpoint": "https://${mosip.injicertify.mosipid.collab.host}/v1/certify/issuance/.well-known/openid-credential-issuer/aswin",
       "redirect_uri": "io.mosip.residentapp.inji://oauthredirect",
-      "token_endpoint": "https://${mosip.api.public.host}/v1/mimoto/get-token/Mosip(Collab)",
+      "token_endpoint": "https://${mosip.api.public.host}/v1/mimoto/get-token/Mosip",
       "authorization_audience": "https://${mosipid.identity.esignet.collab.host}/v1/esignet/oauth/v2/token",
       "proxy_token_endpoint": "https://${mosipid.identity.esignet.collab.host}/v1/esignet/oauth/v2/token",
       "qr_code_type": "OnlineSharing",
