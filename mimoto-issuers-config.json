@@ -1,7 +1,9 @@
 {
   "issuers": [
     {
+      "issuer_id": "MosipOtp",
       "credential_issuer": "MosipOtp",
+      "credential_issuer_host": "https://${mosip.injicertify.mosipid.host}",
       "display": [
         {
           "name": "MOSIP National ID",
@@ -68,7 +70,9 @@
       "enabled": "${mosip.otp.download.enable}"
     },
     {
+      "issuer_id": "Mosip",
       "credential_issuer": "Mosip",
+      "credential_issuer_host": "https://${mosip.injicertify.mosipid.host}",
       "display": [
         {
           "name": "National Identity Department",
@@ -143,7 +147,9 @@
       "enabled": "true"
     },
     {
+      "issuer_id": "StayProtected",
       "credential_issuer": "StayProtected",
+      "credential_issuer_host": "https://${mosip.injicertify.insurance.host}",
       "display": [
         {
           "name": "Veridonia Insurance Company",
@@ -168,7 +174,9 @@
       "enabled": "true"
     },
     {
+      "issuer_id": "Mock",
       "credential_issuer": "Mock",
+      "credential_issuer_host": "https://${mosip.injicertify.mock.host}",
       "display": [
         {
           "name": "Mock Identity",
@@ -193,7 +201,9 @@
       "enabled": "true"
     },
     {
+      "issuer_id": "MockMdl",
       "credential_issuer": "MockMdl",
+      "credential_issuer_host": "https://${mosip.injicertify.mdl.host}",
       "display": [
         {
           "name": "Mock Mobile Driving License",
@@ -228,7 +238,9 @@
       "enabled": "true"
     },
     {
+      "issuer_id": "Land",
       "credential_issuer": "Land",
+      "credential_issuer_host": "https://${mosip.injicertify.landregistry.host}",
       "display": [
         {
           "name": "Land Registry",
