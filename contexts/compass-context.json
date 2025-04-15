@@ -1,23 +1,23 @@
 {
-    "@context": {
-      "@version": 1.1,
-      "@protected": true,
-      "schema": "https://schema.org/",
-      "type": "@type",
-      "ComPassCredential": {
-        "@id": "https://mosip.github.io/inji-config/contexts/compass-context.json#ComPassCredential"
-      },
-      "FirstName": "schema:Text",
-      "LastName": "schema:Text",
-      "FirstName (Latin)": "schema:Text",
-      "LastName (Latin)": "schema:Text",
-      "NationalIDNumber": "schema:Text",
-      "DateOfBirth": "schema:Date",
-      "Nationality": "schema:Text",
-      "Gender": "schema:Text",
-      "CAN (Card Access Numner)": "schema:Text",
-      "BirthCountry": "schema:Text",
-      "Image": "schema:ImageObject",
-      "CredentialNumber": "schema:Number"
-     }
+  "@context": {
+    "@version": 1.1,
+    "@protected": true,
+    "schema": "https://schema.org/",
+    "type": "@type",
+    "ComPassCredential": {
+      "@id": "https://mosip.github.io/inji-config/contexts/compass-context.json#ComPassCredential"
+    },
+    "firstName": "schema:Text",
+    "lastName": "schema:Text",
+    "nationalIDNumber": "schema:Text",
+    "dateOfBirth": "schema:Date",
+    "nationality": "schema:Text",
+    "gender": "schema:Text",
+    "cardAccessNumber": "schema:Text",
+    "birthCountry": "schema:Text",
+    "face": "schema:Text",
+    "compassId": "schema:Text",
+    "compassIssuanceDate": "schema:Date",
+    "compassExpirationDate": "schema:Date"
   }
+}
