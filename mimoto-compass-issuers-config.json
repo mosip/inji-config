@@ -1,0 +1,81 @@
+{
+  "issuers": [
+    {
+      "issuer_id": "compass",
+      "display": [
+        {
+          "name": "Compass Credential",
+          "logo": {
+            "url": "https://mosip.github.io/inji-config/logos/RepublicOfUtopiaLogo.png",
+            "alt_text": "Republic of Utopia logo"
+          },
+          "title": "Download Compass Credential",
+          "description": "Download credentials by providing National ID",
+          "language": "en"
+        },
+        {
+          "name": "شهادة البوصلة",
+          "logo": {
+            "url": "https://mosip.github.io/inji-config/logos/RepublicOfUtopiaLogo.png",
+            "alt_text": "شعار جمهورية يوتوبيا"
+          },
+          "title": "تحميل شهادة البوصلة",
+          "description": "قم بتحميل الشهادة عن طريق إدخال الرقم الوطني",
+          "language": "ar"
+        },
+        {
+          "name": "कंपास क्रेडेंशियल",
+          "logo": {
+            "url": "https://mosip.github.io/inji-config/logos/RepublicOfUtopiaLogo.png",
+            "alt_text": "यूटोपिया गणराज्य का लोगो"
+          },
+          "title": "कंपास क्रेडेंशियल डाउनलोड करें",
+          "description": "राष्ट्रीय पहचान संख्या प्रदान करके क्रेडेंशियल डाउनलोड करें",
+          "language": "hi"
+        },
+        {
+          "name": "ಕಂಪಾಸ್ ಕ್ರೆಡೆನ್ಷಿಯಲ್",
+          "logo": {
+            "url": "https://mosip.github.io/inji-config/logos/RepublicOfUtopiaLogo.png",
+            "alt_text": "ಯುಟೋಪಿಯಾ ಗಣರಾಜ್ಯದ ಲೋಗೋ"
+          },
+          "title": "ಕಂಪಾಸ್ ಕ್ರೆಡೆನ್ಷಿಯಲ್ ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ",
+          "description": "ರಾಷ್ಟ್ರೀಯ ಗುರುತಿನ ಸಂಖ್ಯೆ ನೀಡಿ ಕ್ರೆಡೆನ್ಷಿಯಲ್ ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ",
+          "language": "kn"
+        },
+        {
+          "name": "கம்பஸ் நற்சான்றிதழ்",
+          "logo": {
+            "url": "https://mosip.github.io/inji-config/logos/RepublicOfUtopiaLogo.png",
+            "alt_text": "யூட்டோப்பியா குடியரசின் لوگோ"
+          },
+          "title": "கம்பஸ் நற்சான்றிதழைப் பதிவிறக்கவும்",
+          "description": "தேசிய அடையாள எண்ணை வழங்கி நற்சான்றிதழ்களை பதிவிறக்கவும்",
+          "language": "ta"
+        },
+        {
+          "name": "Compass Kredensyal",
+          "logo": {
+            "url": "https://mosip.github.io/inji-config/logos/RepublicOfUtopiaLogo.png",
+            "alt_text": "Logo ng Republika ng Utopia"
+          },
+          "title": "I-download ang Compass Kredensyal",
+          "description": "I-download ang mga kredensyal sa pamamagitan ng pagbibigay ng National ID",
+          "language": "fil"
+        }
+      ],
+      "protocol": "OpenId4VCI",
+      "client_id": "${mimoto.oidc.compass.partner.clientid}",
+      "client_alias": "mimoto-compass",
+      "wellknown_endpoint": "https://${mosip.injicertify.compass.host}/v1/certify/issuance/.well-known/openid-credential-issuer",
+      "redirect_uri": "io.mosip.residentapp.inji://oauthredirect",
+      "authorization_audience": "https://${mosip.esignet.mock.host}/v1/esignet/oauth/v2/token",
+      "token_endpoint": "https://${mosip.mimoto.public.host}/v1/mimoto/get-token/Mosip",
+      "proxy_token_endpoint": "https://${mosip.esignet.mock.host}/v1/esignet/oauth/v2/token",
+      "qr_code_type": "OnlineSharing",
+      "credential_issuer": "Mosip",
+      "credential_issuer_host": "https://${mosip.injicertify.compass.host}",
+      "enabled": "true"
+    }
+  ]
+}
