@@ -73,7 +73,7 @@
       "token_endpoint": "https://${mosip.mimoto.public.host}/v1/mimoto/get-token/compass",
       "proxy_token_endpoint": "https://${mosip.esignet.mock.host}/v1/esignet/oauth/v2/token",
       "qr_code_type": "OnlineSharing",
-      "credential_issuer": "Mosip",
+      "credential_issuer": "compass",
       "credential_issuer_host": "https://${mosip.injicertify.compass.host}",
       "enabled": "true"
     }
