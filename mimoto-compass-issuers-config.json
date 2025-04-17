@@ -66,7 +66,7 @@
       ],
       "protocol": "OpenId4VCI",
       "client_id": "${mimoto.oidc.compass.partner.clientid}",
-      "client_alias": "mimoto-compass",
+      "client_alias": "usecase-compass",
       "wellknown_endpoint": "https://${mosip.injicertify.compass.host}/v1/certify/issuance/.well-known/openid-credential-issuer",
       "redirect_uri": "io.mosip.residentapp.inji://oauthredirect",
       "authorization_audience": "https://${mosip.esignet.mock.host}/v1/esignet/oauth/v2/token",
