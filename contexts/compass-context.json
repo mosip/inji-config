@@ -4,8 +4,8 @@
     "@protected": true,
     "schema": "https://schema.org/",
     "type": "@type",
-    "ComPassCredential": {
-      "@id": "https://mosip.github.io/inji-config/contexts/compass-context.json#ComPassCredential"
+    "CompassCredential": {
+      "@id": "https://mosip.github.io/inji-config/contexts/compass-context.json#CompassCredential"
     },
     "firstName": "schema:Text",
     "lastName": "schema:Text",
