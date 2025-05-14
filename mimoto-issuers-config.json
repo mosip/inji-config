@@ -4,12 +4,12 @@
       "issuer_id": "compass",
       "display": [
         {
-          "name": "Compass Credential",
+          "name": "comPASS Credential",
           "logo": {
             "url": "https://mosip.github.io/inji-config/logos/RepublicOfUtopiaLogo.png",
             "alt_text": "Republic of Utopia logo"
           },
-          "title": "Download Compass Credential",
+          "title": "Download comPASS Credential",
           "description": "Download credentials by providing National ID",
           "language": "en"
         },
@@ -54,12 +54,12 @@
           "language": "ta"
         },
         {
-          "name": "Compass Kredensyal",
+          "name": "comPASS Kredensyal",
           "logo": {
             "url": "https://mosip.github.io/inji-config/logos/RepublicOfUtopiaLogo.png",
             "alt_text": "Logo ng Republika ng Utopia"
           },
-          "title": "I-download ang Compass Kredensyal",
+          "title": "I-download ang comPASS Kredensyal",
           "description": "I-download ang mga kredensyal sa pamamagitan ng pagbibigay ng National ID",
           "language": "fil"
         }
