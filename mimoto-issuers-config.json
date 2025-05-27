@@ -1,8 +1,8 @@
 {
   "issuers": [
     {
-      "issuer_id": "Mosip(QA_devInt)",
-      "credential_issuer": "Mosip(QA_devInt)",
+      "issuer_id": "Mosip",
+      "credential_issuer": "Mosip",
       "credential_issuer_host": "https://${mosip.injicertify.mosipid.host}",
       "display": [
         {
@@ -71,7 +71,7 @@
       "client_alias": "mpartner-default-mimoto-mosipid-oidc",
       "wellknown_endpoint": "https://${mosip.injicertify.mosipid.host}/v1/certify/issuance/.well-known/openid-credential-issuer",
       "redirect_uri": "io.mosip.residentapp.inji://oauthredirect",
-      "token_endpoint": "https://${mosip.api.public.host}/v1/mimoto/get-token/Mosip(QA_devInt)",
+      "token_endpoint": "https://${mosip.api.public.host}/v1/mimoto/get-token/Mosip",
       "authorization_audience": "https://${mosipid.identity.esignet.devintinji.host}/v1/esignet/oauth/v2/token",
       "proxy_token_endpoint": "https://${mosipid.identity.esignet.devintinji.host}/v1/esignet/oauth/v2/token",
       "qr_code_type": "OnlineSharing",
@@ -159,8 +159,8 @@
       "enabled": "true"
     },
     {
-      "issuer_id": "Mosip",
-      "credential_issuer": "Mosip",
+      "issuer_id": "Mosip(Released)",
+      "credential_issuer": "Mosip(Released)",
       "credential_issuer_host": "https://${mosip.injicertify.mosipid.released.host}",
       "display": [
         {
@@ -229,7 +229,7 @@
       "client_alias": "mpartner-default-mimoto-mosipid-oidc",
       "wellknown_endpoint": "https://${mosip.injicertify.mosipid.released.host}/v1/certify/issuance/.well-known/openid-credential-issuer",
       "redirect_uri": "io.mosip.residentapp.inji://oauthredirect",
-      "token_endpoint": "https://${mosip.api.public.host}/v1/mimoto/get-token/Mosip",
+      "token_endpoint": "https://${mosip.api.public.host}/v1/mimoto/get-token/Mosip(Released)",
       "authorization_audience": "https://${mosipid.identity.esignet.host}/v1/esignet/oauth/v2/token",
       "proxy_token_endpoint": "https://${mosipid.identity.esignet.host}/v1/esignet/oauth/v2/token",
       "qr_code_type": "OnlineSharing",
