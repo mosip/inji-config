@@ -6,7 +6,7 @@
   "id": "did:web:mosip.github.io:inji-config:dev-int-inji:mock-identity-ecr1",
   "verificationMethod": [
     {
-      "publicKeyMultibase": "zDnaesbUQVvaptzcS5qiNgdqp6VZVNYy6oqNknnM6JsMBpH17",
+      "publicKeyMultibase": "zDnaex6utX17kn6cJfyYr8tkWQzwhPBtFfFb17zce4VCCz4jw",
       "controller": "did:web:mosip.github.io:inji-config:dev-int-inji:mock-identity-ecr1",
       "id": "did:web:mosip.github.io:inji-config:dev-int-inji:mock-identity-ecr1#key-0",
       "type": "EcdsaSecp256r1VerificationKey2019",
