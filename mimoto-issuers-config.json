@@ -280,6 +280,6 @@
       "proxy_token_endpoint": "https://${sunbirdrc.insurance.esignet.host}/v1/esignet/oauth/v2/token",
       "qr_code_type": "OnlineSharing",
       "enabled": "true"
-    },
+    }
   ]
-  }
+}
