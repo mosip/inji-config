@@ -1,0 +1,23 @@
+{
+  "assertionMethod": [
+    "did:web:mosip.github.io:inji-config:dev-int-inji:academic-ecr1#key-0"
+  ],
+  "service": [],
+  "id": "did:web:mosip.github.io:inji-config:dev-int-inji:academic-ecr1",
+  "verificationMethod": [
+    {
+      "publicKeyMultibase": "zDnaexP6ZBj6KbgWYRttuMBgmJhrsH1LYgHhCDryDTSFBsX3P",
+      "controller": "did:web:mosip.github.io:inji-config:dev-int-inji:academic-ecr1",
+      "id": "did:web:mosip.github.io:inji-config:dev-int-inji:academic-ecr1#key-0",
+      "type": "EcdsaSecp256r1VerificationKey2019",
+      "@context": "https://w3id.org/security/suites/ecdsa-2019/v1"
+    }
+  ],
+  "@context": [
+    "https://www.w3.org/ns/did/v1"
+  ],
+  "alsoKnownAs": [],
+  "authentication": [
+    "did:web:mosip.github.io:inji-config:dev-int-inji:academic-ecr1#key-0"
+  ]
+}
