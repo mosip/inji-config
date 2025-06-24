@@ -6,7 +6,7 @@
   "id": "did:web:mosip.github.io:inji-config:dev-int-inji:academic-ecr1",
   "verificationMethod": [
     {
-      "publicKeyMultibase": "zDnaexP6ZBj6KbgWYRttuMBgmJhrsH1LYgHhCDryDTSFBsX3P",
+      "publicKeyMultibase": "zDnaeUhXqFDRWShEkk2YAvJjz9wBTpP6bftjPFqWeapTaZVaR",
       "controller": "did:web:mosip.github.io:inji-config:dev-int-inji:academic-ecr1",
       "id": "did:web:mosip.github.io:inji-config:dev-int-inji:academic-ecr1#key-0",
       "type": "EcdsaSecp256r1VerificationKey2019",
