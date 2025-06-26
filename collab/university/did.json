@@ -6,7 +6,7 @@
   "id": "did:web:mosip.github.io:inji-config:collab:university",
   "verificationMethod": [
     {
-      "publicKeyMultibase": "z6MkmAbvKQotnbRhWE1GqmmtqELxDAJ5Gn499BgKiWCvdNJx",
+      "publicKeyMultibase": "z6Mki9gvkxEXvyenXUYSWxUQzwR7z5Qis6kLK5Pa4oJauxHs",
       "controller": "did:web:mosip.github.io:inji-config:collab:university",
       "id": "did:web:mosip.github.io:inji-config:collab:university#key-0",
       "type": "Ed25519VerificationKey2020",
