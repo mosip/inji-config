@@ -164,7 +164,7 @@
       "credential_issuer_host": "https://${mosip.injicertify.mosipid.released.host}",
       "display": [
         {
-          "name": "National Identity Department (Released)",
+          "name": "National Identity Department",
           "logo": {
             "url": "https://mosip.github.io/inji-config/logos/mosipid-logo.png",
             "alt_text": "mosip-logo"
