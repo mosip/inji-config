@@ -283,7 +283,7 @@
       "client_alias": "mpartner-default-mimoto-insurance-oidc",
       "wellknown_endpoint": "https://${mosip.injicertify.insurance.released.host}/v1/certify/issuance/.well-known/openid-credential-issuer",
       "redirect_uri": "io.mosip.residentapp.inji://oauthredirect",
-      "token_endpoint": "https://${mosip.api.public.host}/v1/mimoto/get-token/StayProtected(Test)",
+      "token_endpoint": "https://${mosip.api.public.host}/v1/mimoto/get-token/StayProtected(Test-1)",
       "authorization_audience": "https://${sunbirdrc.insurance.esignet.host}/v1/esignet/oauth/v2/token",
       "proxy_token_endpoint": "https://${sunbirdrc.insurance.esignet.host}/v1/esignet/oauth/v2/token",
       "qr_code_type": "EmbeddedVC",
