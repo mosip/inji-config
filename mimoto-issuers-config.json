@@ -11,7 +11,7 @@
             "url": "https://mosip.github.io/inji-config/logos/mosipid-logo.png",
             "alt_text": "mosip-logo"
           },
-          "title": "National Identity Department",
+          "title": "National Identity Department (devintinji)",
           "description": "Download MOSIP National / Foundational Identity Credential",
           "language": "en"
         },
@@ -89,7 +89,7 @@
             "alt_text": "a square logo of a Sunbird"
           },
           "language": "en",
-          "title": "Download StayProtected Insurance Credentials",
+          "title": "Download StayProtected Insurance Credentials (qa-inji1)",
           "description": "Download insurance credential"
         }
       ],
@@ -115,7 +115,7 @@
             "url": "https://mosip.github.io/inji-config/logos/mosipid-logo.png",
             "alt_text": "mosip-logo"
           },
-          "title": "Mock Identity",
+          "title": "Mock Identity (qa-inji1)",
           "description": "Download Mock Identity Credential",
           "language": "en"
         }
@@ -142,7 +142,7 @@
             "url": "https://mosip.github.io/inji-config/logos/agro-vertias-logo.png",
             "alt_text": "land-logo"
           },
-          "title": "Land Registry",
+          "title": "Land Registry (qa-inji1)",
           "description": "Download Land Registry Credential",
           "language": "en"
         }
@@ -169,7 +169,7 @@
             "url": "https://mosip.github.io/inji-config/logos/mosipid-logo.png",
             "alt_text": "mosip-logo"
           },
-          "title": "National Identity Department",
+          "title": "National Identity Department (released)",
           "description": "Download MOSIP National / Foundational Identity Credential",
           "language": "en"
         },
@@ -247,7 +247,7 @@
             "alt_text": "a square logo of a Sunbird"
           },
           "language": "en",
-          "title": "Download StayProtected Insurance Credentials",
+          "title": "Download StayProtected Insurance Credentials (released)",
           "description": "Download insurance credential"
         }
       ],
@@ -300,7 +300,7 @@
             "url": "https://mosip.github.io/inji-config/logos/mosipid-logo.png",
             "alt_text": "mosip-logo"
           },
-          "title": "Mock Mobile Driving License",
+          "title": "Mock Mobile Driving License (released)",
           "description": "Download Mock Mobile Driving License",
           "language": "en"
         }
@@ -327,7 +327,7 @@
             "url": "https://mosip.github.io/inji-config/logos/agro-vertias-logo.png",
             "alt_text": "land-logo"
           },
-          "title": "Land Registry",
+          "title": "Land Registry (released)",
           "description": "Download Land Registry Credential",
           "language": "en"
         }
@@ -354,7 +354,7 @@
             "url": "https://mosip.github.io/inji-config/logos/agro-vertias-logo.png",
             "alt_text": "land-logo"
           },
-          "title": "Land Registry",
+          "title": "Land Registry (released - test)",
           "description": "Download Land Registry Credential",
           "language": "en"
         }
@@ -381,7 +381,7 @@
             "url": "https://mosip.github.io/inji-config/logos/mosipid-logo.png",
             "alt_text": "mosip-logo"
           },
-          "title": "National Identity Department",
+          "title": "National Identity Department (collab)",
           "description": "Download MOSIP National / Foundational Identity Credential",
           "language": "en"
         },
@@ -459,7 +459,7 @@
             "alt_text": "a square logo of a Sunbird"
           },
           "language": "en",
-          "title": "Download StayProtected Insurance Credentials",
+          "title": "Download StayProtected Insurance Credentials (collab)",
           "description": "Download insurance credential"
         }
       ],
@@ -485,7 +485,7 @@
             "url": "https://mosip.github.io/inji-config/logos/mosipid-logo.png",
             "alt_text": "mosip-logo"
           },
-          "title": "Mock Identity",
+          "title": "Mock Identity (collab)",
           "description": "Download Mock Identity Credential",
           "language": "en"
         }
@@ -512,7 +512,7 @@
             "url": "https://mosip.github.io/inji-config/logos/mosipid-logo.png",
             "alt_text": "mosip-logo"
           },
-          "title": "Mock Mobile Driving License",
+          "title": "Mock Mobile Driving License (collab)",
           "description": "Download Mock Mobile Driving License",
           "language": "en"
         },
@@ -549,7 +549,7 @@
             "url": "https://mosip.github.io/inji-config/logos/agro-vertias-logo.png",
             "alt_text": "land-logo"
           },
-          "title": "Land Registry",
+          "title": "Land Registry (collab)",
           "description": "Download Land Registry Credential",
           "language": "en"
         }
@@ -576,7 +576,7 @@
             "url": "https://mosip.github.io/inji-config/logos/tan-logo.png",
             "alt_text": "Tax Account Credential logo"
           },
-          "title": "Veridonia Income Tax Department",
+          "title": "Veridonia Income Tax Department (collab)",
           "description": "Download Tax ID credential",
           "language": "en"
         },
@@ -652,7 +652,7 @@
             "url": "https://mosip.github.io/inji-config/logos/veridonia-logo.png",
             "alt_text": "mosip-logo"
           },
-          "title": "National Identity Department",
+          "title": "National Identity Department (qa-inji1)",
           "description": "Download Veridonia National / Foundational Identity Credential",
           "language": "en"
         },
@@ -702,7 +702,7 @@
             "url": "https://mosip.github.io/inji-config/logos/veridonia-logo.png",
             "alt_text": "logo ng mosip"
           },
-          "title": "National Identity Department",
+          "title": "National Identity Department (qa-inji1)",
           "description": "I-download ang MOSIP National / Foundational Identity Credential",
           "language": "fil"
         }
@@ -729,7 +729,7 @@
             "url": "https://mosip.github.io/inji-config/logos/mosipid-logo.png",
             "alt_text": "mosip-logo"
           },
-          "title": "National Identity Department",
+          "title": "National Identity Department (es-qa)",
           "description": "Download MOSIP National / Foundational Identity Credential",
           "language": "en"
         },
