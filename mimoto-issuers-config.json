@@ -268,12 +268,12 @@
       "credential_issuer_host": "https://${mosip.injicertify.mock.released.host}",
       "display": [
         {
-          "name": "Mock Identity (released)",
+          "name": "Mock Identity",
           "logo": {
             "url": "https://mosip.github.io/inji-config/logos/mosipid-logo.png",
             "alt_text": "mosip-logo"
           },
-          "title": "Mock Identity",
+          "title": "Mock Identity (released)",
           "description": "Download Mock Identity Credential",
           "language": "en"
         }
