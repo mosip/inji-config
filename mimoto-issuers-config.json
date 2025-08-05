@@ -268,7 +268,7 @@
       "credential_issuer_host": "https://${mosip.injicertify.mock.released.host}",
       "display": [
         {
-          "name": "Mock Identity",
+          "name": "Mock Identity (released)",
           "logo": {
             "url": "https://mosip.github.io/inji-config/logos/mosipid-logo.png",
             "alt_text": "mosip-logo"
