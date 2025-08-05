@@ -5,8 +5,8 @@
       "redirect_uris": [
         "https://${mosip.injiverify.host}/"
       ],
-       "response_uris": [
-        "https://${mosip.injiverify.host}"
+      "response_uris": [
+        "https://${mosip.injiverify.host}/v1/verify/vp-submission/direct-post"
       ]
     }
   ]
