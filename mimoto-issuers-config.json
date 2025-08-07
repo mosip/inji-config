@@ -152,7 +152,7 @@
       "credential_issuer_host": "https://${mosip.injicertify.insurance.host}",
       "display": [
         {
-          "name": "Veridonia Insurance Company",
+          "name": "StayProtected Insurance",
           "logo": {
             "url": "https://mosip.github.io/inji-config/logos/StayProtectedInsurance.png",
             "alt_text": "a StayProtected logo"
