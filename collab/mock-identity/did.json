@@ -13,7 +13,7 @@
         "n": "470fuPW65PlBEloenKygdW2HE8St58LLNTEw0RGOeX5LKvxOaD96k-4jD5BRx3iGjiIf7uyrv1qk9pY5_1lpfArO9pxdkQEec3Wz0kuGo1g0ZIjRAkmLz5Kj3pqEVngSBZh0rWIo6vMD2VgIh-Aa4PWvbGv2j7ExQWIRiGZVXIJvc47EXsRAJTY5sGfDVXLKZLjjjPM2ciweJXA1uaUoONifpwcuiL_T6au_4-5xjkTE6sdp76595tiO6GtIkPEeWGF08ihHIyb415p7Sz5y1yPdLbm4Mi6GJsGmdenZNpA59TUG03TbSHNnUkvd1smqz1wBozhEf55gPtmzWirg4w"
       },
       "id": "did:web:mosip.github.io:inji-config:collab:mock-identity#DV8zH1lGAxh2owB3UZef-6BCzarqVc5soLIwon5vxow",
-      "type": "RsaVerificationKey2018",
+      "type": "JsonWebKey2020",
       "@context": "https://w3id.org/security/suites/jws-2020/v1"
     },
     {
