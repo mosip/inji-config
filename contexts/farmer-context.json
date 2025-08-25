@@ -15,10 +15,14 @@
     "gender": "schema:gender",
     "phoneNumber": "schema:telephone",
     "dateOfBirth": "schema:birthDate",
-    "address": "schema:address",
-    "village": "schema:addressLocality",
-    "district": "schema:addressRegion",
-    "state": "schema:addressRegion",
+    "address": {
+      "@id": "schema:address",
+      "@context": {
+        "village": "schema:addressLocality",
+        "district": "schema:addressRegion",
+        "state": "schema:addressRegion"
+      }
+    },
     "primaryCommodity": "schema:productSupported",
     "totalLandArea": {
       "@id": "schema:area",
@@ -30,9 +34,12 @@
     "ownershipType": "schema:Text",
     "crops": {
       "@id": "schema:productSupported",
-      "@container": "@list"
+      "@container": "@list",
+      "@context": {
+        "cropName": "schema:name",
+        "season": "schema:temporalCoverage"
+      }
     },
-    "cropName": "schema:name",
-    "season": "schema:temporalCoverage"
+    "face": "schema:Text"
   }
 }
