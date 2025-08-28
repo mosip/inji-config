@@ -260,9 +260,9 @@
       "credential_issuer_host": "https://${mosip.injicertify.farmer.host}",
       "display": [
         {
-          "name": "Mock Mobile Driving License",
+          "name": "Farmer ID Card",
           "logo": {
-            "url": "https://mosip.github.io/inji-config/logos/mosipid-logo.png",
+            "url": "https://mosip.github.io/inji-config/logos/agro-vertias-logo.png",
             "alt_text": "mosip-logo"
           },
           "title": "Farmer ID Card",
