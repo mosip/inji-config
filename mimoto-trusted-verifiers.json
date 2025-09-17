@@ -3,10 +3,10 @@
     {
       "client_id": "https://${mosip.injiverify.host}",
       "redirect_uris": [
-        " https://1ff69cd0ff8d.ngrok-free.app"
+        "https://${mosip.injiverify.host}/"
       ],
       "response_uris": [
-        " https://1ff69cd0ff8d.ngrok-free.app/v1/verify/vp-submission/direct-post"
+        "https://${mosip.injiverify.host}/v1/verify/vp-submission/direct-post"
       ]
     }
   ]
