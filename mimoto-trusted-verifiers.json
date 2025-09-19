@@ -1,7 +1,7 @@
 {
   "verifiers": [
     {
-      "client_id": "https://${mosip.injiverify.host}",
+      "client_id": "https://1ff69cd0ff8d.ngrok-free.app",
       "redirect_uris": [
         "https://1ff69cd0ff8d.ngrok-free.app"
       ],
