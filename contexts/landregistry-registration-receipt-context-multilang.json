@@ -1,0 +1,144 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@protected": true,
+    "type": "@type",
+    "schema": "https://schema.org/",
+    "RegistrationReceiptCredential": {
+      "@id": "https://mosip.github.io/inji-config/contexts/landregistry-registration-receipt-context-multilang.json#RegistrationReceiptCredential"
+    },
+    "NumberOfCAR": {
+      "@id": "schema:Text",
+      "display": [
+        { "name": "CAR Registration Number", "locale": "en" },
+        { "name": "Numéro d'Enregistrement CAR", "locale": "fr" }
+      ]
+    },
+    "RegistrationDate": {
+      "@id": "schema:DateTime",
+      "display": [
+        { "name": "Registration Date", "locale": "en" },
+        { "name": "Date d'Enregistrement", "locale": "fr" }
+      ]
+    },
+    "RuralPropertyName": {
+      "@id": "schema:Text",
+      "display": [
+        { "name": "Rural Property Name", "locale": "en" },
+        { "name": "Nom de la Propriété Rurale", "locale": "fr" }
+      ]
+    },
+    "Municipality": {
+      "@id": "schema:Text",
+      "display": [
+        { "name": "Municipality", "locale": "en" },
+        { "name": "Commune", "locale": "fr" }
+      ]
+    },
+    "Latitude": {
+      "@id": "schema:Text",
+      "display": [
+        { "name": "Latitude", "locale": "en" },
+        { "name": "Latitude", "locale": "fr" }
+      ]
+    },
+    "Longitude": {
+      "@id": "schema:Text",
+      "display": [
+        { "name": "Longitude", "locale": "en" },
+        { "name": "Longitude", "locale": "fr" }
+      ]
+    },
+    "TotalArea": {
+      "@id": "schema:Text",
+      "display": [
+        { "name": "Total Area", "locale": "en" },
+        { "name": "Superficie Totale", "locale": "fr" }
+      ]
+    },
+    "FiscalModules": {
+      "@id": "schema:Float",
+      "display": [
+        { "name": "Fiscal Modules", "locale": "en" },
+        { "name": "Modules Fiscaux", "locale": "fr" }
+      ]
+    },
+    "ProtocolCode": {
+      "@id": "schema:Text",
+      "display": [
+        { "name": "Protocol Code", "locale": "en" },
+        { "name": "Code de Protocole", "locale": "fr" }
+      ]
+    },
+    "CPF": {
+      "@id": "schema:Text",
+      "display": [
+        { "name": "CPF", "locale": "en" },
+        { "name": "CPF", "locale": "fr" }
+      ]
+    },
+    "HolderName": {
+      "@id": "schema:Person",
+      "display": [
+        { "name": "Holder Name", "locale": "en" },
+        { "name": "Nom du Titulaire", "locale": "fr" }
+      ]
+    },
+    "TotalDeclaredArea": {
+      "@id": "schema:Float",
+      "display": [
+        { "name": "Total Declared Area", "locale": "en" },
+        { "name": "Superficie Totale Déclarée", "locale": "fr" }
+      ]
+    },
+    "AdministrativeEasementArea": {
+      "@id": "schema:Float",
+      "display": [
+        { "name": "Administrative Easement Area", "locale": "en" },
+        { "name": "Zone de Servitude Administrative", "locale": "fr" }
+      ]
+    },
+    "NetArea": {
+      "@id": "schema:Float",
+      "display": [
+        { "name": "Net Area", "locale": "en" },
+        { "name": "Superficie Nette", "locale": "fr" }
+      ]
+    },
+    "ConsolidatedArea": {
+      "@id": "schema:Float",
+      "display": [
+        { "name": "Consolidated Area", "locale": "en" },
+        { "name": "Superficie Consolidée", "locale": "fr" }
+      ]
+    },
+    "NativeVegetationRemnant": {
+      "@id": "schema:Float",
+      "display": [
+        { "name": "Native Vegetation Remnant", "locale": "en" },
+        { "name": "Vestige de Végétation Native", "locale": "fr" }
+      ]
+    },
+    "LegalReserveArea": {
+      "@id": "schema:Float",
+      "display": [
+        { "name": "Legal Reserve Area", "locale": "en" },
+        { "name": "Superficie de Réserve Légale", "locale": "fr" }
+      ]
+    },
+    "PermanentPreservationArea": {
+      "@id": "schema:Float",
+      "display": [
+        { "name": "Permanent Preservation Area", "locale": "en" },
+        { "name": "Zone de Préservation Permanente", "locale": "fr" }
+      ]
+    },
+    "RestrictedUseArea": {
+      "@id": "schema:Float",
+      "display": [
+        { "name": "Restricted Use Area", "locale": "en" },
+        { "name": "Zone d'Utilisation Restreinte", "locale": "fr" }
+      ]
+    }
+  }
+}
