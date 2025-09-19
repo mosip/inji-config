@@ -3,10 +3,10 @@
     {
       "client_id": "mock-client",
       "redirect_uris": [
-        "https://5bfbc205ea0e.ngrok-free.app"
+        "https://3eb4aa4c115b.ngrok-free.app"
       ],
       "response_uris": [
-        "https://5bfbc205ea0e.ngrok-free.app/verifier/vp-response"
+        "https://3eb4aa4c115b.ngrok-free.app/verifier/vp-response"
       ]
     }
   ]
