@@ -4,103 +4,86 @@
     "@protected": true,
     "type": "@type",
     "schema": "https://schema.org/",
+
     "RegistrationReceiptCredential": {
       "@id": "https://mosip.github.io/inji-config/contexts/landregistry-registration-receipt-context-multilang.json#RegistrationReceiptCredential"
     },
+
     "NumberOfCAR": {
       "@id": "schema:Text",
-      "en": "Number of CAR",
-      "fr": "Nombre de CAR"
+      "@container": "@language"
     },
     "RegistrationDate": {
       "@id": "schema:DateTime",
-      "en": "Registration Date",
-      "fr": "Date d'enregistrement"
+      "@container": "@language"
     },
     "RuralPropertyName": {
       "@id": "schema:Text",
-      "en": "Rural Property Name",
-      "fr": "Nom de la propriété rurale"
+      "@container": "@language"
     },
     "Municipality": {
       "@id": "schema:Text",
-      "en": "Municipality",
-      "fr": "Municipalité"
+      "@container": "@language"
     },
     "Latitude": {
       "@id": "schema:Text",
-      "en": "Latitude",
-      "fr": "Latitude"
+      "@container": "@language"
     },
     "Longitude": {
       "@id": "schema:Text",
-      "en": "Longitude",
-      "fr": "Longitude"
+      "@container": "@language"
     },
     "TotalArea": {
       "@id": "schema:Text",
-      "en": "Total Area",
-      "fr": "Surface totale"
+      "@container": "@language"
     },
     "FiscalModules": {
       "@id": "schema:Float",
-      "en": "Fiscal Modules",
-      "fr": "Modules fiscaux"
+      "@container": "@language"
     },
     "ProtocolCode": {
       "@id": "schema:Text",
-      "en": "Protocol Code",
-      "fr": "Code du protocole"
+      "@container": "@language"
     },
     "CPF": {
       "@id": "schema:Text",
-      "en": "CPF",
-      "fr": "CPF"
+      "@container": "@language"
     },
     "HolderName": {
       "@id": "schema:Person",
-      "en": "Holder Name",
-      "fr": "Nom du titulaire"
+      "@container": "@language"
     },
     "TotalDeclaredArea": {
       "@id": "schema:Float",
-      "en": "Total Declared Area",
-      "fr": "Surface totale déclarée"
+      "@container": "@language"
     },
     "AdministrativeEasementArea": {
       "@id": "schema:Float",
-      "en": "Administrative Easement Area",
-      "fr": "Zone de servitude administrative"
+      "@container": "@language"
     },
     "NetArea": {
       "@id": "schema:Float",
-      "en": "Net Area",
-      "fr": "Surface nette"
+      "@container": "@language"
     },
     "ConsolidatedArea": {
       "@id": "schema:Float",
-      "en": "Consolidated Area",
-      "fr": "Surface consolidée"
+      "@container": "@language"
     },
     "NativeVegetationRemnant": {
       "@id": "schema:Float",
-      "en": "Native Vegetation Remnant",
-      "fr": "Vestige de végétation indigène"
+      "@container": "@language"
     },
     "LegalReserveArea": {
       "@id": "schema:Float",
-      "en": "Legal Reserve Area",
-      "fr": "Zone de réserve légale"
+      "@container": "@language"
     },
     "PermanentPreservationArea": {
       "@id": "schema:Float",
-      "en": "Permanent Preservation Area",
-      "fr": "Zone de préservation permanente"
+      "@container": "@language"
     },
     "RestrictedUseArea": {
       "@id": "schema:Float",
-      "en": "Restricted Use Area",
-      "fr": "Zone d'utilisation restreinte"
+      "@container": "@language"
     }
   }
 }
