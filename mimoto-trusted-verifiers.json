@@ -1,7 +1,7 @@
 {
   "verifiers": [
     {
-      "client_id": "https://5bfbc205ea0e.ngrok-free.app",
+      "client_id": "mock-client",
       "redirect_uris": [
         "https://5bfbc205ea0e.ngrok-free.app"
       ],
