@@ -1,12 +1,12 @@
 {
   "verifiers": [
     {
-      "client_id": "https://1ff69cd0ff8d.ngrok-free.app",
+      "client_id": "https://5bfbc205ea0e.ngrok-free.app",
       "redirect_uris": [
-        "https://1ff69cd0ff8d.ngrok-free.app"
+        "https://5bfbc205ea0e.ngrok-free.app"
       ],
       "response_uris": [
-        "https://1ff69cd0ff8d.ngrok-free.app/v1/verify/vp-submission/direct-post"
+        "https://5bfbc205ea0e.ngrok-free.app/v1/verify/vp-submission/direct-post"
       ]
     }
   ]
