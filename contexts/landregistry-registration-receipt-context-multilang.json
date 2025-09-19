@@ -5,140 +5,144 @@
     "type": "@type",
     "schema": "https://schema.org/",
     "RegistrationReceiptCredential": {
-      "@id": "https://mosip.github.io/inji-config/contexts/landregistry-registration-receipt-context-multilang.json#RegistrationReceiptCredential"
+      "@id": "https://mosip.github.io/inji-config/contexts/landregistry-registration-receipt-context-multilang.json#RegistrationReceiptCredential",
+      "en": "Registration Receipt Credential",
+      "fr": "Reçu d'enregistrement",
+      "es": "Recibo de Registro",
+      "hi": "पंजीकरण रसीद प्रमाणपत्र"
     },
     "NumberOfCAR": {
       "@id": "schema:Text",
-      "display": [
-        { "name": "CAR Registration Number", "locale": "en" },
-        { "name": "Numéro d'Enregistrement CAR", "locale": "fr" }
-      ]
+      "en": "Number of CAR",
+      "fr": "Nombre de CAR",
+      "es": "Número de CAR",
+      "hi": "CAR संख्या"
     },
     "RegistrationDate": {
       "@id": "schema:DateTime",
-      "display": [
-        { "name": "Registration Date", "locale": "en" },
-        { "name": "Date d'Enregistrement", "locale": "fr" }
-      ]
+      "en": "Registration Date",
+      "fr": "Date d'enregistrement",
+      "es": "Fecha de registro",
+      "hi": "पंजीकरण तिथि"
     },
     "RuralPropertyName": {
       "@id": "schema:Text",
-      "display": [
-        { "name": "Rural Property Name", "locale": "en" },
-        { "name": "Nom de la Propriété Rurale", "locale": "fr" }
-      ]
+      "en": "Rural Property Name",
+      "fr": "Nom de la propriété rurale",
+      "es": "Nombre de la propiedad rural",
+      "hi": "ग्रामीण संपत्ति का नाम"
     },
     "Municipality": {
       "@id": "schema:Text",
-      "display": [
-        { "name": "Municipality", "locale": "en" },
-        { "name": "Commune", "locale": "fr" }
-      ]
+      "en": "Municipality",
+      "fr": "Municipalité",
+      "es": "Municipio",
+      "hi": "नगरपालिका"
     },
     "Latitude": {
       "@id": "schema:Text",
-      "display": [
-        { "name": "Latitude", "locale": "en" },
-        { "name": "Latitude", "locale": "fr" }
-      ]
+      "en": "Latitude",
+      "fr": "Latitude",
+      "es": "Latitud",
+      "hi": "अक्षांश"
     },
     "Longitude": {
       "@id": "schema:Text",
-      "display": [
-        { "name": "Longitude", "locale": "en" },
-        { "name": "Longitude", "locale": "fr" }
-      ]
+      "en": "Longitude",
+      "fr": "Longitude",
+      "es": "Longitud",
+      "hi": "देशांतर"
     },
     "TotalArea": {
       "@id": "schema:Text",
-      "display": [
-        { "name": "Total Area", "locale": "en" },
-        { "name": "Superficie Totale", "locale": "fr" }
-      ]
+      "en": "Total Area",
+      "fr": "Surface totale",
+      "es": "Área total",
+      "hi": "कुल क्षेत्रफल"
     },
     "FiscalModules": {
       "@id": "schema:Float",
-      "display": [
-        { "name": "Fiscal Modules", "locale": "en" },
-        { "name": "Modules Fiscaux", "locale": "fr" }
-      ]
+      "en": "Fiscal Modules",
+      "fr": "Modules fiscaux",
+      "es": "Módulos fiscales",
+      "hi": "राजकोषीय मॉड्यूल"
     },
     "ProtocolCode": {
       "@id": "schema:Text",
-      "display": [
-        { "name": "Protocol Code", "locale": "en" },
-        { "name": "Code de Protocole", "locale": "fr" }
-      ]
+      "en": "Protocol Code",
+      "fr": "Code du protocole",
+      "es": "Código de protocolo",
+      "hi": "प्रोटोकॉल कोड"
     },
     "CPF": {
       "@id": "schema:Text",
-      "display": [
-        { "name": "CPF", "locale": "en" },
-        { "name": "CPF", "locale": "fr" }
-      ]
+      "en": "CPF",
+      "fr": "CPF",
+      "es": "CPF",
+      "hi": "CPF"
     },
     "HolderName": {
       "@id": "schema:Person",
-      "display": [
-        { "name": "Holder Name", "locale": "en" },
-        { "name": "Nom du Titulaire", "locale": "fr" }
-      ]
+      "en": "Holder Name",
+      "fr": "Nom du titulaire",
+      "es": "Nombre del titular",
+      "hi": "धारक का नाम"
     },
     "TotalDeclaredArea": {
       "@id": "schema:Float",
-      "display": [
-        { "name": "Total Declared Area", "locale": "en" },
-        { "name": "Superficie Totale Déclarée", "locale": "fr" }
-      ]
+      "en": "Total Declared Area",
+      "fr": "Surface totale déclarée",
+      "es": "Área total declarada",
+      "hi": "कुल घोषित क्षेत्रफल"
     },
     "AdministrativeEasementArea": {
       "@id": "schema:Float",
-      "display": [
-        { "name": "Administrative Easement Area", "locale": "en" },
-        { "name": "Zone de Servitude Administrative", "locale": "fr" }
-      ]
+      "en": "Administrative Easement Area",
+      "fr": "Zone de servitude administrative",
+      "es": "Área de servidumbre administrativa",
+      "hi": "प्रशासनिक उदार क्षेत्र"
     },
     "NetArea": {
       "@id": "schema:Float",
-      "display": [
-        { "name": "Net Area", "locale": "en" },
-        { "name": "Superficie Nette", "locale": "fr" }
-      ]
+      "en": "Net Area",
+      "fr": "Surface nette",
+      "es": "Área neta",
+      "hi": "शुद्ध क्षेत्रफल"
     },
     "ConsolidatedArea": {
       "@id": "schema:Float",
-      "display": [
-        { "name": "Consolidated Area", "locale": "en" },
-        { "name": "Superficie Consolidée", "locale": "fr" }
-      ]
+      "en": "Consolidated Area",
+      "fr": "Surface consolidée",
+      "es": "Área consolidada",
+      "hi": "संकलित क्षेत्रफल"
     },
     "NativeVegetationRemnant": {
       "@id": "schema:Float",
-      "display": [
-        { "name": "Native Vegetation Remnant", "locale": "en" },
-        { "name": "Vestige de Végétation Native", "locale": "fr" }
-      ]
+      "en": "Native Vegetation Remnant",
+      "fr": "Vestige de végétation indigène",
+      "es": "Resto de vegetación nativa",
+      "hi": "मूल वनस्पति अवशेष"
     },
     "LegalReserveArea": {
       "@id": "schema:Float",
-      "display": [
-        { "name": "Legal Reserve Area", "locale": "en" },
-        { "name": "Superficie de Réserve Légale", "locale": "fr" }
-      ]
+      "en": "Legal Reserve Area",
+      "fr": "Zone de réserve légale",
+      "es": "Área de reserva legal",
+      "hi": "कानूनी आरक्षित क्षेत्र"
     },
     "PermanentPreservationArea": {
       "@id": "schema:Float",
-      "display": [
-        { "name": "Permanent Preservation Area", "locale": "en" },
-        { "name": "Zone de Préservation Permanente", "locale": "fr" }
-      ]
+      "en": "Permanent Preservation Area",
+      "fr": "Zone de préservation permanente",
+      "es": "Área de preservación permanente",
+      "hi": "स्थायी संरक्षण क्षेत्र"
     },
     "RestrictedUseArea": {
       "@id": "schema:Float",
-      "display": [
-        { "name": "Restricted Use Area", "locale": "en" },
-        { "name": "Zone d'Utilisation Restreinte", "locale": "fr" }
-      ]
+      "en": "Restricted Use Area",
+      "fr": "Zone d'utilisation restreinte",
+      "es": "Área de uso restringido",
+      "hi": "सीमित उपयोग क्षेत्र"
     }
   }
 }
