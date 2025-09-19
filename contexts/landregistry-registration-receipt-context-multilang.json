@@ -5,11 +5,7 @@
     "type": "@type",
     "schema": "https://schema.org/",
     "RegistrationReceiptCredential": {
-      "@id": "https://mosip.github.io/inji-config/contexts/landregistry-registration-receipt-context-multilang.json#RegistrationReceiptCredential",
-      "en": "Registration Receipt Credential",
-      "fr": "Reçu d'enregistrement",
-      "es": "Recibo de Registro",
-      "hi": "पंजीकरण रसीद प्रमाणपत्र"
+      "@id": "https://mosip.github.io/inji-config/contexts/landregistry-registration-receipt-context-multilang.json#RegistrationReceiptCredential"
     },
     "NumberOfCAR": {
       "@id": "schema:Text",
