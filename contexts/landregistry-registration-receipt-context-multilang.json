@@ -10,135 +10,97 @@
     "NumberOfCAR": {
       "@id": "schema:Text",
       "en": "Number of CAR",
-      "fr": "Nombre de CAR",
-      "es": "Número de CAR",
-      "hi": "CAR संख्या"
+      "fr": "Nombre de CAR"
     },
     "RegistrationDate": {
       "@id": "schema:DateTime",
       "en": "Registration Date",
-      "fr": "Date d'enregistrement",
-      "es": "Fecha de registro",
-      "hi": "पंजीकरण तिथि"
+      "fr": "Date d'enregistrement"
     },
     "RuralPropertyName": {
       "@id": "schema:Text",
       "en": "Rural Property Name",
-      "fr": "Nom de la propriété rurale",
-      "es": "Nombre de la propiedad rural",
-      "hi": "ग्रामीण संपत्ति का नाम"
+      "fr": "Nom de la propriété rurale"
     },
     "Municipality": {
       "@id": "schema:Text",
       "en": "Municipality",
-      "fr": "Municipalité",
-      "es": "Municipio",
-      "hi": "नगरपालिका"
+      "fr": "Municipalité"
     },
     "Latitude": {
       "@id": "schema:Text",
       "en": "Latitude",
-      "fr": "Latitude",
-      "es": "Latitud",
-      "hi": "अक्षांश"
+      "fr": "Latitude"
     },
     "Longitude": {
       "@id": "schema:Text",
       "en": "Longitude",
-      "fr": "Longitude",
-      "es": "Longitud",
-      "hi": "देशांतर"
+      "fr": "Longitude"
     },
     "TotalArea": {
       "@id": "schema:Text",
       "en": "Total Area",
-      "fr": "Surface totale",
-      "es": "Área total",
-      "hi": "कुल क्षेत्रफल"
+      "fr": "Surface totale"
     },
     "FiscalModules": {
       "@id": "schema:Float",
       "en": "Fiscal Modules",
-      "fr": "Modules fiscaux",
-      "es": "Módulos fiscales",
-      "hi": "राजकोषीय मॉड्यूल"
+      "fr": "Modules fiscaux"
     },
     "ProtocolCode": {
       "@id": "schema:Text",
       "en": "Protocol Code",
-      "fr": "Code du protocole",
-      "es": "Código de protocolo",
-      "hi": "प्रोटोकॉल कोड"
+      "fr": "Code du protocole"
     },
     "CPF": {
       "@id": "schema:Text",
       "en": "CPF",
-      "fr": "CPF",
-      "es": "CPF",
-      "hi": "CPF"
+      "fr": "CPF"
     },
     "HolderName": {
       "@id": "schema:Person",
       "en": "Holder Name",
-      "fr": "Nom du titulaire",
-      "es": "Nombre del titular",
-      "hi": "धारक का नाम"
+      "fr": "Nom du titulaire"
     },
     "TotalDeclaredArea": {
       "@id": "schema:Float",
       "en": "Total Declared Area",
-      "fr": "Surface totale déclarée",
-      "es": "Área total declarada",
-      "hi": "कुल घोषित क्षेत्रफल"
+      "fr": "Surface totale déclarée"
     },
     "AdministrativeEasementArea": {
       "@id": "schema:Float",
       "en": "Administrative Easement Area",
-      "fr": "Zone de servitude administrative",
-      "es": "Área de servidumbre administrativa",
-      "hi": "प्रशासनिक उदार क्षेत्र"
+      "fr": "Zone de servitude administrative"
     },
     "NetArea": {
       "@id": "schema:Float",
       "en": "Net Area",
-      "fr": "Surface nette",
-      "es": "Área neta",
-      "hi": "शुद्ध क्षेत्रफल"
+      "fr": "Surface nette"
     },
     "ConsolidatedArea": {
       "@id": "schema:Float",
       "en": "Consolidated Area",
-      "fr": "Surface consolidée",
-      "es": "Área consolidada",
-      "hi": "संकलित क्षेत्रफल"
+      "fr": "Surface consolidée"
     },
     "NativeVegetationRemnant": {
       "@id": "schema:Float",
       "en": "Native Vegetation Remnant",
-      "fr": "Vestige de végétation indigène",
-      "es": "Resto de vegetación nativa",
-      "hi": "मूल वनस्पति अवशेष"
+      "fr": "Vestige de végétation indigène"
     },
     "LegalReserveArea": {
       "@id": "schema:Float",
       "en": "Legal Reserve Area",
-      "fr": "Zone de réserve légale",
-      "es": "Área de reserva legal",
-      "hi": "कानूनी आरक्षित क्षेत्र"
+      "fr": "Zone de réserve légale"
     },
     "PermanentPreservationArea": {
       "@id": "schema:Float",
       "en": "Permanent Preservation Area",
-      "fr": "Zone de préservation permanente",
-      "es": "Área de preservación permanente",
-      "hi": "स्थायी संरक्षण क्षेत्र"
+      "fr": "Zone de préservation permanente"
     },
     "RestrictedUseArea": {
       "@id": "schema:Float",
       "en": "Restricted Use Area",
-      "fr": "Zone d'utilisation restreinte",
-      "es": "Área de uso restringido",
-      "hi": "सीमित उपयोग क्षेत्र"
+      "fr": "Zone d'utilisation restreinte"
     }
   }
 }
