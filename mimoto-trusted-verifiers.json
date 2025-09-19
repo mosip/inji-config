@@ -6,7 +6,7 @@
         "https://5bfbc205ea0e.ngrok-free.app"
       ],
       "response_uris": [
-        "https://5bfbc205ea0e.ngrok-free.app/verify/vp-submission/direct-post"
+        "https://5bfbc205ea0e.ngrok-free.app/verifier/vp-response"
       ]
     }
   ]
