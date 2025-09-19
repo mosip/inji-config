@@ -11,136 +11,79 @@
 
     "NumberOfCAR": {
       "@id": "schema:Text",
-      "@container": "@language",
-      "en": "Number of CAR",
-      "fr": "Nombre de CAR",
-      "fil": "Bilang ng CAR"
+      "@container": "@language"
     },
     "RegistrationDate": {
       "@id": "schema:DateTime",
-      "@container": "@language",
-      "en": "Registration Date",
-      "fr": "Date d'enregistrement",
-      "fil": "Petsa ng Rehistrasyon"
+      "@container": "@language"
     },
     "RuralPropertyName": {
       "@id": "schema:Text",
-      "@container": "@language",
-      "en": "Rural Property Name",
-      "fr": "Nom de la propriété rurale",
-      "fil": "Pangalan ng Rural Property"
+      "@container": "@language"
     },
     "Municipality": {
       "@id": "schema:Text",
-      "@container": "@language",
-      "en": "Municipality",
-      "fr": "Municipalité",
-      "fil": "Munisipalidad"
+      "@container": "@language"
     },
     "Latitude": {
       "@id": "schema:Text",
-      "@container": "@language",
-      "en": "Latitude",
-      "fr": "Latitude",
-      "fil": "Latitud"
+      "@container": "@language"
     },
     "Longitude": {
       "@id": "schema:Text",
-      "@container": "@language",
-      "en": "Longitude",
-      "fr": "Longitude",
-      "fil": "Longhitud"
+      "@container": "@language"
     },
     "TotalArea": {
       "@id": "schema:Text",
-      "@container": "@language",
-      "en": "Total Area",
-      "fr": "Surface totale",
-      "fil": "Kabuuang Lupa"
+      "@container": "@language"
     },
     "FiscalModules": {
       "@id": "schema:Float",
-      "@container": "@language",
-      "en": "Fiscal Modules",
-      "fr": "Modules fiscaux",
-      "fil": "Fiscal Modules"
+      "@container": "@language"
     },
     "ProtocolCode": {
       "@id": "schema:Text",
-      "@container": "@language",
-      "en": "Protocol Code",
-      "fr": "Code du protocole",
-      "fil": "Protocol Code"
+      "@container": "@language"
     },
     "CPF": {
       "@id": "schema:Text",
-      "@container": "@language",
-      "en": "CPF",
-      "fr": "CPF",
-      "fil": "CPF"
+      "@container": "@language"
     },
     "HolderName": {
       "@id": "schema:Person",
-      "@container": "@language",
-      "en": "Holder Name",
-      "fr": "Nom du titulaire",
-      "fil": "Pangalan ng May-ari"
+      "@container": "@language"
     },
     "TotalDeclaredArea": {
       "@id": "schema:Float",
-      "@container": "@language",
-      "en": "Total Declared Area",
-      "fr": "Surface totale déclarée",
-      "fil": "Kabuuang Inihayag na Lupa"
+      "@container": "@language"
     },
     "AdministrativeEasementArea": {
       "@id": "schema:Float",
-      "@container": "@language",
-      "en": "Administrative Easement Area",
-      "fr": "Zone de servitude administrative",
-      "fil": "Administrative Easement Area"
+      "@container": "@language"
     },
     "NetArea": {
       "@id": "schema:Float",
-      "@container": "@language",
-      "en": "Net Area",
-      "fr": "Surface nette",
-      "fil": "Netong Lupa"
+      "@container": "@language"
     },
     "ConsolidatedArea": {
       "@id": "schema:Float",
-      "@container": "@language",
-      "en": "Consolidated Area",
-      "fr": "Surface consolidée",
-      "fil": "Pinagsamang Lupa"
+      "@container": "@language"
     },
     "NativeVegetationRemnant": {
       "@id": "schema:Float",
-      "@container": "@language",
-      "en": "Native Vegetation Remnant",
-      "fr": "Vestige de végétation indigène",
-      "fil": "Natitirang Katutubong Halaman"
+      "@container": "@language"
     },
     "LegalReserveArea": {
       "@id": "schema:Float",
-      "@container": "@language",
-      "en": "Legal Reserve Area",
-      "fr": "Zone de réserve légale",
-      "fil": "Legal Reserve Area"
+      "@container": "@language"
     },
     "PermanentPreservationArea": {
       "@id": "schema:Float",
-      "@container": "@language",
-      "en": "Permanent Preservation Area",
-      "fr": "Zone de préservation permanente",
-      "fil": "Permanent Preservation Area"
+      "@container": "@language"
     },
     "RestrictedUseArea": {
       "@id": "schema:Float",
-      "@container": "@language",
-      "en": "Restricted Use Area",
-      "fr": "Zone d'utilisation restreinte",
-      "fil": "Restricted Use Area"
+      "@container": "@language"
     }
   }
 }
