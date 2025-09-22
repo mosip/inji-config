@@ -1,12 +1,12 @@
 {
   "verifiers": [
     {
-      "client_id": "mock-client",
+      "client_id": "https://${mosip.injiverify.host}",
       "redirect_uris": [
-        "https://3eb4aa4c115b.ngrok-free.app"
+        "https://${mosip.injiverify.host}/"
       ],
       "response_uris": [
-        "https://3eb4aa4c115b.ngrok-free.app/verifier/vp-response"
+        "https://${mosip.injiverify.host}/v1/verify/vp-submission/direct-post"
       ]
     }
   ]
