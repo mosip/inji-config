@@ -2,11 +2,9 @@
   "@context": {
     "@version": 1.1,
     "@protected": true,
-    "@language": "en",  // ✅ Default language fallback
+    "@language": "en", // fallback language
 
-    "type": "@type",
     "schema": "https://schema.org/",
-
     "RegistrationReceiptCredential": {
       "@id": "https://mosip.github.io/inji-config/contexts/landregistry-registration-receipt-context-multilang.json#RegistrationReceiptCredential"
     },
@@ -17,7 +15,8 @@
         "en": "Number of CAR",
         "fr": "Numéro de CAR",
         "fil": "Bilang ng CAR"
-      }
+      },
+      "@container": "@language"
     },
     "RegistrationDate": {
       "@id": "schema:DateTime",
@@ -25,7 +24,8 @@
         "en": "Registration Date",
         "fr": "Date d'enregistrement",
         "fil": "Petsa ng Pagpaparehistro"
-      }
+      },
+      "@container": "@language"
     },
     "RuralPropertyName": {
       "@id": "schema:Text",
@@ -33,7 +33,8 @@
         "en": "Rural Property Name",
         "fr": "Nom de la propriété rurale",
         "fil": "Pangalan ng Lupang Rural"
-      }
+      },
+      "@container": "@language"
     },
     "Municipality": {
       "@id": "schema:Text",
@@ -41,7 +42,8 @@
         "en": "Municipality",
         "fr": "Municipalité",
         "fil": "Munisipalidad"
-      }
+      },
+      "@container": "@language"
     },
     "Latitude": {
       "@id": "schema:Text",
@@ -49,7 +51,8 @@
         "en": "Latitude",
         "fr": "Latitude",
         "fil": "Latitud"
-      }
+      },
+      "@container": "@language"
     },
     "Longitude": {
       "@id": "schema:Text",
@@ -57,7 +60,8 @@
         "en": "Longitude",
         "fr": "Longitude",
         "fil": "Longhitud"
-      }
+      },
+      "@container": "@language"
     },
     "TotalArea": {
       "@id": "schema:Text",
@@ -65,7 +69,8 @@
         "en": "Total Area",
         "fr": "Superficie totale",
         "fil": "Kabuuang Lawak"
-      }
+      },
+      "@container": "@language"
     },
     "FiscalModules": {
       "@id": "schema:Float",
@@ -73,7 +78,8 @@
         "en": "Fiscal Modules",
         "fr": "Modules fiscaux",
         "fil": "Mga Modulong Piskal"
-      }
+      },
+      "@container": "@language"
     },
     "ProtocolCode": {
       "@id": "schema:Text",
@@ -81,7 +87,8 @@
         "en": "Protocol Code",
         "fr": "Code de protocole",
         "fil": "Kodigo ng Protokol"
-      }
+      },
+      "@container": "@language"
     },
     "CPF": {
       "@id": "schema:Text",
@@ -89,7 +96,8 @@
         "en": "CPF",
         "fr": "CPF",
         "fil": "CPF"
-      }
+      },
+      "@container": "@language"
     },
     "HolderName": {
       "@id": "schema:Person",
@@ -97,7 +105,8 @@
         "en": "Holder Name",
         "fr": "Nom du titulaire",
         "fil": "Pangalan ng May-ari"
-      }
+      },
+      "@container": "@language"
     },
     "TotalDeclaredArea": {
       "@id": "schema:Float",
@@ -105,7 +114,8 @@
         "en": "Total Declared Area",
         "fr": "Superficie totale déclarée",
         "fil": "Kabuuang Inihayag na Lawak"
-      }
+      },
+      "@container": "@language"
     },
     "AdministrativeEasementArea": {
       "@id": "schema:Float",
@@ -113,7 +123,8 @@
         "en": "Administrative Easement Area",
         "fr": "Zone de servitude administrative",
         "fil": "Lugar ng Administratibong Serbisyo"
-      }
+      },
+      "@container": "@language"
     },
     "NetArea": {
       "@id": "schema:Float",
@@ -121,7 +132,8 @@
         "en": "Net Area",
         "fr": "Superficie nette",
         "fil": "Netong Lawak"
-      }
+      },
+      "@container": "@language"
     },
     "ConsolidatedArea": {
       "@id": "schema:Float",
@@ -129,7 +141,8 @@
         "en": "Consolidated Area",
         "fr": "Zone consolidée",
         "fil": "Pinagsamang Lawak"
-      }
+      },
+      "@container": "@language"
     },
     "NativeVegetationRemnant": {
       "@id": "schema:Float",
@@ -137,7 +150,8 @@
         "en": "Native Vegetation Remnant",
         "fr": "Vestige de végétation native",
         "fil": "Natitirang Katutubong Halaman"
-      }
+      },
+      "@container": "@language"
     },
     "LegalReserveArea": {
       "@id": "schema:Float",
@@ -145,7 +159,8 @@
         "en": "Legal Reserve Area",
         "fr": "Zone de réserve légale",
         "fil": "Lugar ng Legal na Reserba"
-      }
+      },
+      "@container": "@language"
     },
     "PermanentPreservationArea": {
       "@id": "schema:Float",
@@ -153,7 +168,8 @@
         "en": "Permanent Preservation Area",
         "fr": "Zone de préservation permanente",
         "fil": "Lugar ng Permanenteng Preserbasyon"
-      }
+      },
+      "@container": "@language"
     },
     "RestrictedUseArea": {
       "@id": "schema:Float",
@@ -161,7 +177,8 @@
         "en": "Restricted Use Area",
         "fr": "Zone à usage restreint",
         "fil": "Lugar na may Pinaghihigpitang Gamit"
-      }
+      },
+      "@container": "@language"
     }
   }
 }
