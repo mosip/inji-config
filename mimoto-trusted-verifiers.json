@@ -1,43 +1,13 @@
 {
-    "verifiers": [
-        {
-            "client_id": "mock-client",
-            "redirect_uris": [
-                "https://f39ce0a93496.ngrok-free.app"
-            ],
-            "response_uris": [
-                "https://f39ce0a93496.ngrok-free.app/verify/vp-response"
-            ]
-        }
-    ],
-    "client_name": "Requester name",
-    "logo_uri": "https://mosip.github.io/inji-config/logos/StayProtectedInsurance.png",
-    "authorization_encrypted_response_alg": "ECDH-ES",
-    "authorization_encrypted_response_enc": "A256GCM",
-    "jwks": {
-        "keys": [
-            {
-                "kty": "OKP",
-                "crv": "X25519",
-                "use": "enc",
-                "x": "BVNVdqorpxCCnTOkkw8S2NAYXvfEvkC-8RDObhrAUA4",
-                "alg": "ECDH-ES",
-                "kid": "verifier-key-id"
-            }
-        ]
-    },
-    "vp_formats": {
-        "mso_mdoc": {
-            "alg": [
-                "ES256"
-            ]
-        },
-        "ldp_vp": {
-            "proof_type": [
-                "Ed25519Signature2018",
-                "Ed25519Signature2020",
-                "RsaSignature2018"
-            ]
-        }
+  "verifiers": [
+    {
+      "client_id": "https://${mosip.injiverify.host}",
+      "redirect_uris": [
+        "https://${mosip.injiverify.host}/"
+      ],
+      "response_uris": [
+        "https://${mosip.injiverify.host}/v1/verify/vp-submission/direct-post"
+      ]
     }
-},
+  ]
+}
