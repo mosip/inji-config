@@ -8,36 +8,72 @@
       "@id": "https://mosip.github.io/inji-config/contexts/farmer-context.json#FarmerCredential"
     },
     "farmerDetails": "schema:Thing",
-    "authority": "schema:Text",
-    "idType": "schema:Text",
-    "fullName": "schema:name",
+    "authority": {
+      "@id": "schema:Text",
+      "@container": "@language"
+    },
+    "idType": {
+      "@id": "schema:Text",
+      "@container": "@language"
+    },
+    "fullName": {
+      "@id": "schema:name",
+      "@container": "@language"
+    },
     "farmerId": "schema:Text",
-    "gender": "schema:gender",
+    "gender": {
+      "@id": "schema:gender",
+      "@container": "@language"
+    },
     "phoneNumber": "schema:telephone",
     "dateOfBirth": "schema:birthDate",
     "address": {
       "@id": "schema:address",
       "@context": {
-        "village": "schema:addressLocality",
-        "district": "schema:addressRegion",
-        "state": "schema:addressRegion"
+        "village": {
+          "@id": "schema:addressLocality",
+          "@container": "@language"
+        },
+        "district": {
+          "@id": "schema:addressRegion",
+          "@container": "@language"
+        },
+        "state": {
+          "@id": "schema:addressRegion",
+          "@container": "@language"
+        }
       }
     },
-    "primaryCommodity": "schema:productSupported",
+    "primaryCommodity": {
+      "@id": "schema:productSupported",
+      "@container": "@language"
+    },
     "totalLandArea": {
       "@id": "schema:area",
       "@context": {
         "value": "schema:value",
-        "unit": "schema:unitText"
+        "unit": {
+          "@id": "schema:unitText",
+          "@container": "@language"
+        }
       }
     },
-    "ownershipType": "schema:Text",
+    "ownershipType": {
+      "@id": "schema:Text",
+      "@container": "@language"
+    },
     "crops": {
       "@id": "schema:productSupported",
       "@container": "@list",
       "@context": {
-        "cropName": "schema:name",
-        "season": "schema:temporalCoverage"
+        "cropName": {
+          "@id": "schema:name",
+          "@container": "@language"
+        },
+        "season": {
+          "@id": "schema:temporalCoverage",
+          "@container": "@language"
+        }
       }
     },
     "face": "schema:Text"
