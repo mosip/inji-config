@@ -10,6 +10,37 @@
       ],
       "jwks_uri": "https://${mosip.injiverify.host}/.well-known/jwks.json",
       "allow_unsigned_request": true
+    },
+    {
+      "client_id": "mock-client",
+      "redirect_uris": [
+        "https://example.com/redirect"
+      ],
+      "response_uris": [
+        "https://9c06bd6cb213.ngrok-free.app/verifier/vp-response"
+      ],
+      "jwks_uri": "https://9c06bd6cb213.ngrok-free.app/.well-known/jwks.json",
+      "allow_unsigned_request": true
+    },
+    {
+      "client_id": "mock-client-1",
+      "redirect_uris": [
+        "https://example.com/redirect"
+      ],
+      "response_uris": [
+        "https://9c06bd6cb213.ngrok-free.app/verifier/vp-response"
+      ],
+      "jwks_uri": "https://9c06bd6cb213.ngrok-free.app/.well-known/jwks.json",
+      "allow_unsigned_request": false
+    },
+    {
+      "client_id": "mock-client-2",
+      "redirect_uris": [
+        "https://example.com/redirect"
+      ],
+      "response_uris": [
+        "https://9c06bd6cb213.ngrok-free.app/verifier/vp-response"
+      ]
     }
   ]
 }
