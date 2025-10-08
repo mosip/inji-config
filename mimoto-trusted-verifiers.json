@@ -1,13 +1,15 @@
 {
-  "verifiers": [
-    {
-      "client_id": "https://${mosip.injiverify.host}",
-      "redirect_uris": [
-        "https://${mosip.injiverify.host}/"
-      ],
-      "response_uris": [
-        "https://${mosip.injiverify.host}/v1/verify/vp-submission/direct-post"
-      ]
-    }
-  ]
+    "verifiers": [
+        {
+            "client_id": "mock-client",
+            "redirect_uris": [
+                "https://db375f5d3cea.ngrok-free.app"
+            ],
+            "response_uris": [
+                "https://f39ce0a93496.ngrok-free.app/verify/vp-response"
+            ],
+            "jwks_uri": "https://f39ce0a93496.ngrok-free.app/.well-known/jwks.json",
+            "allow_unsigned_request": true
+        }
+    ]
 }
