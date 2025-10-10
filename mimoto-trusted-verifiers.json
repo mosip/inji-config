@@ -1,6 +1,16 @@
 {
   "verifiers": [
     {
+      "client_id": "${mosip.injiverify.host}/",
+      "redirect_uris": [
+        "https://${mosip.injiverify.host}/"
+      ],
+      "response_uris": [
+        "https://${mosip.injiverify.host}/v1/verify/vp-submission/direct-post"
+      ],
+      "allow_unsigned_request": true
+    },
+    {
       "client_id": "mock-client",
       "redirect_uris": [
         "https://db375f5d3cea.ngrok-free.app"
