@@ -8,7 +8,7 @@
       "response_uris": [
         "https://db375f5d3cea.ngrok-free.app/verifier/vp-response"
       ],
-      "jwks_uri": "https://db375f5d3cea.ngrok-free.app/.well-known/jwks.json",
+      "jwks_uri": "https://db375f5d3cea.ngrok-free.app/.well-known/jwks.json"
     }
   ]
 }
