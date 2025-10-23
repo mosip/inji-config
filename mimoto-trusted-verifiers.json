@@ -52,6 +52,17 @@
       ],
       "jwks_uri": "https://injiverify.collab.mosip.net/.well-known/jwks.json",
       "allow_unsigned_request": true
+    },
+    {
+      "client_id": "test-client",
+      "redirect_uris": [
+        "https://verify-mockserver.loca.lt/"
+      ],
+      "response_uris": [
+        "https://verify-mockserver.loca.lt/verifier/vp-response"
+      ],
+      "jwks_uri": "https://verify-mockserver.loca.lt/.well-known/jwks.json",
+      "allow_unsigned_request": true
     }
   ]
 }
