@@ -1,0 +1,39 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@protected": true,
+    "type": "@type",
+    "schema": "https://schema.org/",
+    "TruckPassCredential": {
+      "@id": "https://mosip.github.io/inji-config/contexts/truckpass-context.json#TruckPassCredential"
+    },
+    "FullName": "schema:Text",
+    "UIN": "schema:Text",
+    "PhoneNumber": "schema:Text",
+    "Gender": "schema:Text",
+    "EmailID": "schema:Email",
+    "City": "schema:Text",
+    "FaceImage": "schema:ImageObject",
+    "DriversLicenseNumber": "schema:Text",
+    "PassportNumber": "schema:Text",
+    "InvoiceNumber": "schema:Text",
+    "CMRWaybillConsignmentOrder": "schema:Text",
+    "CustomsDocumentation": "schema:Text",
+    "WeightCertificate": "schema:Text",
+    "TrackingID": "schema:Text",
+    "VehicleNumber": "schema:Text",
+    "VehicleType": "schema:Text",
+    "AxleSize": "schema:Text",
+    "VehicleRegistrationDocuments": "schema:Text",
+    "TruckLicensePlate": "schema:Text",
+    "ExporterName": "schema:Text",
+    "ImporterName": "schema:Text",
+    "EntryExitPoint": "schema:Text",
+    "CountryOfOrigin": "schema:Text",
+    "CountryOfDestination": "schema:Text",
+    "DateOfDeparture": "schema:Date",
+    "DateOfReturn": "schema:Date",
+    "IssuedOn": "schema:Date",
+    "ExpiresOn": "schema:Date"
+  }
+}
