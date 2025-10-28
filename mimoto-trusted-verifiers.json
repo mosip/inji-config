@@ -13,12 +13,12 @@
         {
             "client_id": "mock-client",
             "redirect_uris": [
-                "https://ba7f0491e342.ngrok-free.app/"
+                "https://b99fcca1183a.ngrok-free.app/"
             ],
             "response_uris": [
-                "https://ba7f0491e342.ngrok-free.app/verifier/vp-response"
+                "https://b99fcca1183a.ngrok-free.app/verifier/vp-response"
             ],
-            "jwks_uri": "https://ba7f0491e342.ngrok-free.app/.well-known/jwks.json",
+            "jwks_uri": "https://b99fcca1183a.ngrok-free.app/.well-known/jwks.json",
             "allow_unsigned_request": true
         },
         {
