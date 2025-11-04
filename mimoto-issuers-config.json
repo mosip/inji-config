@@ -313,7 +313,7 @@
     {
       "issuer_id": "MosipTAN",
       "credential_issuer": "MosipTAN",
-      "credential_issuer_host": "https://injicertify-tan.collab.mosip.net/v1/certify/issuance",
+      "credential_issuer_host": "https://injicertify-tan.collab.mosip.net",
       "display": [
         {
           "name": "Republic of Veridonia Tax Department",
