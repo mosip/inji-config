@@ -63,6 +63,17 @@
       ],
       "jwks_uri": "https://verify-mockserver.loca.lt/.well-known/jwks.json",
       "allow_unsigned_request": true
+    },
+    {
+      "client_id": "test-client",
+      "redirect_uris": [
+        "https://unenvying-oleta-shrinkingly.ngrok-free.dev/"
+      ],
+      "response_uris": [
+        "https://unenvying-oleta-shrinkingly.ngrok-free.dev/verifier/vp-response"
+      ],
+      "jwks_uri": "https://unenvying-oleta-shrinkingly.ngrok-free.dev/.well-known/jwks.json",
+      "allow_unsigned_request": true
     }
   ]
 }
