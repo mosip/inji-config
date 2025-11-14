@@ -6,11 +6,11 @@
   "id": "did:web:mosip.github.io:inji-config:qa-inji1:mock",
   "verificationMethod": [
     {
-      "publicKeyMultibase": "zDnaefR9j16huNfWzjjA3ZpyaL7Y2tC6SmDVkJeoAgZuhdGHx",
       "controller": "did:web:mosip.github.io:inji-config:qa-inji1:mock",
-      "id": "did:web:mosip.github.io:inji-config:qa-inji1:mock#h_73PJzH66pNwPfGektF2rhUPUSweeYrEiLAxs-D51U",
-      "type": "EcdsaSecp256r1VerificationKey2019",
-      "@context": "https://w3id.org/security/suites/ecdsa-2019/v1"
+      "publicKeyPem": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA65X0aE2ufNhM3ry40/ij\nAqM06rbaaGjO+4JQQTl9tdR5oFe6Jd50Rf/sO6RNes9k3a1tCZ6oadEgwQO6J5YU\n5kKXOTO1KQ9ifCTlIjkNlvEz06Z0uBtjKtaPplaWaVna6H0fFht0fsD2Z6ya0hCx\n2z1X7mmbC4kD9pig6N28v40n7Kjsr01Kw026zNag/hsXO/hK19YAjLgo6Q1uGY7k\ngFwcVhpGOyzVK4BKRtkhPi3RUyP5n2MdrQ5kE34p5zoyrxU0C5trPz3iKKN4rrB6\neIGgRU0EVVRWSQAEV/7ZO3WWhWbpolivNHWQddXfDUScUnZo1dgRDIn7guXaE44P\nOQIDAQAB\n-----END PUBLIC KEY-----",
+      "id": "did:web:mosip.github.io:inji-config:qa-inji1:mock#QizhlYu5pcVa8l_fmElYzeLukKPShmkd0vIfF1Y7Oco",
+      "type": "RsaVerificationKey2018",
+      "@context": "https://w3id.org/security/v1"
     },
     {
       "controller": "did:web:mosip.github.io:inji-config:qa-inji1:mock",
