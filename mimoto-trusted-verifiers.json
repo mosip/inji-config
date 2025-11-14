@@ -10,6 +10,17 @@
       ],
       "jwks_uri": "https://${mosip.injiverify.host}/.well-known/jwks.json",
       "allow_unsigned_request": true
+    },
+    {
+      "client_id": "mock-verifier",
+      "redirect_uris": [
+        "mock-verifier-host"
+      ],
+      "response_uris": [
+        "mock-verifier-vp-submission-endpoint"
+      ],
+      "jwks_uri": "mock-verifier-jwk-wellknown",
+      "allow_unsigned_request": true
     }
   ]
 }
