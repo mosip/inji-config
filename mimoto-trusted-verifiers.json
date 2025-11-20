@@ -24,12 +24,12 @@
         {
             "client_id": "mock-client1",
             "redirect_uris": [
-                "https://d3ea224f93a7.ngrok-free.app"
+                "https://bd503f601685.ngrok-free.app"
             ],
             "response_uris": [
-                "https://d3ea224f93a7.ngrok-free.app/verifier/vp-response"
+                "https://bd503f601685.ngrok-free.app/verifier/vp-response"
             ],
-            "jwks_uri": "https://d3ea224f93a7.ngrok-free.app/.well-known/jwks.json",
+            "jwks_uri": "https://bd503f601685.ngrok-free.app/.well-known/jwks.json",
             "allow_unsigned_request": true
         },
     {
