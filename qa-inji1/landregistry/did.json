@@ -1,33 +1,21 @@
 {
   "assertionMethod": [
-    "did:web:mosip.github.io:inji-config:qa-inji1:landregistry"
+    "did:web:mosip.github.io:inji-config:collab:landregistry"
   ],
   "service": [],
-  "id": "did:web:mosip.github.io:inji-config:qa-inji1:landregistry",
+  "id": "did:web:mosip.github.io:inji-config:collab:landregistry",
   "verificationMethod": [
     {
       "publicKeyMultibase": "zDnaeptV8aVkhnG9FX3FHaxSJLSb2ZapoGjnvwVuiM8itw1Ru",
-      "controller": "did:web:mosip.github.io:inji-config:qa-inji1:landregistry",
-      "id": "did:web:mosip.github.io:inji-config:qa-inji1:landregistry#sjGPdHwAGq-djL2Z7I95WkXOLYw79CX-Ec15muZOGqk",
+      "controller": "did:web:mosip.github.io:inji-config:collab:landregistry",
+      "id": "did:web:mosip.github.io:inji-config:collab:landregistry#hRr7PKCPeb9pxmpqtXzhJhj-2gF7CUjfBLR_FiNkrvs",
       "type": "EcdsaSecp256r1VerificationKey2019",
       "@context": "https://w3id.org/security/suites/ecdsa-2019/v1"
     },
     {
-      "controller": "did:web:mosip.github.io:inji-config:qa-inji1:landregistry",
-      "publicKeyJwk": {
-        "kty": "EC",
-        "crv": "secp256k1",
-        "x": "fITIOiefV_pmyHH-za9xvqEogaMwDbw5GDlPGzCRDlE",
-        "y": "Yhu7mKTKtcaJLJmSl-PUUw6W1yf1DyZqXmLaX1aIQgQ"
-      },
-      "id": "did:web:mosip.github.io:inji-config:qa-inji1:landregistry#Io1isPCBW-5tOkpIGRk0PWrISjKn0cV1I3oJ-0H86r0",
-      "type": "EcdsaSecp256k1VerificationKey2019",
-      "@context": "https://w3id.org/security/v1"
-    },
-    {
       "publicKeyMultibase": "z6Mkj3NiHZzRUbxVqPQPVRPZFDCWgVb1KhfV3dp2JXEajrRG",
-      "controller": "did:web:mosip.github.io:inji-config:qa-inji1:landregistry",
-      "id": "did:web:mosip.github.io:inji-config:qa-inji1:landregistry#gm0ojxzFdNI7N5CTZ9G9R5fraQr1cx4l5QRs9SHZ7oA",
+      "controller": "did:web:mosip.github.io:inji-config:collab:landregistry",
+      "id": "did:web:mosip.github.io:inji-config:collab:landregistry#DUHyEX6wZQyc05nskfK4NuGses2LSbNbV7mXVWoA9nQ",
       "type": "Ed25519VerificationKey2020",
       "@context": "https://w3id.org/security/suites/ed25519-2020/v1"
     }
@@ -37,6 +25,6 @@
   ],
   "alsoKnownAs": [],
   "authentication": [
-    "did:web:mosip.github.io:inji-config:qa-inji1:landregistry"
+    "did:web:mosip.github.io:inji-config:collab:landregistry"
   ]
 }
