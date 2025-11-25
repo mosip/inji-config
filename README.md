@@ -12,6 +12,7 @@ This Repository contains configurations for Inji Stack, These are the split up o
 - [mimoto-issuers-config.json](mimoto-issuers-config.json) - Configuration of All Supported Credential Issuers is mentioned here
 - [mimoto-trusted-verifiers.json](mimoto-trusted-verifiers.json) - Configuration of All Trusted Credential Verifiers is mentioned here
   - The **response_uri** is used to receive vp_token for cross device flow support.
+  - A mock configuration for the `mock-verifier` is provided to represent a verifier that supports only signed requests. Currently, Inji Verify does not support signed requests, but the wallet supports both signed and unsigned requests. Therefore, this configuration is only for demonstration purposes.
 
 ### DataShare
 
