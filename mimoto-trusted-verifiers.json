@@ -75,7 +75,7 @@
       "allow_unsigned_request": true
     },
           {
-      "client_id": "test-client",
+      "client_id": "test-client1",
       "redirect_uris": [
         "https://lunar-odell-azeotropic.ngrok-free.dev/"
       ],
