@@ -6,9 +6,16 @@
     "id": "did:web:mosip.github.io:inji-config:released:landregistry",
     "verificationMethod": [
         {
+            "publicKeyMultibase": "zDnaewjS1HmA4n1FaaLcUS723RD4bE3ukn7vUzca3HQi7SdNW",
+            "controller": "did:web:mosip.github.io:inji-config:released:landregistry",
+            "id": "did:web:mosip.github.io:inji-config:released:landregistry#WbBhmN9lNAUuC4tEiARy4ctG78oGPpPz0Xj1ybTvPL0",
+            "type": "EcdsaSecp256r1VerificationKey2019",
+            "@context": "https://w3id.org/security/suites/ecdsa-2019/v1"
+        },
+        {
             "publicKeyMultibase": "z6MkmptH69FyoFxjg2BpwioTKL7AnEzRbHEgWykbqWR57ogQ",
             "controller": "did:web:mosip.github.io:inji-config:released:landregistry",
-            "id": "did:web:mosip.github.io:inji-config:released:landregistry#L9BCpjwy8Y6p6tV8lHzYnOM71D3TR6GNQNc9ZeoqUFg",
+            "id": "did:web:mosip.github.io:inji-config:released:landregistry#Vpzteqgnh-7v5OYcQJGEb1G3csIE0-GQjDPmoWQhYkM",
             "type": "Ed25519VerificationKey2020",
             "@context": "https://w3id.org/security/suites/ed25519-2020/v1"
         }
